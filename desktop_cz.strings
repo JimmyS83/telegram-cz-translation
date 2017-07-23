@@ -145,6 +145,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_error_start_minimized_passcoded" = "Nastavil(a) jsi lokální heslo, aplikace nemůže startovat minimalizovaná. Aplikace tě vyzve k zadání hesla před tím, než ji budeš moci používat.";
 "lng_error_pinned_max#one" = "Bohužel, nemůžeš přišpendlit více než {count} konverzaci.";
 "lng_error_pinned_max#other" = "Bohužel, nemůžeš přišpendlit více než {count} konverzací.";
+"lng_error_cant_add_bot" = "Bohužel, tento bot nemůže být přidán do skupin.";
 "lng_error_public_groups_denied" = "Bohužel, byl jsi zabanován a nemůžeš se účastnit veřejných skupin.\n{more_info}";
 
 "lng_error_cant_edit_admin" = "Bohužel, nemůžeš měnit oprávnění pro tohoto admina.";
@@ -275,10 +276,16 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_username_link" = "Tento odkaz otevře konverzaci s tebou:";
 "lng_username_copied" = "Odkaz zkopírován do schránky.";
 
+"lng_bio_title" = "Editovat O mně";
+"lng_bio_placeholder" = "O mně";
+"lng_bio_about" = "Můžeš napsat pár řádků o sobě. Tento text uvidí kdokoli, kdo otevře tvůj profil.";
+
+
 "lng_settings_section_info" = "Info";
 "lng_settings_phone_number" = "Telefonní číslo:";
 "lng_settings_username" = "Uživatelské jméno:";
 "lng_settings_choose_username" = "Zvol uživatelské jméno";
+"lng_settings_empty_bio" = "Prázdné";
 
 "lng_settings_section_notify" = "Upozornění";
 "lng_settings_desktop_notify" = "Upozornění na ploše";
@@ -565,6 +572,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_invite_link_section" = "Pozvat skrz odkaz";
 "lng_profile_create_public_link" = "Vytvořit veřejný odkaz";
 "lng_profile_edit_public_link" = "Upravit veřejný odkaz";
+"lng_profile_search_members" = "Hledat členy";
 "lng_profile_manage_admins" = "Spravovat administrátory";
 "lng_profile_manage_blocklist" = "Spravovat blokované uživatele";
 "lng_profile_manage_restrictedlist" = "Spravovat omezené uživatele";
@@ -578,6 +586,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_mobile_number" = "Mobil:";
 "lng_profile_username" = "Uživatelské jméno:";
 "lng_profile_link" = "Odkaz:";
+"lng_profile_bio" = "O mně:";
 "lng_profile_add_contact" = "Přidat kontakt";
 "lng_profile_edit_contact" = "Upravit";
 "lng_profile_enable_notifications" = "Upozornění";
@@ -663,6 +672,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channel_admins_too_much" = "Bohužel, dosáhl jsi maximálního limitu administrátorů. Odeber prosím nějakého, před přidáním dalších.";
 "lng_channel_admin_status_creator" = "Zakladatel";
 "lng_channel_admin_status_promoted_by" = "Povýšen uživatelem {user}";
+"lng_channel_admin_status_not_admin" = "Není administrátor";
 
 "lng_group_blocked_list_about" = "Blokovaní uživatelé jsou odebráni ze skupiny. Můžou se vrátit zpět pouze na pozvání administrátora.\nOdkazy s pozváním na ně jinak nefungují.";
 
@@ -771,6 +781,16 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_action_payment_done" = "Úspěšně jsi zaplatil(a) {amount} uživateli {user}";
 "lng_action_payment_done_for" = "Úspěšně jsi zaplatil(a) {amount} uživateli {user} za {invoice}";
+"lng_action_took_screenshot" = "{from} uložil screenshot!";
+"lng_action_you_took_screenshot" = "Uložil jsi screenshot!";
+
+"lng_ttl_photo_received" = "{from} ti posílá samodestrukční fotku. Pro zobrazení prosím použij mobil.";
+"lng_ttl_photo_sent" = "Poslal jsi samodestrukční fotku.";
+"lng_ttl_photo_expired" = "Fotka byla zničena";
+"lng_ttl_video_received" = "{from} ti posílá samodestrukční video. Pro zobrazení prosím použij mobil.";
+"lng_ttl_video_sent" = "Poslal jsi samodestrukční video.";
+"lng_ttl_video_expired" = "Video byla zničeno";
+
 
 "lng_profile_migrate_reached#one" = "{count} člen dosažen limit";
 "lng_profile_migrate_reached#other" = "{count} členů dosažen limit";
@@ -933,6 +953,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_cant_more_info" = "Více informací »";
 "lng_cant_invite_banned" = "Bohužel, přidat tohoto uživatele může pouze administrátor.";
 "lng_cant_invite_privacy" = "Bohužel, tohoto uživatele nemůžeš přidat do skupin, protože tak mají nastavené soukromí.";
+"lng_cant_invite_privacy_channel" = "Sorry, you cannot add this user to channels because of their privacy settings.";
+"lng_cant_delete_group#one" = "Bohužel, momentálně není možné manuálně smazat komunity s více než {count} členy. Pro smazání této skupiny prosím kontaktuj podporu Telegramu.";
+"lng_cant_delete_group#other" = "Bohužel, momentálně není možné manuálně smazat komunity s více než {count} členy. Pro smazání této skupiny prosím kontaktuj podporu Telegramu.";
+"lng_cant_delete_channel#one" = "Bohužel, momentálně není možné manuálně smazat komunity s více než {count} členy. Pro smazání tohoto kanálu prosím kontaktuj podporu Telegramu.";
+"lng_cant_delete_channel#other" = "Bohužel, momentálně není možné manuálně smazat komunity s více než {count} členy. Pro smazání tohoto kanálu prosím kontaktuj podporu Telegramu.";
 "lng_cant_invite_privacy_channel" = "Bohužel, tohoto uživatele nemůžeš přidat do kanálu, protože tak mají nastavené soukromí.";
 "lng_cant_do_this" = "Bohužel, tato akce je nedostupná.";
 
@@ -1314,8 +1339,15 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_rights_chat_send_media" = "Posílat soubory";
 "lng_rights_chat_send_stickers" = "Posílat samolepky a GIFy";
 "lng_rights_chat_send_links" = "Posílat odkazy";
+"lng_rights_chat_banned_until_header" = "Omezeno do";
 "lng_rights_chat_banned_until" = "Omezeno do: {when}";
 "lng_rights_chat_banned_forever" = "Navždy";
+"lng_rights_chat_banned_day#one" = "Na {count} den";
+"lng_rights_chat_banned_day#other" = "Na {count} dní";
+"lng_rights_chat_banned_week#one" = "Na {count} týden";
+"lng_rights_chat_banned_week#other" = "Na {count} týdnů";
+"lng_rights_chat_banned_custom" = "Definovat";
+"lng_rights_chat_banned_custom_date" = "Do {date}";
 "lng_rights_chat_banned_block" = "Zabanovat a ostranit ze skupiny";
 
 "lng_restricted_send_message" = "Adminové této skupiny ti omezili právo na psaní.";
@@ -1379,7 +1411,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_previous_message" = "Původní zpráva";
 "lng_admin_log_deleted_message" = "{from} smazal(a) zprávu:";
 "lng_admin_log_participant_joined" = "{from} se připojil(a) do skupiny";
+"lng_admin_log_participant_joined_channel" = "{from} se připojil(a) do kanálu";
 "lng_admin_log_participant_left" = "{from} opustil(a) skupinu";
+"lng_admin_log_participant_left_channel" = "{from} opustil(a) kanál";
 "lng_admin_log_invited" = "pozval(a) {user}";
 "lng_admin_log_banned" = "zabanoval(a) {user}";
 "lng_admin_log_restricted" = "změnil(a) omezení pro {user} {until}";
@@ -1408,6 +1442,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_topbar_info" = "Info";
 "lng_profile_group_info" = "Informace o skupině";
 "lng_profile_channel_info" = "Informace o kanálu";
+"lng_channel_add_admins" = "Nový administrátor";
 
 // Wnd specific
 
