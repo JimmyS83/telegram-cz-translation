@@ -126,6 +126,8 @@
     <string name="HiddenName">Smazaný účet</string>
     <string name="SelectChat">Zvolit konverzaci</string>
     <string name="PhotoTip">Zmáčkni a podrž pro zobrazení</string>
+    <string name="DisappearingPhoto">Samodestrukční Fotka</string>
+    <string name="DisappearingVideo">Samodestrukční Video</string>
     <string name="CompatibilityChat">%1$s využívá starší verzi Telegramu, proto budou šifrované konverzace zobrazeny v kompatibilním módu.\n\nJakmile %2$s aktualizuje Telegram, fotky s časovačem na 1 minutu a menší budou fungovat v módu \'Klepni a podrž k zobrazení\' , a pokud druhá strana udělá screenshot obrazovky, budeš na to upozorněn.</string>
     <string name="SearchMessages">ZPRÁVY</string>
     <string name="Search">Hledat</string>
@@ -592,6 +594,8 @@
     <string name="NotificationMessagePhoto">%1$s ti poslal(a) obrázek</string>
     <string name="NotificationMessageRound">%1$s ti poslal(a) videozprávu</string>
     <string name="NotificationMessageVideo">%1$s ti poslal(a) video</string>
+    <string name="NotificationMessageSDPhoto">%1$s ti poslal(a) samodestrukční fotku</string>
+    <string name="NotificationMessageSDVideo">%1$s ti poslal(a) samodestrukční video</string>
     <string name="NotificationMessageContact">%1$s s tebou sdílel(a) kontakt</string>
     <string name="NotificationMessageMap">%1$s ti poslal(a) polohu</string>
     <string name="NotificationMessageGame">%1$s tě pozval(a) ke hře %2$s</string>
@@ -738,6 +742,10 @@
     <string name="PhoneWork">Práce</string>
     <string name="PhoneOther">Jiné</string>
     <string name="PhoneMain">Hlavní</string>
+    <string name="UserBio">O mně</string>
+    <string name="UserBioEmpty">Prázdné</string>
+    <string name="UserBioInfo">Můžeš napsat pár řádků o sobě. Tento text uvidí kdokoli, kdo otevře tvůj profil.</string>
+    
     <string name="StartEncryptedChat">Vytvořit šifrovanou konverzaci</string>
     <string name="GroupsInCommon">Společné skupiny</string>
     <string name="GroupsInCommonTitle">Společné skupiny</string>
@@ -745,6 +753,8 @@
     <string name="CreateEncryptedChatError">Nastala chyba.</string>
     <string name="EncryptionKey">Šifrovací klíč</string>
     <string name="MessageLifetime">Časovač sebezničení</string>
+    <string name="MessageLifetimePhoto">Pokud nastavíš časovač, fotka bude zničena po té, co bude prohlédnuta.</string>
+    <string name="MessageLifetimeVideo">Pokud nastavíš časovač, video bude zničeno po té, co bude prohlédnuto.</string>
     <string name="ShortMessageLifetimeForever">Neaktivní</string>
     <string name="EncryptionKeyDescription">Tento obrázek a text bude doručen pomocí šifrovacího klíče pro tuto šifrovanou konverzaci s  <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Pokud vypadá stejně na <![CDATA[<b>]]>%2$s\'s<![CDATA[</b>]]> zařízení, end-to-end šifrování je zaručeno.<![CDATA[<br><br>]]>Dozvědět se víc na telegram.org</string>
     <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
@@ -1317,6 +1327,8 @@
     <string name="UnsupportedMedia">Tato zpráva není podporována tvojí verzi Telegramu. Pro zobrazení aktualizuj aplikaci na: https://telegram.org/update</string>
     <string name="AttachPhoto">Obrázek</string>
     <string name="AttachVideo">Video</string>
+    <string name="AttachPhotoExpired">Fotka byla zničena.</string>
+    <string name="AttachVideoExpired">Video bylo zničeno.</string>
     <string name="AttachRound">Videozpráva</string>
     <string name="AttachGif">GIF</string>
     <string name="AttachLocation">Poloha</string>
@@ -1415,14 +1427,13 @@
     <string name="Page4Title">Bezpečný</string>
     <string name="Page5Title">Schopný</string>
     <string name="Page6Title">Založený na cloudu</string>
-    <string name="Page7Title">Soukromý</string>
+    
     <string name="Page1Message"><![CDATA[<b>Nejrychlejší</b>]]> messaging applikace na světě<![CDATA[<br/>]]>Je <![CDATA[<b>zdarma</b>]]> a <![CDATA[<b>bezpečná</b>]]>.</string>
     <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> doručuje zprávy rychleji než<![CDATA[<br/>]]>jakákoli jiná aplikace.</string>
     <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> je zadarmo navždy. Žádné reklamy.<![CDATA[<br/>]]>Žádné další poplatky.</string>
     <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> drží tvé zprávy v bezpečí<![CDATA[<br/>]]>před útoky hackerů.</string>
     <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> nemá omezení na velikost zpráv<![CDATA[<br/>]]>, médií a konverzací.</string>
     <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> tě nechá přistupovat ke zprávám<![CDATA[<br/>]]>z různých zařízení.</string>
-    <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> zprávy jsou šifrované<![CDATA[<br/>]]>a můžeš jim nastavit sebezničení.</string>
     <string name="StartMessaging">Začít konverzovat</string>
     <!-- VoIP -->
     <string name="AccountSettings">Nastavení Účtu</string>
