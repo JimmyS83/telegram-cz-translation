@@ -673,6 +673,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channel_admin_status_creator" = "Zakladatel";
 "lng_channel_admin_status_promoted_by" = "Povýšen uživatelem {user}";
 "lng_channel_admin_status_not_admin" = "Není administrátor";
+"lng_channel_banned_status_restricted_by" = "Omezený(á) uživatelem {user}";
 
 "lng_group_blocked_list_about" = "Blokovaní uživatelé jsou odebráni ze skupiny. Můžou se vrátit zpět pouze na pozvání administrátora.\nOdkazy s pozváním na ně jinak nefungují.";
 
@@ -1208,6 +1209,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_search_found_results#one" = "Nalezena {count} zpráva";
 "lng_search_found_results#other" = "Nalezeno {count} zpráv";
 "lng_search_global_results" = "Výsledky globálního vyhledávání";
+"lng_search_messages_from" = "Zobrazit zprávy od";
 
 "lng_media_save_progress" = "{ready} z {total} {mb}";
 "lng_mediaview_save_as" = "Uložit jako...";
