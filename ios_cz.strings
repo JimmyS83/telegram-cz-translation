@@ -1,0 +1,2945 @@
+// Notifications
+"MESSAGE_TEXT" = "%1$@: %2$@";
+"MESSAGE_NOTEXT" = "%1$@ ti poslal(a) zprávu";
+"MESSAGE_PHOTO" = "%1$@ ti poslal(a) obrázek";
+"MESSAGE_PHOTO_SECRET" = "%1$@ ti poslal(a) obrázek s časovaným zničením";
+"MESSAGE_VIDEO" = "%1$@ ti poslal(a) video";
+"MESSAGE_VIDEO_SECRET" = "%1$@ ti poslal(a) video s časovaným zničením";
+"MESSAGE_ROUND" = "%1$@ ti poslal(a) video zprávu";
+"MESSAGE_CONTACT" = "%1$@ s tebou sdílí kontakt";
+"MESSAGE_GEO" = "%1$@ ti poslal(a) mapu";
+"MESSAGE_DOC" = "%1$@ ti poslal(a) soubor";
+"MESSAGE_AUDIO" = "%1$@ ti poslal(a) hlasovou zprávu";
+"MESSAGE_GIF" = "%1$@ ti poslal(a) GIF";
+"ENCRYPTED_MESSAGE" = "Máš novou zprávu%1$@";
+"LOCKED_MESSAGE" = "Máš novou zprávu%1$@";
+"MESSAGE_SCREENSHOT" = "%1$@ pořídil screenshot!";
+"ENCRYPTION_REQUEST" = "Nová žádost o šifrované spojení%1$@";
+"ENCRYPTION_ACCEPT" = "Tvoje žádost o šifrované spojení byla přijata%1$@";
+"DC_UPDATE" = "Pro změnu nastavení otevři tuto notifikaci";
+
+"CHAT_JOINED" = "%1$@ se přidal(a) ke skupině %2$@";
+
+"CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
+"CHAT_MESSAGE_NOTEXT" = "%1$@ poslal(a) zprávu do skupiny %2$@";
+"CHAT_MESSAGE_PHOTO" = "%1$@ poslal(a) obrázek do skupiny %2$@";
+"CHAT_MESSAGE_VIDEO" = "%1$@ poslal(a) video do skupiny %2$@";
+"CHAT_MESSAGE_ROUND" = "%1$@ poslal(a) video zprávu do skupiny %2$@";
+"CHAT_MESSAGE_CONTACT" = "%1$@ sdílel(a) kontakt ve skupině %2$@";
+"CHAT_MESSAGE_GEO" = "%1$@ poslal(a) mapu do skupiny %2$@";
+"CHAT_MESSAGE_DOC" = "%1$@ poslal(a) soubor do skupiny %2$@";
+"CHAT_MESSAGE_AUDIO" = "%1$@ poslal(a) hlasovou zprávu do skupiny %2$@";
+"CHAT_MESSAGE_GIF" = "%1$@ poslal(a) GIF do skupiny %2$@";
+"CHAT_CREATED" = "%1$@ tě pozval(a) do skupiny %2$@";
+"CHAT_TITLE_EDITED" = "%1$@ změnil(a) jméno skupiny %2$@";
+"CHAT_PHOTO_EDITED" = "%1$@ změnil(a) obrázek skupiny %2$@";
+"CHAT_ADD_MEMBER" = "%1$@ pozval(a) %3$@ do skupiny %2$@";
+"CHAT_ADD_YOU" = "%1$@ tě pozval(a) do skupiny %2$@";
+"CHAT_DELETE_YOU" = "%1$@ tě odstranil(a) ze skupiny %2$@";
+"CHAT_DELETE_MEMBER" = "%1$@ odstranil(a) %3$@ ze skupiny %2$@";
+"CHAT_LEFT" = "%1$@ opustil skupinu %2$@";
+"CHAT_RETURNED" = "%1$@ se vrátil do skupiny %2$@";
+
+"MESSAGE_STICKER" = "%1$@ ti poslal(a) %2$@samolepku";
+"CHAT_MESSAGE_STICKER" = "%1$@ poslal(a) %3$@samolepku do skupiny %2$@";
+
+"CONTACT_JOINED" = "%1$@ se přihlásil na Telegram!";
+"CONTACT_ACTIVATED" = "%1$@ ti pomohl(a) aktivovat tvůj účet!";
+
+"AUTH_UNKNOWN" = "Přihlášení z nového přístroje %1$@";
+"AUTH_REGION" = "Přihlášení z nového přístroje %1$@, poloha: %2$@";
+
+"MESSAGE_FWDS" = "%1$@ ti přeposlal(a) %2$@ zprávy";
+"CHAT_MESSAGE_FWDS" = "%1$@ přeposlal(a) %3$@ zprávy do skupiny %2$@";
+
+"CHANNEL_MESSAGE_TEXT" = "%1$@: %2$@";
+"CHANNEL_MESSAGE_NOTEXT" = "%1$@ poslal(a) zprávu";
+"CHANNEL_MESSAGE_PHOTO" = "%1$@ poslal(a) obrázek";
+"CHANNEL_MESSAGE_VIDEO" = "%1$@ poslal(a) video";
+"CHANNEL_MESSAGE_ROUND" = "%1$@ poslal(a) video zprávu";
+"CHANNEL_MESSAGE_DOC" = "%1$@ poslal(a) dokument";
+"CHANNEL_MESSAGE_STICKER" = "%1$@ poslal(a) %2$@ssamolepku";
+"CHANNEL_MESSAGE_AUDIO" = "%1$@ poslal(a) hlasovou zprávu";
+"CHANNEL_MESSAGE_CONTACT" = "%1$@ poslal(a) kontakt";
+"CHANNEL_MESSAGE_GEO" = "%1$@ poslal(a) mapu";
+"CHANNEL_MESSAGE_FWDS" = "%1$@ poslal(a) %2$@ přeposlých zpráv";
+"CHANNEL_MESSAGE_GIF" = "%1$@ poslal(a) GIF";
+
+"PINNED_TEXT" = "%1$@ přišpendlil(a) \"%2$@\"";
+"PINNED_NOTEXT" = "%1$@ přišpendlil(a) zprávu";
+"PINNED_PHOTO" = "%1$@ přišpendlil(a) obrázek";
+"PINNED_VIDEO" = "%1$@ přišpendlil(a) video";
+"PINNED_ROUND" = "%1$@ přišpendlil(a) video zprávu";
+"PINNED_DOC" = "%1$@ přišpendlil(a) soubor";
+"PINNED_STICKER" = "%1$@ přišpendlil(a) %2$@samolepku";
+"PINNED_AUDIO" = "%1$@ přišpendlil(a) hlasovou zprávu";
+"PINNED_CONTACT" = "%1$@ přišpendlil(a) kontakt";
+"PINNED_GEO" = "%1$@ přišpendlil(a) mapu";
+"PINNED_GIF" = "%1$@ přišpendlil(a) GIF";
+
+"MESSAGE_GAME" = "%1$@ tě pozval(a) ke hře %2$@";
+"CHANNEL_MESSAGE_GAME" = "%1$@ tě pozval(a) ke hře %2$@";
+"CHAT_MESSAGE_GAME" = "%1$@ pozval(a) skupinu %2$@ ke hře %3$@";
+"PINNED_GAME" = "%1$@ přišpendlil(a) hru";
+
+"PHONE_CALL_REQUEST" = "%1$@ to volá";
+"PHONE_CALL_MISSED" = "Zmeškal jsi hovor od %1$@";
+
+// Common
+"Common.OK" = "OK";
+"Common.Cancel" = "Zrušit";
+"Common.Edit" = "Změnit";
+"Common.edit" = "změnit";
+"Common.Done" = "Hotovo";
+"Common.Next" = "Další";
+"Common.Delete" = "Smazat";
+"Common.Create" = "Vytvořit";
+"Common.Back" = "Zpět";
+"Common.Close" = "Zavřít";
+"Common.Yes" = "Ano";
+"Common.No" = "Ne";
+"Common.TakePhotoOrVideo" = "Pořídit fotku či video";
+"Common.TakePhoto" = "Pořídit fotku";
+"Common.ChoosePhoto" = "Zvolit fotku";
+"Common.ChooseVideo" = "Zvolit video";
+"Common.of" = "z";
+"Common.Search" = "Hledat";
+"Common.More" = "Více";
+"Common.Select" = "Zvolit";
+
+// State
+"State.connecting" = "připojuji";
+"State.updating" = "aktualizuji";
+"State.Connecting" = "Připojuji...";
+"State.ConnectingToProxy" = "Připojuji k Proxy...";
+"State.ConnectingToProxyInfo" = "klepni sem pro nastavení";
+"State.Updating" = "Aktualizuji...";
+"State.WaitingForNetwork" = "Čekám na spojení sítě";
+
+// Presence
+"Presence.online" = "online";
+"Presence.offline" = "offline";
+"Presence.invisible" = "neviditelný(á)";
+
+// Date
+"Month.GenJanuary" = "Leden";
+"Month.GenFebruary" = "Únor";
+"Month.GenMarch" = "Březen";
+"Month.GenApril" = "Duben";
+"Month.GenMay" = "Květen";
+"Month.GenJune" = "Červen";
+"Month.GenJuly" = "Červenec";
+"Month.GenAugust" = "Srpen";
+"Month.GenSeptember" = "Září";
+"Month.GenOctober" = "Říjen";
+"Month.GenNovember" = "Listopad";
+"Month.GenDecember" = "Prosinec";
+"Month.ShortJanuary" = "Led";
+"Month.ShortFebruary" = "Úno";
+"Month.ShortMarch" = "Bře";
+"Month.ShortApril" = "Dub";
+"Month.ShortMay" = "Kvě";
+"Month.ShortJune" = "Čer";
+"Month.ShortJuly" = "Čvc";
+"Month.ShortAugust" = "Srp";
+"Month.ShortSeptember" = "Zář";
+"Month.ShortOctober" = "Říj";
+"Month.ShortNovember" = "Lis";
+"Month.ShortDecember" = "Pro";
+"Weekday.ShortMonday" = "Po";
+"Weekday.ShortTuesday" = "Út";
+"Weekday.ShortWednesday" = "St";
+"Weekday.ShortThursday" = "Čt";
+"Weekday.ShortFriday" = "Pá";
+"Weekday.ShortSaturday" = "So";
+"Weekday.ShortSunday" = "Ne";
+"Weekday.Monday" = "Pondělí";
+"Weekday.Tuesday" = "Úterý";
+"Weekday.Wednesday" = "Středa";
+"Weekday.Thursday" = "Čtvrtek";
+"Weekday.Friday" = "Pátek";
+"Weekday.Saturday" = "Sobota";
+"Weekday.Sunday" = "Něděle";
+"Weekday.Today" = "Dnes";
+"Weekday.Yesterday" = "Včera";
+
+"Time.TodayAt" = "dnes v %@";
+"Time.YesterdayAt" = "včera v %@";
+
+"LastSeen.JustNow" = "naposledy viděn(a) právě teď";
+"LastSeen.MinutesAgo_0" = "naposledy viděn(a) před %@ minutami"; //three to ten
+"LastSeen.MinutesAgo_1" = "naposledy viděn(a) před minutou"; //one
+"LastSeen.MinutesAgo_2" = "naposledy viděn(a) před dvěmi minutami"; //two
+"LastSeen.MinutesAgo_3_10" = "naposledy viděn(a) před %@ minutami"; //three to ten
+"LastSeen.MinutesAgo_many" = "naposledy viděn(a) před %@ minutami"; // more than ten
+"LastSeen.MinutesAgo_any" = "naposledy viděn(a) před %@ minutami"; // more than ten
+"LastSeen.HoursAgo_0" = "naposledy viděn(a) před %@ hodinami";
+"LastSeen.HoursAgo_1" = "naposledy viděn(a) před hodinou";
+"LastSeen.HoursAgo_2" = "naposledy viděn(a) před dvěma hodinami";
+"LastSeen.HoursAgo_3_10" = "naposledy viděn(a) před %@ hodinami";
+"LastSeen.HoursAgo_any" = "naposledy viděn(a) před %@ hodinami";
+"LastSeen.HoursAgo_many" = "naposledy viděn(a) před %@ hodinami";
+"LastSeen.HoursAgo_0" = "naposledy viděn(a) před %@ hodinami";
+"LastSeen.TodayAt" = "naposledy viděn(a) dnes v %@";
+"LastSeen.YesterdayAt" = "naposledy viděn(a) včera v %@";
+"LastSeen.AtWeekday" = "naposledy viděn(a) %@";
+"LastSeen.AtDate" = "naposledy viděn(a) %@";
+"LastSeen.Lately" = "naposledy viděn(a) nedávno";
+"LastSeen.WithinAWeek" = "naposledy viděn(a) minulý týden";
+"LastSeen.WithinAMonth" = "naposledy viděn(a) minulý měsíc";
+"LastSeen.ALongTimeAgo" = "naposledy viděn(a) před dlouhou dobou";
+
+"Date.DialogDateFormat" = "{day}.{month}";
+
+// Tour
+"Tour.Title1" = "Telegram";
+"Tour.Text1" = "The world's **Nejrychlejší** messaging applikace na světě.\nJe **zdarma** a **bezpečná**.";
+
+"Tour.Title2" = "Rychlý";
+"Tour.Text2" = "**Telegram** ddoručuje zprávy rychleji než\njakákoli jiná aplikace.";
+
+"Tour.Title3" = "Schopný";
+"Tour.Text3" = "**Telegram** nemá omezení na velikost zpráv\nmédií a konverzací.";
+
+"Tour.Title4" = "Bezpečný";
+"Tour.Text4" = "**Telegram** drží tvé zprávy v bezpečí\npřed útoky hackerů.";
+
+"Tour.Title5" = "V Cloudu";
+"Tour.Text5" = "**Telegram** tě nechá přistupovat ke zprávám\nz různých zařízení.";
+
+"Tour.Title6" = "Zadarmo";
+"Tour.Text6" = "**Telegram** je zadarmo navždy. Žádné reklamy.\nŽádné další poplatky.";
+
+"Tour.Title7" = "Soukromí";
+"Tour.Text7" = "**Telegram** zprávu jsou silně šifrovány, navíc můžeš nastavit samo-zničení.";
+
+"Tour.StartButton" = "Začít konverzovat";
+
+// Login
+"Login.PhoneAndCountryHelp" = "Potvrď prosím svůj kód státu a zadej své telefonní číslo.";
+"Login.CodeHelp" = "Poslali jsme ti SMS zprávu s aktivačním kódem na tvůj telefon\n%@";
+"Login.CodeSentInternal" = "Poslali jsme ti kód na tvoji aplikaci **Telegram** do tvého zařízení";
+"Login.HaveNotReceivedCodeInternal" = "Nedostal(a) jsi kód?";
+"Login.CodeSentSms" = "Poslali jsme ti SMS zprávu s aktivačním kódem";
+"Login.Code" = "Kód";
+"Login.CallRequestState1" = "Zavoláme ti na tvůj telefon za %d:%.2d";
+"Login.CallRequestState2" = "Vyžadován hovor z Telegramu...";
+"Login.CallRequestState3" = "Telegram vytočil tvé číslo\n[Didn't get the code?]";
+"Login.EmailNotConfiguredError" = "Prosím, nastav svůj email.";
+"Login.EmailCodeSubject" = "%@, žádný kód";
+"Login.EmailCodeBody" = "Tvé telefonní číslo je:\n%@\nNemůžu získat aktivační číslo pro Telegram.";
+"Login.UnknownError" = "Nastala chyba. Zkus to prosím později.";
+"Login.InvalidCodeError" = "Zadal jsi neplatný kód. Zkus to prosím znovu.";
+"Login.NetworkError" = "Zkontroluj prosím své internetové připojení, a zkus to znovu.";
+"Login.CodeExpiredError" = "Kód vypršel. Zkus to prosím znovu.";
+"Login.CodeFloodError" = "Limit pokusů. Zkus to prosím znovu později.";
+"Login.InvalidPhoneError" = "Neplatné telefonní číslo. Zkus to prosím znovu.";
+"Login.InvalidFirstNameError" = "Neplatné jméno. Zkus to prosím znovu.";
+"Login.InvalidLastNameError" = "Neplatné příjmení. Zkus to prosím znovu.";
+"Login.InactiveHelp" = "Žádný z tvých kontaktů zatím\nnepoužívá Telegram.\nUpozorníme tě, když se někdo přidá.\nMůžeš také pozvat přátele přímo.";
+"Login.InviteButton" = "Pozvat přátele do konverzace";
+
+"Login.PhoneTitle" = "Tvoje číslo";
+"Login.PhonePlaceholder" = "Tvoje telefonní číslo";
+"Login.CountryCode" = "Kód země";
+"Login.InvalidCountryCode" = "Neplatný kód země";
+
+"Login.CodeTitle" = "Tvůj Kód";
+
+"Login.InfoTitle" = "Tvůj Profil";
+"Login.InfoAvatarAdd" = "přidat";
+"Login.InfoAvatarPhoto" = "obrázek";
+"Login.InfoFirstNamePlaceholder" = "Jméno";
+"Login.InfoLastNamePlaceholder" = "Příjmení";
+"Login.InfoUpdatePhoto" = "Aktualizovat obrázek";
+"Login.InfoDeletePhoto" = "Smazat obrázek";
+"Login.InfoHelp" = "Zadej své jméno, přidej svůj obrázek.";
+
+// Login.SelectCountry
+"Login.SelectCountry.Title" = "Země";
+
+// Welcome Screen
+"WelcomeScreen.Title" = "Začít";
+"WelcomeScreen.Logout" = "Odhlásit";
+"WelcomeScreen.Greeting" = "Vítej, %@!";
+"WelcomeScreen.ContactsAccessDisabled" = "Bohužel, nemůžu synchronizovat kontakty.";
+"WelcomeScreen.ContactsAccessHelp" = "Telegram je založený na existujícím kontakt listu. Jdi prosím do svého %@ Nastavení > Soukromí > Kontakty a povol tam Talegram aplikaci.";
+"WelcomeScreen.ContactsAccessSettings" = "Nastavení";
+"WelcomeScreen.UpdatingTitle" = "Aktualizuji";
+
+// Dialog List
+"DialogList.TabTitle" = "Konverzace";
+"DialogList.Title" = "Konverzace";
+"DialogList.SearchLabel" = "Hledát zprávy nebo uživatele";
+"DialogList.SelectContact" = "Zvolit Kontakt";
+"DialogList.SelectContacts" = "Zvolit Kontakty";
+"DialogList.Create" = "Vytvořit";
+"DialogList.NoMessagesTitle" = "Nemáš ještě žádné konverzace";
+"DialogList.NoMessagesText" = "Začni konverzovat klikem na ikonku tužky v pravém horním rohu, nebo jdi do sekce Kontaktů.";
+"DialogList.SingleTypingSuffix" = "%@ píše";
+"DialogList.SingleRecordingAudioSuffix" = "%@ nahrává audio";
+"DialogList.SingleUploadingPhotoSuffix" = "%@ posílá obrázek";
+"DialogList.SingleUploadingVideoSuffix" = "%@ posílá video";
+"DialogList.SingleRecordingVideoMessageSuffix" = "%@ nahrává video";
+"DialogList.SingleUploadingFileSuffix" = "%@ posílá soubor";
+"DialogList.MultipleTypingSuffix" = "%d píší";
+"DialogList.Typing" = "píše";
+"DialogList.ClearHistoryConfirmation" = "Vyčistit Historii";
+"DialogList.DeleteConversationConfirmation" = "Smazat a ukončit";
+"DialogList.AwaitingEncryption" = "Čekám na %@ až bude online...";
+"DialogList.EncryptionRejected" = "Šifrovaný chat zrušen";
+"DialogList.EncryptionProcessing" = "Výměna šifrovacích klíčů...";
+"DialogList.EncryptedChatStartedOutgoing" = "%@ se připojil(a) do šifrovaného chatu.";
+"DialogList.EncryptedChatStartedIncoming" = "%@ vytvořil(a) šifrovaný chat.";
+"DialogList.Conversations" = "Konverzace";
+"DialogList.Messages" = "Zprávy";
+
+// Compose
+"Compose.TokenListPlaceholder" = "Komu chceš poslat zprávu?";
+"Compose.NewMessage" = "Nová zpráva";
+"Compose.NewGroup" = "Nová Skupina";
+"Compose.NewEncryptedChat" = "Nový šifrovaný chat";
+"Compose.NewBroadcast" = "Seznam Broadcastů";
+"Compose.NewBroadcastButton" = "Nový Broadcast";
+"Compose.Recipients" = "Příjemci";
+"Compose.Create" = "Vytvořit";
+
+// Contacts
+"Contacts.TabTitle" = "Kontakty";
+"Contacts.Title" = "Kontakty";
+"Contacts.Invite" = "Pozvat";
+"Contacts.contact" = "kontakt";
+"Contacts.contacts" = "kontakty";
+"Contacts.contactsvar" = "kontakty";
+"Contacts.InvitationText" = "Ahoj, co takhle zkusit Telegram? http://telegram.org/dl";
+"Contacts.FailedToSendInvitesMessage" = "Nastala chyba.";
+"Contacts.AccessDeniedError" = "Telegram nemá přístup k tvým kontaktům";
+
+
+"Contacts.AccessDeniedHelpLandscape" = "Jdi prosím do svého %@ Nastavení > Soukromí > Kontakty\n a povol tam Talegram aplikaci.";
+"Contacts.AccessDeniedHelpPortrait" = "Jdi prosím do svého %@ Nastavení > Soukromí > Kontakty\n a povol tam Talegram aplikaci.";
+"Contacts.AccessDeniedHelpON" = "ZAPNUTO";
+"Contacts.InviteToTelegram" = "Pozvat na Telegram";
+"Contacts.InviteFriends" = "Pozvat Přátele";
+"Contacts.SelectAll" = "Vybrat všechny";
+
+// Conversation
+"Conversation.InputTextPlaceholder" = "Zpráva";
+"Conversation.Send" = "Poslat";
+"Conversation.typing" = "píše";
+"Conversation.MessageDeliveryFailed" = "Tvoje zpráva nebyla poslána. Klikni na \"Poslat Znovu\".";
+"Conversation.MessageDialogEdit" = "Editovat";
+"Conversation.MessageDialogRetry" = "Poslat Znovu";
+"Conversation.MessageDialogRetryAll" = "Poslat znovu %1$d zpráv";
+"Conversation.MessageDialogDelete" = "Smazat";
+"Conversation.LinkDialogOpen" = "Otevřít";
+"Conversation.LinkDialogCopy" = "Kopírovat";
+"Conversation.EditDelete" = "Smazat";
+"Conversation.EditForward" = "Přeposlat";
+"Conversation.ForwardToPersonFormat" = "Přeposlat uživateli %@?";
+"Conversation.ForwardToGroupFormat" = "Přeposlat do skupiny %@?";
+"Conversation.ForwardTitle" = "Přeposlat";
+"Conversation.ForwardChats" = "Konverzace";
+"Conversation.ForwardContacts" = "Kontakty";
+"Conversation.StatusKickedFromGroup" = "byl jsi odebrán ze skupiny";
+"Conversation.StatusLeftGroup" = "opustil jsi skupinu";
+"Conversation.StatusTyping" = "píše";
+"Conversation.BroadcastTitle" = "Broadcast";
+"Conversation.Call" = "Volat";
+"Conversation.Mute" = "Ztišit";
+"Conversation.Unmute" = "Zrušit ztišení";
+"Conversation.Edit" = "Editovat";
+"Conversation.Info" = "Info";
+"Conversation.Search" = "Hledat";
+"Conversation.Block" = "Zablokovat";
+"Conversation.Unblock" = "Zrušit blokování";
+"Conversation.ClearAll" = "Smazat vše";
+"Conversation.Location" = "Poloha";
+"Conversation.Document" = "Poslat soubor";
+"Conversation.Contact" = "Kontakt";
+"Conversation.BlockUser" = "Zablokovat Uživatele";
+"Conversation.UnblockUser" = "Zrušit blokování Uživatele";
+"Conversation.DeleteGroup" = "Smazat tuto skupinu";
+"Conversation.DeleteChat" = "Smazat tuto konverzaci";
+"Conversation.ClearAllConfirmation" = "Smazat všechny zprávy?";
+"Conversation.SearchImages" = "Hledat obrázky";
+"Conversation.UnsupportedMedia" = "Tato zpráva není podporována tvojí verzi Telegramu. Pro zobrazení aktualizuj aplikaci na:\nhttp://telegram.org/update";
+"Conversation.EncryptionWaiting" = "Čekám, až bude %@ online...";
+"Conversation.EncryptionProcessing" = "Výměna šifrovacích klíčů...";
+"Conversation.SupportPlaceholder" = "Máš dotaz ohledně Telegramu?";
+"Conversation.EmptyPlaceholder" = "Zatím žádné zprávy...";
+"Conversation.EncryptedPlaceholderTitleIncoming" = "%@ tě pozval do šifrovaného chatu.";
+"Conversation.EncryptedPlaceholderTitleOutgoing" = "Pozval jsi uživatele %@ do šifrovaného chatu.";
+"Conversation.EncryptedDescriptionTitle" = "Šifrované chaty:";
+"Conversation.EncryptedDescription1" = "Používají end-to-end šifrování";
+"Conversation.EncryptedDescription2" = "Nenechávají stopu na našich serverech";
+"Conversation.EncryptedDescription3" = "Mají samodestrukční mechanismus";
+"Conversation.EncryptedDescription4" = "Neumožňují přeposílání";
+"Conversation.EncryptedForwardingAlert" = "Bohužel, z šifrovaného chatu nemůžeš zprávy přeposílat.";
+"Conversation.ContextMenuCopy" = "Kopírovat";
+"Conversation.ContextMenuDelete" = "Smazat";
+"Conversation.ContextMenuForward" = "Přeposlat";
+"Conversation.ContextMenuMore" = "Více...";
+
+"Conversation.StatusMembers_0" = "%@ členů";
+"Conversation.StatusMembers_1" = "1 člen";
+"Conversation.StatusMembers_2" = "2 členové";
+"Conversation.StatusMembers_3_10" = "%@ členů";
+"Conversation.StatusMembers_many" = "%@ členů";
+"Conversation.StatusMembers_any" = "%@ členů";
+
+"Conversation.StatusRecipients_0" = "%@ příjemců";
+"Conversation.StatusRecipients_1" = "1 příjemce";
+"Conversation.StatusRecipients_2" = "2 příjemci";
+"Conversation.StatusRecipients_3_10" = "%@ příjemců";
+"Conversation.StatusRecipients_many" = "%@ příjemců";
+"Conversation.StatusRecipients_any" = "%@ příjemců";
+
+"Conversation.StatusOnline_1" = "1 online";
+"Conversation.StatusOnline_2" = "2 online";
+"Conversation.StatusOnline_3_10" = "%@ online";
+"Conversation.StatusOnline_any" = "%@ online";
+"Conversation.StatusOnline_many" = "%@ online";
+"Conversation.StatusOnline_0" = "%@ online";
+
+"Conversation.UnreadMessages" = "Nepřečtené Zprávy";
+"Conversation.InfoGroup" = "Skupina";
+"Conversation.InfoPrivate" = "Kontakt";
+"Conversation.InfoBroadcastList" = "Seznam";
+
+// Notification
+"Notification.RenamedChat" = "%@ přejmenoval(a) skupinu";
+"Notification.RenamedChannel" = "Kanál přejmenovaný";
+"Notification.ChangedGroupPhoto" = "%@ změnil(a) obrázek skupiny";
+"Notification.RemovedGroupPhoto" = "%@ odstranil(a) obrázek skupiny";
+"Notification.ChangedUserPhoto" = "%@ přidal(a) nový profilový obrázek";
+"Notification.RemovedUserPhoto" = "%@ odstranil(a)  profilový obrázek";
+"Notification.JoinedChat" = "%@ se připojil(a) do skupiny";
+"Notification.JoinedChannel" = "%@ se připojil(a) do kanálu";
+"Notification.Invited" = "%@ pozval(a) %@";
+"Notification.LeftChat" = "%@ opustil(a) skupinu";
+"Notification.LeftChannel" = "%@ opustil(a) kanál";
+"Notification.Kicked" = "%@ odebral(a) %@";
+"Notification.CreatedChat" = "%@ vytvořil(a) skupinu";
+"Notification.CreatedChannel" = "Kanál vytvořen";
+"Notification.CreatedGroup" = "Skupina vytvořena";
+"Notification.CreatedBroadcastList" = "Vytvořil(a) jsi seznam broadcastu";
+"Notification.CreatedChatWithTitle" = "%@ založil(a) skupinu \"%@\"";
+"Notification.Joined" = "%@ se připojil na Telegram";
+"Notification.ChangedGroupName" = "%@ změnil(a) jméno skupiny na \"%@\"";
+"Notification.NewAuthDetected" = "%1$@,\nDetekovali jsme přihlášení k tvémů účtu na novém zařízení %2$@, %3$@ v %4$@\n\nZařízení: %5$@\nPoloha: %6$@\n\nPokud jsi to nebyl ty, můžeš v Nastavení - Soukromí a Zabezpečení - Konekce ukončit tuto konekci.\n\nPokud si myslíš, že se někdo připojil(a) k tvému účtu proti tvé vůli, můžeš zapnout dvoufázovou verifikaci v nastavení Soukromí a Zabezpečení.\n\nS pozdravem,\nTým Telegramu";
+"Notification.EncryptedChatRequested" = "Vyžádán šifrovaný chat";
+"Notification.EncryptedChatAccepted" = "Spuštěn šifrovaný chat";
+"Notification.MessageLifetimeChanged" = "%1$@ nastavil(a) čas samodestrukce na %2$@";
+"Notification.MessageLifetimeChangedOutgoing" = "Nastavil(a) jsi čas samodestrukce na %1$@";
+"Notification.MessageLifetimeRemoved" = "%1$@ zrušil(a) čas samodestrukce";
+"Notification.MessageLifetimeRemovedOutgoing" = "Zrušil(a) jsi čas samodestrukce";
+"Notification.MessageLifetime2s" = "2 vteřiny";
+"Notification.MessageLifetime5s" = "5 vteřin";
+"Notification.MessageLifetime1m" = "1 minuta";
+"Notification.MessageLifetime1h" = "1 hodina";
+"Notification.MessageLifetime1d" = "1 den";
+"Notification.MessageLifetime1w" = "1 týden";
+
+// Message
+"Message.Photo" = "Obrázek";
+"Message.Video" = "Video";
+"Message.Location" = "Poloha";
+"Message.Contact" = "Kontakt";
+"Message.File" = "Soubor";
+"Message.Sticker" = "Samolepka";
+"Message.Audio" = "Hlasová Zpráva";
+"Message.ForwardedMessage" = "Přesměrovaná zpráva\nOd: %@";
+"Message.SharedContact" = "Sdílený Kontakt";
+"Message.Animation" = "GIF";
+
+// Conversation Profile
+"ConversationProfile.ErrorCreatingConversation" = "Nastala chyba.";
+"ConversationProfile.UserLeftChatError" = "Bohužel, %@ se rozhodl(a) opustit tuto skupinu. Nemůžeš ho pozvat zpět.";
+"ConversationProfile.UnknownAddMemberError" = "Vyskytla se nečekaná chyba. Naši kouzelníci byli již upozorněni a snaží se to optavit. Omlouváme se.";
+"ConversationProfile.UsersTooMuchError" = "Bohužel, tato skupina je plná. Nelze přidávat další členy.";
+
+"ConversationProfile.LeaveDeleteAndExit" = "Smazat a Ukončit";
+
+"Conversation.DownloadPhoto" = "Stáhnout obrázek";
+"Conversation.ViewPhoto" = "Zobrazit obrázek";
+"Conversation.PlayVideo" = "Přehrát Video";
+"Conversation.Play" = "Přehrát";
+"Conversation.Stop" = "Zastavit";
+"Conversation.ViewFile" = "Zobrazit Soubor";
+"Conversation.Download" = "Stáhnout";
+"Conversation.DownloadMegabytes" = "Stáhnout %.1f MB";
+"Conversation.DownloadKilobytes" = "Stáhnout %d KB";
+"Conversation.Megabytes" = "%.1f MB";
+"Conversation.Kilobytes" = "%d KB";
+"Conversation.Bytes" = "%d B";
+"Conversation.DownloadProgressMegabytes" = "%1$.1f MB / %2$.1f MB";
+"Conversation.DownloadProgressKilobytes" = "%1$d KB / %2$d KB";
+"Conversation.ViewLocation" = "Zobrazit Polohu";
+"Conversation.SearchWebImages" = "Hledat obrázky";
+"Conversation.ShareMyContactInfo" = "Sdílet informace o kontaktu";
+"Conversation.AddContact" = "Přidat kontakt";
+"Conversation.SendMessage" = "Poslat zprávu";
+"Conversation.EncryptionCanceled" = "Šifrovaný chat zrušen";
+"Conversation.DeleteOneMessage" = "Smazat zprávu";
+"Conversation.DeleteManyMessages" = "Smazat zprávy";
+"Conversation.View" = "Zobrazit";
+"Conversation.Download" = "Stáhnout";
+"Conversation.SlideToCancel" = "Potáhni pro zrušení";
+"Conversation.ApplyLocalization" = "Použít lokalizaci";
+"Conversation.OpenFile" = "Otevřit soubor";
+"Conversation.MicrophoneAccessDisabled" = "Telegram potřebuje přístup k tvému mikrofonu, aby jsi mohl(a) nahrávat hlasové zprávy. Jdi prosím do Nastavení > Soukromí > Mikrofon a nastav Telegramu ON.";
+
+// Media Picker
+"MediaPicker.Send" = "Poslat";
+"MediaPicker.Choose" = "Zvolit";
+"SearchImages.SearchImages" = "Hledat Obrázky";
+"SearchImages.Title" = "Alba";
+"MediaPicker.CameraRoll" = "Otočit kameru";
+"SearchImages.NoImagesFound" = "Žádné obrázky nenalezeny";
+"MediaPicker.AccessDeniedError" = "Telegram nemá přístup ke tvým fotkám";
+"MediaPicker.AccessDeniedHelp" = "Jdi prosím do %@ Nastavení — Soukromí — Fotky.\nPoté zvol Telegramu ON.";
+"SearchImages.Downloading#Kb" = "Stahuji %d Kb";
+"SearchImages.Downloading#Mb" = "Stahuji %d Mb";
+"SearchImages.ImageNofM" = "Obrázek %1$@ z %2$@";
+"SearchImages.DownloadCancelled" = "Stahování zrušeno";
+"SearchImages.ErrorDownloadingImage" = "Chyba při stahování obrázku";
+"SearchImages.SkipImage" = "Přeskočit obrázek";
+"SearchImages.RetryDownload" = "Opakovat stahování";
+
+// User Profile
+"Profile.ImageUploadError" = "Nastala chyba. Zkus to prosím znovu později.";
+"Profile.PhonebookAccessDisabled" = "To make this feature work, Jdi prosím do Nastavení telefonu - Soukromí — Kontakty a povol přístup Telegramu.";
+"Profile.CreateEncryptedChatError" = "Nastala chyba.";
+"Profile.CreateEncryptedChatOutdatedError" = "Nepodařilo se vytvořit šifrovaný chat s %@.\n%@ používá starší verzi Telegramu, která toto nepodporuje.";
+"Profile.CreateNewContact" = "Vytvořit Nový Kontakt";
+"Profile.AddToExisting" = "Přidat k existujícímu Kontaktu";
+"Profile.EncryptionKey" = "Šifrovací klíč";
+"Profile.MessageLifetime" = "Čas samozničení";
+"Profile.MessageLifetimeForever" = "Vypnuto";
+"Profile.MessageLifetime2s" = "2s";
+"Profile.MessageLifetime5s" = "5s";
+"Profile.MessageLifetime1m" = "1m";
+"Profile.MessageLifetime1h" = "1h";
+"Profile.MessageLifetime1d" = "1d";
+"Profile.MessageLifetime1w" = "1t";
+"Profile.ShareContactButton" = "Sdílet Kontakt";
+"Profile.ShareContactPersonFormat" = "Poslat kontakt uživateli %@?";
+"Profile.ShareContactGroupFormat" = "Poslat kontakt skupině %@?";
+
+// User Info
+"UserInfo.Title" = "Info";
+"UserInfo.FirstNamePlaceholder" = "Jméno";
+"UserInfo.LastNamePlaceholder" = "Příjmení";
+"UserInfo.GenericPhoneLabel" = "mobil";
+"UserInfo.SendMessage" = "Poslat zprávu";
+"UserInfo.AddContact" = "Přidat kontakt";
+"UserInfo.ShareContact" = "Sdílet kontakt";
+"UserInfo.StartSecretChat" = "Vytvořit šifrovaný chat";
+"UserInfo.DeleteContact" = "Smazat kontakt";
+"UserInfo.CreateNewContact" = "Vytvořit nový kontakt";
+"UserInfo.AddToExisting" = "Přidat do existujícího";
+"UserInfo.AddPhone" = "přidat telefon";
+"UserInfo.NotificationsEnabled" = "Zapnuto";
+"UserInfo.NotificationsDisabled" = "Vypnuto";
+"UserInfo.NotificationsEnable" = "Zapnuto";
+"UserInfo.NotificationsDisable" = "Vypnuto";
+"UserInfo.Invite" = "Pozvat na Telegram";
+
+// New Contact
+"NewContact.Title" = "Nový kontakt";
+
+// Phone Label
+"PhoneLabel.Title" = "Popis";
+
+// Secret Chat
+"SecretChat.Title" = "Šifrovaný Chat";
+
+// Group Info
+"GroupInfo.Title" = "Informace o skupině";
+"GroupInfo.GroupNamePlaceholder" = "Jméno Skupiny";
+"GroupInfo.BroadcastListNamePlaceholder" = "Seznam jmen";
+"GroupInfo.SetGroupPhoto" = "Nastavit obrázek skupiny";
+"GroupInfo.SetGroupPhotoStop" = "Zastavit";
+"GroupInfo.SetGroupPhotoDelete" = "Smazat obrázek";
+"GroupInfo.Notifications" = "Upozornění";
+"GroupInfo.Sound" = "Zvuk";
+"GroupInfo.SharedMedia" = "Sdílená média";
+"GroupInfo.SharedMediaNone" = "Nic";
+"GroupInfo.DeleteAndExit" = "Smazat a Ukončit";
+"GroupInfo.DeleteAndExitConfirmation" = "Nebudeš se moci do skupiny znovu připojit.";
+"GroupInfo.ParticipantCount_1" = "1 ČLEN";
+"GroupInfo.ParticipantCount_2" = "2 ČLENOVÉ";
+"GroupInfo.ParticipantCount_3_10" = "%@ ČLENŮ";
+"GroupInfo.ParticipantCount_any" = "%@ ČLENŮ";
+"GroupInfo.ParticipantCount_many" = "%@ ČLENŮ";
+"GroupInfo.ParticipantCount_0" = "%@ ČLENŮ";
+"GroupInfo.AddParticipant" = "Přidat člena";
+"GroupInfo.AddParticipantTitle" = "Kontakty";
+"GroupInfo.AddParticipantConfirmation" = "Přidat %@ do skupiny?";
+"GroupInfo.KickedStatus" = "Byl jsi odebrán(a) ze skupiny";
+"GroupInfo.LeftStatus" = "Opustil(a) jsi skupinu";
+
+// Encryption Key
+"EncryptionKey.Title" = "Šifrovací klíč";
+"EncryptionKey.Description" = "Tento obrázek a text bude doručen pomocí šifrovacího klíče pro tento chat s  %1$@.\n\n Pokud vypadá stejně na %2$@'s zařízení, end-to-end šifrování je zaručeno.\n\nVíce na telegram.org";
+
+// Conversation media
+"ConversationMedia.Title" = "Média";
+"ConversationMedia.EmptyTitle" = "Žádné fotky nebo videa";
+
+// Preview
+"Preview.VideoNotYetDownloaded" = "Nejdříve stáhni video.";
+"Preview.GroupPhotoTitle" = "Skupinový obrázek";
+"Preview.ProfilePhotoTitle" = "Profilová fotka";
+"Preview.LoadingVideo" = "nahrávám video...";
+"Preview.LoadingImage" = "nahrávám celý obrázek...";
+"Preview.LoadingImages" = "nahrávám celé obrázky...";
+"Preview.DeletePhoto" = "Smazat obrázek";
+"Preview.DeleteVideo" = "Smazat video";
+"Preview.ForwardViaTelegram" = "Přeposlat skrz Telegram";
+"Preview.SaveToCameraRoll" = "Uložit do Camera Roll";
+
+// Map
+"Map.ChooseLocationTitle" = "Poloha";
+"Map.MapTitle" = "Mapa";
+"Map.Send" = "Poslat";
+"Map.Map" = "Mapa";
+"Map.Satellite" = "Satelit";
+"Map.Hybrid" = "Hybridní";
+"Map.AccessDeniedError" = "Pro umožnění této vlastnosti, je třeba povolit Lokalizační nástroje aplikaci Telegram v nastavení tvého telefonu (Nastavení - Soukromí).";
+"Map.ForwardViaTelegram" = "Přeposlat skrz Telegram";
+"Map.GetDirections" = "Získat souřadnice";
+"Map.OpenInGoogleMaps" = "Otevřít v Google Maps";
+
+// Web
+"Web.Error" = "Nemohu načíst stránku";
+"Web.OpenExternal" = "Otevřít v Safari";
+"Web.CopyLink" = "Kopírovat odkaz";
+
+// Document
+"Document.TargetConfirmationFormat" = "Poslat soubor ({size}) uživateli {target}?";
+
+// Dialog List
+"DialogList.You" = "Ty";
+
+// Settings
+"Settings.TabTitle" = "Nastavení";
+"Settings.SetProfilePhoto" = "Nastavit profilový obrázek";
+"Settings.Logout" = "Odhlásit";
+"Settings.Title" = "Nastavení";
+"Settings.NotificationsAndSounds" = "Upozornění a Zvuky";
+"Settings.ChatSettings" = "Data a Úložiště";
+"Settings.BlockedUsers" = "Blokovaní uživatelé";
+"Settings.ChatBackground" = "Pozadí konverzace";
+"Settings.Support" = "Položit otázku";
+"Settings.FAQ" = "Telegram FAQ";
+"Settings.FAQ_URL" = "http://telegram.org/faq#general";
+"Settings.FAQ_Intro" = "Měj prosím na paměti, že podporu Telegramu poskytují dobrovolníci. Snažíme se odpovídat tak rychle, jak je to možné, ale může to chvíli trvat.\n\nProsím věnuj pozornost Telegram FAQ: obsahuje důležité tipy a postupy, na většinu nejobvyklejších otázek a jejich řešení.";
+"Settings.FAQ_Button" = "FAQ";
+"Settings.SaveIncomingPhotos" = "Uložit příchozí obrázky";
+"Settings.SaveIncomingPhotosHelp" = "SUložit příchozí obrázky do Camera Roll.";
+"Settings.LogoutError" = "Nastala chyba. Zkus to prosím později.";
+
+// Notifications and Sounds
+"Notifications.Title" = "Upozornění";
+"Notifications.MessageNotifications" = "UPOZORNĚNÍ NA ZPRÁVY";
+"Notifications.MessageNotificationsAlert" = "Upozornění";
+"Notifications.MessageNotificationsPreview" = "Náhled zprávy";
+"Notifications.MessageNotificationsSound" = "Zvuk";
+"Notifications.MessageNotificationsHelp" = "Můžeš nastavit svoje upozornění pro určité uživatele, skrz jejich Info stránku.";
+
+"Notifications.GroupNotifications" = "UPOZORNĚNÍ SKUPINY";
+"Notifications.GroupNotificationsAlert" = "Upozornění";
+"Notifications.GroupNotificationsPreview" = "Náhled zprávy";
+"Notifications.GroupNotificationsSound" = "Zvuk";
+"Notifications.GroupNotificationsHelp" = "Můžeš nastavit svoje upozornění pro určité skupiny, skrz jejich Info stránku.";
+
+"Notifications.TextTone" = "Tón textu";
+"Notifications.AlertTones" = "TÓNY UPOZORNĚNÍ";
+"Notifications.ClassicTones" = "CLASSIC";
+
+"Notifications.InAppNotifications" = "IN-APP UPOZORNĚNÍ";
+"Notifications.InAppNotificationsSounds" = "In-App Zvuky";
+"Notifications.InAppNotificationsVibrate" = "In-App Vibrace";
+"Notifications.InAppNotificationsPreview" = "In-App Náhledy";
+
+"Notifications.Reset" = "Reset";
+"Notifications.ResetAllNotifications" = "Reset Všech notifikací";
+"Notifications.ResetAllNotificationsHelp" = "Vrátí zpět všechny uživatelské úpravy upozornění pro všechny kontakty a skupiny.";
+
+// Chat Settings
+"ChatSettings.Title" = "Data a Úložiště";
+"ChatSettings.Appearance" = "VZHLED";
+"ChatSettings.TextSize" = "Velikost textu";
+"ChatSettings.TextSizeUnits" = "pt";
+"ChatSettings.AutomaticPhotoDownload" = "AUTOMATICKÉ STAHOVÁNÍ OBRÁZKŮ";
+"ChatSettings.AutomaticAudioDownload" = "AUTOMATICKÉ STAHOVÁNÍ AUDIA";
+"ChatSettings.PrivateChats" = "Soukromé chaty";
+"ChatSettings.Groups" = "Skupiny";
+"ChatSettings.Security" = "ZABEZPEČENÍ";
+"ChatSettings.Language" = "JAZYK";
+"ChatSettings.RevertLanguage" = "PŮVODNÍ JAZYK";
+"ChatSettings.Cache" = "CACHE";
+
+// Usage
+"Cache.Title" = "Využití Úložiště";
+"Cache.ClearCache" = "Vyčistit Cache";
+"Cache.ClearCacheAlert" = "Obrázky, videa a další soubory budou odstraněny z tohoto zařízení pro uvolnění místa.\n\nVeškerá média zůstanou dále dostupná v cloudu, odkud mohou být kdykoli znovu stáhnuta, pokud to bude potřeba.";
+"Cache.KeepMedia" = "Uchovat média";
+"Cache.Help" = "Obrázky, videa a další soubory z cloudových konverzací, ke kterým **nebylo přistoupeno** po zvolenou dobu, budou smazány z tohoto zařízení pro ušetření místa na disku.\n\nVeškerá média zůstanou dále dostupná v cloudu, odkud mohou být kdykoli znovu stáhnuta, pokud to bude potřeba.";
+
+// Blocked Users
+"BlockedUsers.Title" = "Blokovaní";
+"BlockedUsers.SelectUserTitle" = "Zablokovat uživatele";
+"BlockedUsers.AlreadyBlocked" = "Tento uživatel je již zablokován";
+"BlockedUsers.BlockUser" = "Zablokovat uživatele";
+"BlockedUsers.BlockFormat" = "Zablokovat %@?";
+"BlockedUsers.BlockTitle" = "Zablokovat";
+"BlockedUsers.LeavePrefix" = "Opustit ";
+"BlockedUsers.Info" = "Zablokovaná uživatelé ti nemůžou poslat zprávu, ani tě přidávat do skupin. Neuvidí tvůj profilový obrázek, ani tvůj online status.";
+"BlockedUsers.AddNew" = "Přidat Nové...";
+"BlockedUsers.Unblock" = "Odblokovat";
+
+// Wallpaper
+"Wallpaper.Title" = "Pozadí konverzace";
+"Wallpaper.PhotoLibrary" = "Knihovna fotek";
+"Wallpaper.Set" = "Nastavit";
+"Wallpaper.Wallpaper" = "Pozadí";
+
+// Update
+"Update.Update" = "Aktualizovat";
+
+// Service
+"Service.LocalizationDownloadError" = "Lokalizační soubor nelze stáhnout. Zkontroluj prosím připojení k internetu, a zkus to znovu.";
+"Service.ApplyLocalization" = "Použít lokalizaci?";
+"Service.ApplyLocalizationWithWarnings" = "%@\n\nPoužít lokalizaci?";
+
+"Notification.SecretChatMessageScreenshot" = "%@ pořídil screenshot!";
+"Notification.SecretChatScreenshot" = "Screenshot pořízen!";
+
+// Broadcast Lists
+"DialogList.Broadcast" = "Broadcast";
+"BroadcastLists.Title" = "Seznam Broadcastu";
+"BroadcastLists.NoListsYet" = "Žádné seznamy";
+"BroadcastLists.NoListsText" = "Se seznamy můžeš jednoduše posílat zprávy více lidem najednou.";
+
+// Broadcast List
+"BroadcastListInfo.Title" = "Seznam Broadcastu";
+"BroadcastListInfo.AddRecipient" = "Přidat příjemce";
+
+// Video
+"VideoPreview.OptionSD" = "Normální velikost (%@)";
+"VideoPreview.OptionHD" = "HD (%@)";
+
+"ChatSettings.AutoPlayAudio" = "Automaticky hrát Audio";
+
+"Settings.LogoutConfirmationTitle" = "Odhlásit?";
+"Settings.LogoutConfirmationText" = "\nTelegram můžeš bez problémů používat na více zařízeních zároveň bez odhlášení.\n\nPamatuj, odhlášení zruší všechny tvé šifrované konverzace.";
+
+"Login.PadPhoneHelp" = "\nMůžeš použít svoje hlavní telefonní číslo pro přihlášení k Telegramu na všech svých zařízeních.\nNepoužívej číslo iPad SIM. Potřebujeme ti poslat SMS kvůli autorizaci.\n\nJe toto číslo to správné?\n{number}";
+"Login.PadPhoneHelpTitle" = "Tvoje číslo";
+
+"MessageTimer.Custom" = "Volitelný";
+"MessageTimer.Title" = "Nastavený časovač";
+
+"MessageTimer.Forever" = "Navždy";
+
+"MessageTimer.Seconds_1" = "%@ vteřina";
+"MessageTimer.Seconds_2" = "%@ sekundy";
+"MessageTimer.Seconds_3_10" = "%@ sekund";
+"MessageTimer.Seconds_any" = "%@ sekund";
+"MessageTimer.Seconds_many" = "%@ sekund";
+"MessageTimer.Seconds_0" = "%@ sekund";
+"MessageTimer.Minutes_1" = "%@ minuta";
+"MessageTimer.Minutes_2" = "%@ minuty";
+"MessageTimer.Minutes_3_10" = "%@ minut";
+"MessageTimer.Minutes_any" = "%@ minut";
+"MessageTimer.Minutes_many" = "%@ minut";
+"MessageTimer.Minutes_0" = "%@ minut";
+"MessageTimer.Hours_1" = "%@ hodina";
+"MessageTimer.Hours_2" = "%@ hodiny";
+"MessageTimer.Hours_3_10" = "%@ hodin";
+"MessageTimer.Hours_any" = "%@ hodin";
+"MessageTimer.Hours_many" = "%@ hodin";
+"MessageTimer.Hours_0" = "%@ hodin";
+"MessageTimer.Days_1" = "%@ den";
+"MessageTimer.Days_2" = "%@ dny";
+"MessageTimer.Days_3_10" = "%@ dnů";
+"MessageTimer.Days_any" = "%@ dnů";
+"MessageTimer.Days_many" = "%@ dnů";
+"MessageTimer.Days_0" = "%@ dnů";
+"MessageTimer.Weeks_1" = "%@ týden";
+"MessageTimer.Weeks_2" = "%@ týdny";
+"MessageTimer.Weeks_3_10" = "%@ týdnů";
+"MessageTimer.Weeks_any" = "%@ týdnů";
+"MessageTimer.Weeks_many" = "%@ týdnů";
+"MessageTimer.Weeks_0" = "%@ týdnů";
+"MessageTimer.Months_1" = "%@ měsíc";
+"MessageTimer.Months_2" = "%@ měsíce";
+"MessageTimer.Months_3_10" = "%@ měsíců";
+"MessageTimer.Months_any" = "%@ měsíců";
+"MessageTimer.Months_many" = "%@ měsíců";
+"MessageTimer.Months_0" = "%@ měsíců";
+"MessageTimer.Years_1" = "%@ rok";
+"MessageTimer.Years_2" = "%@ roky";
+"MessageTimer.Years_3_10" = "%@ roků";
+"MessageTimer.Years_any" = "%@ roků";
+"MessageTimer.Years_many" = "%@ roků";
+"MessageTimer.Years_0" = "%@ roků";
+
+"MessageTimer.ShortSeconds_1" = "%@s";
+"MessageTimer.ShortSeconds_2" = "%@s";
+"MessageTimer.ShortSeconds_3_10" = "%@s";
+"MessageTimer.ShortSeconds_any" = "%@s";
+"MessageTimer.ShortSeconds_many" = "%@s";
+"MessageTimer.ShortSeconds_0" = "%@s";
+"MessageTimer.ShortMinutes_1" = "%@m";
+"MessageTimer.ShortMinutes_2" = "%@m";
+"MessageTimer.ShortMinutes_3_10" = "%@m";
+"MessageTimer.ShortMinutes_any" = "%@m";
+"MessageTimer.ShortMinutes_many" = "%@m";
+"MessageTimer.ShortMinutes_0" = "%@m";
+"MessageTimer.ShortHours_1" = "%@h";
+"MessageTimer.ShortHours_2" = "%@h";
+"MessageTimer.ShortHours_3_10" = "%@h";
+"MessageTimer.ShortHours_any" = "%@h";
+"MessageTimer.ShortHours_many" = "%@h";
+"MessageTimer.ShortHours_0" = "%@h";
+"MessageTimer.ShortDays_1" = "%@d";
+"MessageTimer.ShortDays_2" = "%@d";
+"MessageTimer.ShortDays_3_10" = "%@d";
+"MessageTimer.ShortDays_any" = "%@d";
+"MessageTimer.ShortDays_many" = "%@d";
+"MessageTimer.ShortDays_0" = "%@d";
+"MessageTimer.ShortWeeks_1" = "%@t";
+"MessageTimer.ShortWeeks_2" = "%@t";
+"MessageTimer.ShortWeeks_3_10" = "%@t";
+"MessageTimer.ShortWeeks_any" = "%@t";
+"MessageTimer.ShortWeeks_many" = "%@t";
+"MessageTimer.ShortWeeks_0" = "%@t";
+
+"Activity.UploadingPhoto" = "posílám fotku";
+"Activity.UploadingVideo" = "posílám video";
+"Activity.UploadingDocument" = "posílám soubor";
+"Activity.RecordingAudio" = "nahrávám audio";
+"Activity.RecordingVideoMessage" = "nahrávám video";
+"Activity.Location" = "Určuji polohu";
+
+"Service.NetworkConfigurationUpdatedMessage" = "Síťové nastavení úspěšně aktualizováno.";
+
+"Compatibility.SecretMediaVersionTooLow" = "%@ využívá starší verzi Telegramu, proto budou šifrované obrázky zobrazeny v kompatibilním módu.\n\nJakmile %@ aktualizuje Telegram, fotky s časovačem na 1 minutu a menší budou fungovat v módu 'Klepni a podrž k zobrazení' , a pokud druhá strana udělá screenshot obrazovky, budeš na to upozorněn.";
+
+"Contacts.GlobalSearch" = "Globální hledání";
+"Profile.Username" = "uživatelské jméno";
+"Settings.Username" = "Uživatelské jméno";
+"Settings.UsernameEmpty" = "Přidat";
+
+"Username.Title" = "Uživatelské jméno";
+"Username.Placeholder" = "Tvé uživatelské jméno";
+"Username.Help" = "Můžeš si zvolit uživatelské jméno v **Telegramu**. Pokud tak učiníš, ostatní tě budou moci najít pomocí tohoto uživatelského jména a kontaktovat tě, i když neznají tvoje telefonní číslo.\n\nMůžeš použít **a-z**, **0-9** a podtržítka. Minimální délka je **5** znaků.";
+"Username.InvalidTooShort" = "Uživ. jméno musí mít nejméně 5 znaků.";
+"Username.InvalidStartsWithNumber" = "Bohužel, uživ. jméno nemůže začínat číslem.";
+"Username.InvalidCharacters" = "Bohužel, toto uživ. jméno je neplatné.";
+"Username.InvalidTaken" = "Bohužel, toto uživ. jméno je již zabrané.";
+
+"Username.CheckingUsername" = "Kontroluji uživ. jméno...";
+"Username.UsernameIsAvailable" = "%@ je dostupné.";
+
+"WebSearch.Images" = "Obrázky";
+"WebSearch.GIFs" = "GIFy";
+"WebSearch.RecentSectionTitle" = "Nedávné";
+"WebSearch.RecentSectionClear" = "Vyčistit";
+
+"Settings.PrivacySettings" = "Soukromí a zabezpečení";
+
+"UserCount_1" = "1 uživatel";
+"UserCount_2" = "2 uživatelé";
+"UserCount_3_10" = "%@ uživatelů";
+"UserCount_any" = "%@ uživatelů";
+"UserCount_many" = "%@ uživatelů";
+"UserCount_0" = "%@ uživatelů";
+
+"PrivacySettings.Title" = "Soukromí a Zabezpečení";
+
+"PrivacySettings.PrivacyTitle" = "SOUKROMÍ";
+"PrivacySettings.LastSeen" = "Naposledy viděn(a)";
+"PrivacySettings.LastSeenEverybody" = "Všichni";
+"PrivacySettings.LastSeenContacts" = "Mé kontakty";
+"PrivacySettings.LastSeenNobody" = "Nikdo";
+
+"PrivacySettings.LastSeenEverybodyMinus" = "Všichni (-%@)";
+"PrivacySettings.LastSeenContactsPlus" = "Mé kontakty (+%@)";
+"PrivacySettings.LastSeenContactsMinus" = "Mé kontakty (-%@)";
+"PrivacySettings.LastSeenContactsMinusPlus" = "Mé kontakty (-%@, +%@)";
+"PrivacySettings.LastSeenNobodyPlus" = "Nikdo (+%@)";
+
+"PrivacySettings.SecurityTitle" = "ZABEZPEČENÍ";
+
+"PrivacySettings.DeleteAccountTitle" = "SMAZAT MŮJ ÚČET";
+"PrivacySettings.DeleteAccountIfAwayFor" = "Pokud jsem pryč déle než";
+"PrivacySettings.DeleteAccountHelp" = "Pokud nebudeš online alespoň jednou za tuto dobu, tvůj účet bude kompletně smazán se všemi kontakty, zprávami, i soubory.";
+"PrivacySettings.DeleteAccountNowConfirmation" = "Smazat svůj účet?";
+"PrivacySettings.DeleteAccountNever" = "Nikdy";
+
+"PrivacyLastSeenSettings.Title" = "Naposledy viděn(a)";
+"PrivacyLastSeenSettings.CustomHelp" = "Důležité: Neuvidíš tento status u lidí, kterým toto samé nepovoluješ vidět. Místo toho uvidíš jen hrubý odhad (nedávno, v posledním týdnu, měsíci).";
+"PrivacyLastSeenSettings.AlwaysShareWith" = "Vždy sdílet s";
+"PrivacyLastSeenSettings.NeverShareWith" = "Nikdy nesdílet s";
+"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "Tato nastavení jsou nadřazená hodnotám výše.";
+
+"PrivacyLastSeenSettings.CustomShareSettings.Delete" = "Smazat";
+"PrivacyLastSeenSettings.AlwaysShareWith.Title" = "Vždy sdílet";
+"PrivacyLastSeenSettings.AlwaysShareWith.Placeholder" = "Vždy sdílet s uživateli...";
+"PrivacyLastSeenSettings.NeverShareWith.Title" = "Nikdy nesdílet";
+"PrivacyLastSeenSettings.NeverShareWith.Placeholder" = "Nikdy nesdílet s uživateli...";
+"PrivacyLastSeenSettings.EmpryUsersPlaceholder" = "Přidat uživatele";
+"PrivacyLastSeenSettings.AddUsers_1" = "Přidat 1 uživatele do tohoto seznamu?";
+"PrivacyLastSeenSettings.AddUsers_2" = "Přidat 2 uživatele do tohoto seznamu?";
+"PrivacyLastSeenSettings.AddUsers_3_10" = "Přidat %@ uživatelů do tohoto seznamu?";
+"PrivacyLastSeenSettings.AddUsers_any" = "Přidat %@ uživatelů do tohoto seznamu?";
+"PrivacyLastSeenSettings.AddUsers_many" = "Přidat %@ uživatelů do tohoto seznamu?";
+"PrivacyLastSeenSettings.AddUsers_0" = "Přidat %@ uživatelů do tohoto seznamu?";
+
+"PrivacySettings.FloodControlError" = "Bohužel, příliš mnoho požadavků. Momentálně tato nastavení nemůžeš měnit, vydrž prosím chvíli.";
+
+
+"ImagePicker.NoPhotos" = "Žádné obrázky";
+"ImagePicker.NoVideos" = "Žádná videa";
+
+"Settings.OpenSystemPrivacySettings" = "Otevřít %@ Nastavení";
+
+// Photo Editor
+"PhotoEditor.DiscardChanges" = "Zahodit změny";
+"PhotoEditor.RevertToOriginal" = "Vrátit se k originálu";
+"PhotoEditor.RevertMessage" = "Zruší všechny provedené změny. Tuto akci nelze vrátit.";
+
+"PhotoEditor.Original" = "Originál";
+"PhotoEditor.Current" = "Současný";
+
+"PhotoEditor.CropReset" = "RESET";
+"PhotoEditor.CropAuto" = "AUTO";
+"PhotoEditor.CropAspectRatioOriginal" = "Originál";
+"PhotoEditor.CropAspectRatioSquare" = "Čtverec";
+
+"PhotoEditor.EnhanceTool" = "Vylepšit";
+"PhotoEditor.ExposureTool" = "Jas";
+"PhotoEditor.ContrastTool" = "Kontrast";
+"PhotoEditor.WarmthTool" = "Teplota";
+"PhotoEditor.SaturationTool" = "Saturace";
+"PhotoEditor.HighlightsTool" = "Highlights";
+"PhotoEditor.ShadowsTool" = "Stíny";
+"PhotoEditor.VignetteTool" = "Vinětace";
+"PhotoEditor.GrainTool" = "Zrno";
+"PhotoEditor.BlurTool" = "Rozmazání";
+"PhotoEditor.SharpenTool" = "Ostrost";
+
+"PhotoEditor.BlurToolOff" = "Vypnuto";
+"PhotoEditor.BlurToolRadial" = "Radiální";
+"PhotoEditor.BlurToolLinear" = "Lineární";
+
+"PhotoEditor.Set" = "Nastavit";
+"PhotoEditor.Skip" = "Přeskočit";
+
+// Camera
+"Camera.PhotoMode" = "FOTKA";
+"Camera.VideoMode" = "VIDEO";
+"Camera.SquareMode" = "ČTVEREC";
+"Camera.FlashOff" = "Vypnutý";
+"Camera.FlashOn" = "Zapnutý";
+"Camera.FlashAuto" = "Auto";
+"Camera.Retake" = "Vyfotit znovu";
+
+"Settings.PhoneNumber" = "Změnit číslo";
+
+"PhoneNumberHelp.Help" = "Tady můžeš změnit své telefonní číslo. Tvůj účet a veškerá cloudová data, jako zprávy, média, kontakty atd. budou přesunuty na nové číslo.\n\n**Důležité:** všechny tvé kontakty v Telegramu dostanou upozornění na tvé **nové číslo** přidané do jejich adresářů, kde měli uloženo tvé minulé, pokud jsi je neměl(a) blokované na Telegram účtu.";
+"PhoneNumberHelp.Alert" = "Všechny tvé kontakty v Telegramu dostanou tvé nové číslo přidělené do jejich adresářů, kde měli uloženo tvé minulé, pokud jsi je neměl(a) blokované na Telegram účtu.";
+"PhoneNumberHelp.ChangeNumber" = "Změnit číslo";
+
+"ChangePhoneNumberNumber.Title" = "Změnit číslo";
+"ChangePhoneNumberNumber.NewNumber" = "NOVÉ ČÍSLO";
+"ChangePhoneNumberNumber.Help" = "Pošleme ti SMS s konfirmačním kódem k tvému novému číslu.";
+"ChangePhoneNumberNumber.NumberPlaceholder" = "Zadej své nové číslo";
+
+"ChangePhoneNumberCode.Code" = "TVŮJ KÓD";
+"ChangePhoneNumberCode.CodePlaceholder" = "Kód";
+"ChangePhoneNumberCode.Help" = "Poslali jsme ti kód skrz SMS";
+"ChangePhoneNumberCode.CallTimer" = "Telegram ti zavolá za %@";
+"ChangePhoneNumberCode.RequestingACall" = "Vyžaduji hovor z Telegramu...";
+"ChangePhoneNumberCode.Called" = "Telegram vytočil tvé číslo";
+
+"LoginPassword.Title" = "Tvé Heslo";
+"LoginPassword.PasswordPlaceholder" = "Heslo";
+"LoginPassword.InvalidPasswordError" = "Neplatné heslo. Zkus to znovu.";
+"LoginPassword.FloodError" = "Limit překročen. Zkus to prosím znovu.";
+"LoginPassword.ForgotPassword" = "Zapomněl jsi heslo?";
+"LoginPassword.PasswordHelp" = "Dvou-fázová verifikace zapnuta. Tvůj účet je zabezpečený heslem navíc.";
+"LoginPassword.ResetAccount" = "Resetovat Účet";
+
+"QuickSend.Photos_1" = "Poslat 1 fotku";
+"QuickSend.Photos_2" = "Poslat 2 fotky";
+"QuickSend.Photos_3_10" = "Poslat %@ fotek";
+"QuickSend.Photos_any" = "Poslat %@ fotek";
+"QuickSend.Photos_many" = "Poslat %@ fotek";
+"QuickSend.Photos_0" = "Poslat %@ fotek";
+
+"Share.Title" = "Sdílet";
+"Forward.ConfirmMultipleFiles_1" = "Poslat 1 soubor uživateli {target}?";
+"Forward.ConfirmMultipleFiles_2" = "Poslat 2 soubory uživateli {target}?";
+"Forward.ConfirmMultipleFiles_3_10" = "Poslat %@ souborů uživateli {target}?";
+"Forward.ConfirmMultipleFiles_any" = "Poslat %@ souborů uživateli {target}?";
+"Forward.ConfirmMultipleFiles_many" = "Poslat %@ souborů uživateli {target}?";
+"Forward.ConfirmMultipleFiles_0" = "Poslat %@ souborů uživateli {target}?";
+
+"PrivacySettings.TouchIdTitle" = "TouchID";
+"PrivacySettings.TouchIdEnable" = "Povolit";
+
+"Notification.Reply" = "Odpovědět";
+"Notification.Mute1h" = "Ztišit na 1 hodinu";
+"Notification.Mute1hMin" = "Ztišit na 1h";
+"Conversation.ContextMenuShare" = "Sdílet";
+
+"SharedMedia.TitleAll" = "Sdílená Média";
+"SharedMedia.TitlePhoto" = "Sdílené Fotky";
+"SharedMedia.TitleVideo" = "Sdílená Videa";
+"SharedMedia.TitleFile" = "Sdílené Soubory";
+"SharedMedia.TitleAudio" = "Sdílená Hudba";
+
+"SharedMedia.All" = "Vše";
+"SharedMedia.Incoming" = "Přijaté";
+"SharedMedia.Outgoing" = "Odeslané";
+
+"SharedMedia.Photo_1" = "1 fotka";
+"SharedMedia.Photo_2" = "2 fotky";
+"SharedMedia.Photo_3_10" = "%@ fotek";
+"SharedMedia.Photo_any" = "%@ fotek";
+"SharedMedia.Photo_many" = "%@ fotek";
+"SharedMedia.Photo_0" = "%@ fotek";
+
+"SharedMedia.Video_1" = "1 video";
+"SharedMedia.Video_2" = "2 videa";
+"SharedMedia.Video_3_10" = "%@ videí";
+"SharedMedia.Video_any" = "%@ videí";
+"SharedMedia.Video_many" = "%@ videí";
+"SharedMedia.Video_0" = "%@ videí";
+
+"SharedMedia.File_1" = "1 soubor";
+"SharedMedia.File_2" = "2 soubory";
+"SharedMedia.File_3_10" = "%@ souborů";
+"SharedMedia.File_any" = "%@ souborů";
+"SharedMedia.File_many" = "%@ souborů";
+"SharedMedia.File_0" = "%@ souborů";
+
+"SharedMedia.Generic_1" = "1 médium";
+"SharedMedia.Generic_2" = "2 média";
+"SharedMedia.Generic_3_10" = "%@ médií";
+"SharedMedia.Generic_any" = "%@ médií";
+"SharedMedia.Generic_many" = "%@ médií";
+"SharedMedia.Generic_0" = "%@ médií";
+
+"FileSize.B" = "%@ B";
+"FileSize.KB" = "%@ KB";
+"FileSize.MB" = "%@ MB";
+"FileSize.GB" = "%@ GB";
+
+"DownloadingStatus" = "Stahuji %@ z %@";
+
+"Time.MonthOfYear_m1" = "Leden %@";
+"Time.MonthOfYear_m2" = "Únor %@";
+"Time.MonthOfYear_m3" = "Březen %@";
+"Time.MonthOfYear_m4" = "Duben %@";
+"Time.MonthOfYear_m5" = "Květen %@";
+"Time.MonthOfYear_m6" = "Červen %@";
+"Time.MonthOfYear_m7" = "Červenec %@";
+"Time.MonthOfYear_m8" = "Srpen %@";
+"Time.MonthOfYear_m9" = "Září %@";
+"Time.MonthOfYear_m10" = "Říjen %@";
+"Time.MonthOfYear_m11" = "Listopad %@";
+"Time.MonthOfYear_m12" = "Prosinec %@";
+
+"Time.PreciseDate_m1" = "Led %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m2" = "Úno %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m3" = "Bře %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m4" = "Dub %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m5" = "Kvě %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m6" = "Čer %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m7" = "Čvc %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m8" = "Srp %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m9" = "Zář %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m10" = "Říj %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m11" = "Lis %1$@, %2$@ v %3$@";
+"Time.PreciseDate_m12" = "Pro %1$@, %2$@ v %3$@";
+
+"MuteFor.Minutes_1" = "Ztišit na 1 minutu";
+"MuteFor.Minutes_2" = "Ztišit na 2 minuty";
+"MuteFor.Minutes_3_10" = "Ztišit na %@ minut";
+"MuteFor.Minutes_any" = "Ztišit na %@ minut";
+"MuteFor.Minutes_many" = "Ztišit na %@ minut";
+"MuteFor.Minutes_0" = "Ztišit na %@ minut";
+
+"MuteFor.Hours_1" = "Ztišit na 1 hodinu";
+"MuteFor.Hours_2" = "Ztišit na 2 hodiny";
+"MuteFor.Hours_3_10" = "Ztišit na %@ hodin";
+"MuteFor.Hours_any" = "Ztišit na %@ hodin";
+"MuteFor.Hours_many" = "Ztišit na %@ hodin";
+"MuteFor.Hours_0" = "Ztišit na %@ hodin";
+
+"MuteFor.Days_1" = "Ztišit na 1 den";
+"MuteFor.Days_2" = "Ztišit na 2 dny";
+"MuteFor.Days_3_10" = "Ztišit na %@ dnů";
+"MuteFor.Days_any" = "Ztišit na %@ dnů";
+"MuteFor.Days_many" = "Ztišit na %@ dnů";
+"MuteFor.Days_0" = "Ztišit na %@ dnů";
+
+"MuteFor.Weeks_1" = "Ztišit na 1 týden";
+"MuteFor.Weeks_2" = "Ztišit na 2 týdny";
+"MuteFor.Weeks_3_10" = "Ztišit na %@ týdnů";
+"MuteFor.Weeks_any" = "Ztišit na %@ týdnů";
+"MuteFor.Weeks_many" = "Ztišit na %@ týdnů";
+"MuteFor.Weeks_0" = "Ztišit na %@ týdnů";
+
+"MuteExpires.Minutes_1" = "in 1 minute";
+"MuteExpires.Minutes_2" = "in 2 minutes";
+"MuteExpires.Minutes_3_10" = "in %@ minutes";
+"MuteExpires.Minutes_any" = "in %@ minutes";
+"MuteExpires.Minutes_many" = "in %@ minutes";
+"MuteExpires.Minutes_0" = "in %@ minutes";
+
+"MuteExpires.Hours_1" = "za 1 hodinu";
+"MuteExpires.Hours_2" = "za 2 hodiny";
+"MuteExpires.Hours_3_10" = "za %@ hodin";
+"MuteExpires.Hours_any" = "za %@ hodin";
+"MuteExpires.Hours_many" = "za %@ hodin";
+"MuteExpires.Hours_0" = "za %@ hodin";
+
+"MuteExpires.Days_1" = "za 1 den";
+"MuteExpires.Days_2" = "za 2 dny";
+"MuteExpires.Days_3_10" = "za %@ dnů";
+"MuteExpires.Days_any" = "za %@ dnů";
+"MuteExpires.Days_many" = "za %@ dnů";
+"MuteExpires.Days_0" = "za %@ dnů";
+
+"SharedMedia.EmptyTitle" = "Žádné média soubory";
+"SharedMedia.EmptyText" = "Sdílej fotky a videa v tomto chatu\n — nebo tahle sponka zůstane nešťastná.";
+"SharedMedia.EmptyFilesText" = "Můžeš sem posílat a příjímat soubory kdekoli jsi\nsoubory jakéhokoli typu až do 1.5 GB každý\na přistupovat k nim odkudkoli.";
+
+"ShareFileTip.Title" = "Sdílení Souborů";
+"ShareFileTip.Text" = "Tady můžeš sdílet **nezkrompresovaná** média z tvé Camera Roll.\n\nPro sdílení souborů jiného typu je otevři ve tvém %@ (např. ve svém prohlížeči), klikni na **Otevřít v...** ndbo na tlačítko akce a zvol Telegram.";
+"ShareFileTip.CloseTip" = "Zavřít Tip";
+
+"DialogList.SearchSectionDialogs" = "Konverzace a Kontakty";
+"DialogList.SearchSectionGlobal" = "Globální hledání";
+"DialogList.SearchSectionMessages" = "Zprávy";
+
+"Username.LinkHint" = "Tento odkaz otevře konverzaci s tebou na Telegram:[\nhttps://t.me/%@]";
+"Username.LinkCopied" = "Odkaz zkopírovaný do chránky";
+
+"SharedMedia.ItemsSelected_1" = "1 vybrán";
+"SharedMedia.ItemsSelected_2" = "2 vybrány";
+"SharedMedia.ItemsSelected_3_10" = "%@ vybráno";
+"SharedMedia.ItemsSelected_any" = "%@ vybráno";
+"SharedMedia.ItemsSelected_many" = "%@ vybráno";
+"SharedMedia.ItemsSelected_0" = "%@ vybráno";
+
+"SharedMedia.DeleteItemsConfirmation_1" = "Smazat média soubor?";
+"SharedMedia.DeleteItemsConfirmation_2" = "Smazat 2 média soubory?";
+"SharedMedia.DeleteItemsConfirmation_3_10" = "Smazat %@ média souborů?";
+"SharedMedia.DeleteItemsConfirmation_any" = "Smazat %@ média souborů?";
+"SharedMedia.DeleteItemsConfirmation_many" = "Smazat %@ média souborů?";
+"SharedMedia.DeleteItemsConfirmation_0" = "Smazat %@ média souborů?";
+
+"PrivacySettings.Passcode" = "Zamykání";
+"PasscodeSettings.Title" = "Zamykání";
+"PasscodeSettings.TurnPasscodeOn" = "Zapnout Zamykání";
+"PasscodeSettings.TurnPasscodeOff" = "Vypnout Zamykání";
+"PasscodeSettings.ChangePasscode" = "Změnit heslo";
+"PasscodeSettings.Help" = "Pokud je nastavené lokální heslo, nad listem konverzací se objeví ikonka zámku. Klikem na ni zamkneš aplikaci.\n\nPoznámka: Pokud lokální heslo zapomeneš, budeš muset smazat a znovu nainstalovat aplikaci. Všechny tvé šifrované konverzace budou ztraceny.";
+"PasscodeSettings.UnlockWithTouchId" = "Odemknout pomocí Touch ID";
+"PasscodeSettings.SimplePasscode" = "Jednoduchý kód";
+"PasscodeSettings.SimplePasscodeHelp" = "Jednoduchý kód jsou 4 čísla.";
+"PasscodeSettings.EncryptData" = "Šifrovat lokální databázi";
+"PasscodeSettings.EncryptDataHelp" = "Experimentální funkce, užívej opatrně. Zašifruje tvé lokální data Telegramu, použitím derivací tvého hesla jako klíče.";
+
+"EnterPasscode.EnterTitle" = "Zadej kód";
+"EnterPasscode.SetupTitle" = "Nový kód";
+"EnterPasscode.ChangeTitle" = "Změnit kód";
+"EnterPasscode.EnterPasscode" = "Zadej svůj kód";
+"EnterPasscode.EnterNewPasscodeNew" = "Zadej kód";
+"EnterPasscode.EnterNewPasscodeChange" = "Zdej svůj nový kód";
+"EnterPasscode.RepeatNewPasscode" = "Znovu zadej svůj nový kód";
+"EnterPasscode.EnterCurrentPasscode" = "Zadej svůj současný kód";
+"EnterPasscode.TouchId" = "Zadej svůj kód";
+
+"DialogList.PasscodeLockHelp" = "Zmáčkni pro zamknutí Telegramu";
+
+"PasscodeSettings.AutoLock" = "Auto-Zamykání";
+"PasscodeSettings.AutoLock.Disabled" = "Vypnuto";
+"PasscodeSettings.AutoLock.IfAwayFor_1minute" = "Pokud jsi pryč 1 min";
+"PasscodeSettings.AutoLock.IfAwayFor_5minutes" = "Pokud jsi pryč 5 min";
+"PasscodeSettings.AutoLock.IfAwayFor_1hour" = "Pokud jsi pryč 1 hodinu";
+"PasscodeSettings.AutoLock.IfAwayFor_5hours" = "Pokud jsi pryč 5 hodin";
+
+"PasscodeSettings.FailedAttempts_1" = "1 špatný pokus";
+"PasscodeSettings.FailedAttempts_2" = "2 špatné pokusy";
+"PasscodeSettings.FailedAttempts_3_10" = "%@ špatných pokusů";
+"PasscodeSettings.FailedAttempts_any" = "%@ špatných pokusů";
+"PasscodeSettings.FailedAttempts_many" = "%@špatných pokusů";
+"PasscodeSettings.FailedAttempts_0" = "%@ špatných pokusů";
+"PasscodeSettings.TryAgainIn1Minute" = "Zkus to prosím znovu za minutu";
+
+"AccessDenied.Title" = "Prosím povol přístup";
+
+"AccessDenied.Contacts" = "Telegram potřebuje přístup k tvým kontaktům.\n\nJdi prosím do Nastavení > Soukromí > Kontakty a povol Telegram.";
+
+"AccessDenied.VoiceMicrophone" = "Telegram potřebuje přístup k tvému mikrofonu, aby jsi mohl(a) nahrávat hlasové zprávy.\n\nJdi prosím do Nastavení > Soukromí > Mikrofon a povol Telegram.";
+
+"AccessDenied.VideoMicrophone" = "Telegram potřebuje přístup k tvému mikrofonu, aby jsi mohl nahrávat hlasové a video zprávy.\n\nJdi prosím do Nastavení > Soukromí > Mikrofon a povol Telegram.";
+
+"AccessDenied.MicrophoneRestricted" = "Telegram nemá přístup k mikrofonu.\n\nJdi prosím do Nastavení > Obecné > Omezení > Mikrofon a povol Telegram.";
+
+
+"AccessDenied.Camera" = "Telegram potřebuje přístup k tvé kameře, aby jsi mohl zaznamenat a poslat fotky a videa.\n\nJdi prosím do Nastavení > Soukromí > Kamera a povol Telegram.";
+
+"AccessDenied.CameraRestricted" = "Telegram nemá přístup ke kameře.\n\nJdi prosím do Nastavení > Obecné > Omezení > Kamera a povol Telegram.";
+
+"AccessDenied.CameraDisabled" = "Kamera je v telefonu zakázána globálně.\n\nJdi prosím do Nastavení > Obecné > Omezení a povol Kameru";
+
+"AccessDenied.PhotosAndVideos" = "Telegram potřebuje přístup k tvé knihovně pro posílání fotek a videí.\n\nJdi prosím do Nastavení > Soukromí > Fotky a povol Telegram.";
+
+"AccessDenied.SaveMedia" = "Telegram potřebuje přístup k tvé knihovně pro posílání fotek a videí.\n\nJdi prosím do Nastavení > Soukromí > Fotky a povol Telegram.";
+
+"AccessDenied.PhotosRestricted" = "Přístup k fotkám je pro Telegram omezen.\n\nJdi prosím do Nastavení > Obecné > Omezení > Fotky a povol Telegram.";
+
+"AccessDenied.LocationDenied" = "Telegram potřebuje přístup k tvé poloze, aby jsi ji mohl sdílet s přáteli.\n\nJdi prosím do Nastavení > Soukromí > Lokační služby a povol Telegram.";
+
+"AccessDenied.LocationDisabled" = "Telegram potřebuje přístup k tvé poloze, aby jsi ji mohl sdílet s přáteli.\n\nJdi prosím do Nastavení > Soukromí > Lokační služby a povol je.";
+
+"AccessDenied.LocationTracking" = "Telegram potřebuje přístup k tvé poloze, pro její zobrazení na mapě.\n\nJdi prosím do Nastavení > Soukromí > Lokační služby a povol je.";
+
+"AccessDenied.Settings" = "Nastavení";
+
+"WebSearch.RecentClearConfirmation" = "Chceš opravdu vyčistit nedávné obrázky?";
+
+"FeatureDisabled.Oops" = "Oops";
+
+"Conversation.ContextMenuReply" = "Odpovědět";
+
+"ForwardedMessages_1" = "Přeposlaná zpráva";
+"ForwardedMessages_2" = "2 přeposlané zprávy";
+"ForwardedMessages_3_10" = "%@ přeposlaných zpráv";
+"ForwardedMessages_any" = "%@ přeposlaných zpráv";
+"ForwardedMessages_many" = "%@ přeposlaných zpráv";
+"ForwardedMessages_0" = "%@ přeposlaných zpráv";
+
+"ForwardedFiles_1" = "Přeposlaný soubor";
+"ForwardedFiles_2" = "2 přeposlané soubory";
+"ForwardedFiles_3_10" = "%@ přeposlaných souborů";
+"ForwardedFiles_any" = "%@ přeposlaných souborů";
+"ForwardedFiles_many" = "%@ přeposlaných souborů";
+"ForwardedFiles_0" = "%@ přeposlaných souborů";
+
+"ForwardedStickers_1" = "Přeposlaná samolepka";
+"ForwardedStickers_2" = "2 přeposlané samolepky";
+"ForwardedStickers_3_10" = "%@ přeposlaných samolepek";
+"ForwardedStickers_any" = "%@ přeposlaných samolepek";
+"ForwardedStickers_many" = "%@ přeposlaných samolepek";
+"ForwardedStickers_0" = "%@ přeposlaných samolepek";
+
+"ForwardedPhotos_1" = "Přeposlaný obrázek";
+"ForwardedPhotos_2" = "2 přeposlané obrázky";
+"ForwardedPhotos_3_10" = "%@ přeposlaných obrázků";
+"ForwardedPhotos_any" = "%@ přeposlaných obrázků";
+"ForwardedPhotos_many" = "%@ přeposlaných obrázků";
+"ForwardedPhotos_0" = "%@ přeposlaných obrázků";
+
+"ForwardedVideos_1" = "Přeposlané video";
+"ForwardedVideos_2" = "2 přeposlané videa";
+"ForwardedVideos_3_10" = "%@ přeposlaných videí";
+"ForwardedVideos_any" = "%@ přeposlaných videí";
+"ForwardedVideos_many" = "%@ přeposlaných videí";
+"ForwardedVideos_0" = "%@ přeposlaných videí";
+
+"ForwardedAudios_1" = "Přeposlané audio";
+"ForwardedAudios_2" = "2 přeposlané audia";
+"ForwardedAudios_3_10" = "%@ přeposlaných audií";
+"ForwardedAudios_any" = "%@ přeposlaných audií";
+"ForwardedAudios_many" = "%@ přeposlaných audií";
+"ForwardedAudios_0" = "%@ přeposlaných audií";
+
+"ForwardedLocations_1" = "Přeposlaná poloha";
+"ForwardedLocations_2" = "2 přeposlané polohy";
+"ForwardedLocations_3_10" = "%@ přeposlaných poloh";
+"ForwardedLocations_any" = "%@ přeposlaných poloh";
+"ForwardedLocations_many" = "%@ přeposlaných poloh";
+"ForwardedLocations_0" = "%@ přeposlaných poloh";
+
+"ForwardedGifs_1" = "Přeposlaný GIF";
+"ForwardedGifs_2" = "2 přeposlané GIFy";
+"ForwardedGifs_3_10" = "%@ přeposlaných GIFů";
+"ForwardedGifs_any" = "%@ přeposlaných GIFů";
+"ForwardedGifs_many" = "%@ přeposlaných GIFů";
+"ForwardedGifs_0" = "%@ přeposlaných GIFů";
+
+"ForwardedContacts_1" = "Přeposlaný kontakt";
+"ForwardedContacts_2" = "2 přeposlané kontakty";
+"ForwardedContacts_3_10" = "%@ přeposlaných kontaktů";
+"ForwardedContacts_any" = "%@ přeposlaných kontaktů";
+"ForwardedContacts_many" = "%@ přeposlaných kontaktů";
+"ForwardedContacts_0" = "%@ přeposlaných kontaktů";
+
+"ForwardedAuthors2" = "%@, %@";
+"ForwardedAuthorsOthers_1" = "%@ a 1 další";
+"ForwardedAuthorsOthers_2" = "%@ a 2 další";
+"ForwardedAuthorsOthers_3_10" = "%@ a %@ dalších";
+"ForwardedAuthorsOthers_any" = "%@ a %@ dalších";
+"ForwardedAuthorsOthers_many" = "%@ a %@ dalších";
+"ForwardedAuthorsOthers_0" = "%@ a %@ dalších";
+
+"PrivacySettings.TwoStepAuth" = "Dvou-fázová Verifikace";
+"TwoStepAuth.Title" = "Dvou-fázová Verifikace";
+"TwoStepAuth.SetPassword" = "Nastavit heslo navíc";
+"TwoStepAuth.SetPasswordHelp" = "YToto heslo po tobě bude požadováno při přihlášení na nové zařízení navíc ke kódu skrz SMS..";
+"TwoStepAuth.SetupPasswordTitle" = "Tvé heslo";
+
+"TwoStepAuth.SetupHintTitle" = "Nápověda k heslu";
+"TwoStepAuth.SetupHint" = "Vymysli prosím nějakou nápovědu:";
+
+"TwoStepAuth.ChangePassword" = "Změnit heslo";
+"TwoStepAuth.RemovePassword" = "Vypnout heslo";
+"TwoStepAuth.SetupEmail" = "Nastavit e-mail k obnovení";
+"TwoStepAuth.ChangeEmail" = "Změnit e-mail k obnovení";
+"TwoStepAuth.PendingEmailHelp" = "Tvůj email k obnovení %@ ještě není aktivní, a čeká na ni.";
+"TwoStepAuth.GenericHelp" = "Zapnul(a) jsi Dvou-fázová Verifikaci.\nK přihlášení bude navíc potřeba znát heslo.";
+
+"TwoStepAuth.ConfirmationTitle" = "Dvou-fázová Verifikace";
+"TwoStepAuth.ConfirmationText" = "Zkontroluj prosím svůj e-mail (nezapomeň na složku Spam) pro dokončení dvoufázové verifikace.";
+"TwoStepAuth.ConfirmationChangeEmail" = "Změnit e-mail";
+"TwoStepAuth.ConfirmationAbort" = "Zrušit nastavení dvou-fázové Verifikace";
+
+"TwoStepAuth.SetupPasswordEnterPasswordNew" = "Zadej heslo:";
+"TwoStepAuth.SetupPasswordEnterPasswordChange" = "Zadej prosím své nové hesloPlease enter your new password:";
+"TwoStepAuth.SetupPasswordConfirmPassword" = "Zadej znovu heslo:";
+"TwoStepAuth.SetupPasswordConfirmFailed" = "Hesla nesouhlasí. Zkus to prosím později";
+
+"TwoStepAuth.EnterPasswordTitle" = "Heslo";
+"TwoStepAuth.EnterPasswordPassword" = "Heslo";
+"TwoStepAuth.EnterPasswordHint" = "Nápověda: %@";
+"TwoStepAuth.EnterPasswordHelp" = "Zapnul(a) jsi dvou-fázovou verifikaci, tvůj účet ja navíc chráněn heslem.";
+"TwoStepAuth.EnterPasswordInvalid" = "Neplatné heslo. Zkus to prosím znovu.";
+"TwoStepAuth.EnterPasswordForgot" = "Zapomněl jsi heslo?";
+
+"TwoStepAuth.EmailTitle" = "E-Mail k obnovení";
+"TwoStepAuth.EmailSkip" = "Přeskočit";
+"TwoStepAuth.EmailSkipAlert" = "Ne, opravdu.\n\nJsi si jistý, že nechceš zadat záložní e-mail pro obnovu hesla? Pokud heslo zapomeneš, ztratíš přístup ke svému učtu Telegram.";
+"TwoStepAuth.Email" = "E-Mail";
+"TwoStepAuth.EmailPlaceholder" = "Tvůj E-Mail";
+"TwoStepAuth.EmailHelp" = "Zadej prosím validní e-mail. Je to jediná cesta, jak obnovit zapomenuté heslo.";
+"TwoStepAuth.EmailInvalid" = "Neplatný e-mail. Zkus to prosím znovu.";
+"TwoStepAuth.EmailSent" = "Poslali jsme ti e-mail pro potvrzení tvého e-mailu.";
+"TwoStepAuth.PasswordSet" = "Heslo pro dvou-fázovou verifikaci je nyní aktivní.";
+"TwoStepAuth.PasswordRemoveConfirmation" = "Jsi si jistý(á), že chceš vypnout heslo?";
+
+"TwoStepAuth.RecoveryUnavailable" = "Protože jsi nezadal(a) žádný záložní email při nastavování hesla, zbývající možnosti jsou zapamatovat si heslo, nebo resetovat účet.";
+"TwoStepAuth.RecoveryFailed" = "Zbývající možnosti jsou zapamatovat si heslo, nebo resetovat účet.";
+"TwoStepAuth.ResetAccount" = "Resetova můj účet";
+"TwoStepAuth.ResetAccountHelp" = "Pokud resetuješ svůj účet, všechny tvé zprávy a konverzace budou smazány.";
+"TwoStepAuth.ResetAccountConfirmation" = "Pokud resetuješ svůj účet, všechny tvé zprávy a konverzace budou smazány.";
+
+"TwoStepAuth.RecoveryTitle" = "E-Mail Kód";
+"TwoStepAuth.RecoverySent" = "Poslali jsme obnovující kód na e-mail, který jsi nám poskytl(a):\n\n%@";
+"TwoStepAuth.RecoveryCode" = "Kód";
+"TwoStepAuth.RecoveryCodeHelp" = "Zkontroluj si prosím svůj e-mail, a zadej šestimístný kód, který jsme ti zaslali.";
+"TwoStepAuth.RecoveryCodeInvalid" = "Neplatný kód. Zkus to prosím znovu.";
+"TwoStepAuth.RecoveryCodeExpired" = "Poslali jsme ti šestimístný kód.";
+"TwoStepAuth.RecoveryEmailUnavailable" = "Máš problémy se svým e-mailem %@?";
+
+"TwoStepAuth.FloodError" = "Limit překročen. Zkus to prosím později.";
+"TwoStepAuth.GenericError" = "Nastala chyba. Zkus to prosím později.";
+
+"Conversation.FilePhotoOrVideo" = "Fotka nebo Video";
+"Conversation.FileICloudDrive" = "iCloud Disk";
+"Conversation.FileDropbox" = "Dropbox";
+"Conversation.FileGoogleDrive" = "Google Disk";
+
+"Conversation.FileHowTo" = "Jak sdílet soubory?";
+"Conversation.FileOpenIn" = "Otevřít v...";
+"Conversation.FileHowToText" = "Pro sdílení souborů jiného typu je otevři ve tvém %@ (např. ve svém prohlížeči), klikni na **Otevřít v...** ndbo na tlačítko akce a zvol Telegram.";
+
+"Map.LocationTitle" = "Poloha";
+"Map.OpenInMaps" = "Otevřít v Mapách";
+"Map.OpenInGooglePlus" = "Otevřít v Google+";
+"Map.OpenInFoursquare" = "Otevřít ve Foursquare";
+"Map.OpenInHereMaps" = "Otevřít v HERE Mapách";
+"Map.OpenInYandexMaps" = "Otevřít v Yandex Mapách";
+"Map.OpenInYandexNavigator" = "Otevřít v Yandex Navigátoru";
+"Map.OpenIn" = "Otevřít v";
+"Map.More" = "Více...";
+
+"Map.SendThisLocation" = "Poslat tuto polohu";
+"Map.SendMyCurrentLocation" = "Poslat moji současnou polohu";
+"Map.Locating" = "Zaměřuji...";
+"Map.ChooseAPlace" = "Nebo zvol místo";
+"Map.AccurateTo" = "Přesné na %@";
+"Map.Search" = "Hledat místa v okolí";
+"Map.ShowPlaces" = "Zobrazit místa";
+"Map.LoadError" = "Nastala chyba. Zkus to prosím znovu.";
+"Map.LocatingError" = "Chyba v zaměřování";
+"Map.Unknown" = "Neznámá poloha";
+
+"Map.DistanceAway" = "%@ pryč";
+"Map.ETAMinutes_0" = "%@ min";
+"Map.ETAMinutes_1" = "%@ min";
+"Map.ETAMinutes_2" = "%@ min";
+"Map.ETAMinutes_3_10" = "%@ min";
+"Map.ETAMinutes_any" = "%@ min";
+"Map.ETAMinutes_many" = "%@ min";
+"Map.ETAMinutes_0" = "%@ min";
+"Map.ETAHours_1" = "%@ h";
+"Map.ETAHours_2" = "%@ h";
+"Map.ETAHours_3_10" = "%@ h";
+"Map.ETAHours_any" = "%@ h";
+"Map.ETAHours_many" = "%@ h";
+
+"GoogleDrive.Title" = "Google Disk";
+"GoogleDrive.Logout" = "Odhlásit";
+"GoogleDrive.LogoutTitle" = "Odhlásit";
+"GoogleDrive.LogoutMessage" = "Jsi si jistý, že se chceš odhlásit z disku Google?";
+"GoogleDrive.LogoutLogout" = "Odhlásit";
+"GoogleDrive.FolderIsEmpty" = "Složka je prázdná.";
+"GoogleDrive.FolderLoadError" = "Nepodařilo se načíst složku.";
+"GoogleDrive.LoadErrorTitle" = "Nepodařilo se připojit";
+"GoogleDrive.LoadErrorMessage" = "Zkontroluj internetové připojení a zkus to znovu.";
+
+"ChangePhone.ErrorOccupied" = "Číslo %@ už je požíváno účtem Telegramu. Před migrací na toto číslo prosím smaž tento účet.";
+
+"AccessDenied.LocationTracking" = "Telegram potřebuje přístup k tvé poloze, aby ji mohl zobrazit na mapě.\n\nJdi prosím do Nastavení > Soukromí > Lokační služby a povol ji.";
+
+"PrivacySettings.AuthSessions" = "Aktivní konekce";
+"AuthSessions.Title" = "Aktivní konekce";
+"AuthSessions.CurrentSession" = "SOUČASNÉ KONEKCE";
+"AuthSessions.TerminateOtherSessions" = "Ukončit všechna ostatní připojení";
+"AuthSessions.TerminateOtherSessionsHelp" = "Odhlásit všechna ostatní zařízení, kromě tohoto.";
+"AuthSessions.TerminateSession" = "Ukončit konekci";
+"AuthSessions.OtherSessions" = "AKTIVNÍ KONEKCE";
+"AuthSessions.EmptyTitle" = "Žádné další konekce";
+"AuthSessions.EmptyText" = "K Telegramu se můžeš připojit z dalšího mobilu, tablet, počítače atd., použitím stejného čísla. Tvoje data budou okamžitě synchronizována.";
+"AuthSessions.AppUnofficial" = "(ID: %@)";
+
+"WebPreview.GettingLinkInfo" = "Získávám informace o odkazu...";
+"WebPreview.LinkPreview" = "Náhled odkazu";
+
+"Preview.OpenInInstagram" = "Otevřít v Instagramu";
+
+"MediaPicker.AddCaption" = "Přidat popisek...";
+
+"GroupInfo.InviteByLink" = "Pozvat do skupiny skrz odkaz";
+
+"GroupInfo.InviteLink.Title" = "Odkaz s pozvánkou";
+"GroupInfo.InviteLink.LinkSection" = "ODKAZ";
+"GroupInfo.InviteLink.Help" = "Kdokoli s Telegramem bude moci využít tento odkaz, aby se připojil do tvé skupiny.";
+"GroupInfo.InviteLink.CopyLink" = "Kopírovat odkaz";
+"GroupInfo.InviteLink.RevokeLink" = "Odvolat odkaz";
+"GroupInfo.InviteLink.ShareLink" = "Sdílet odkaz";
+"GroupInfo.InviteLink.RevokeAlert.Text" = "Jsi si jistý(á), že chceš odvolat tento odkaz? Jakmile tak uděláš, nebude se přes něj moci nikdo další připojit.";
+"GroupInfo.InviteLink.RevokeAlert.Revoke" = "Odvolat";
+"GroupInfo.InviteLink.RevokeAlert.Success" = "Předchozí odkaz s pozvánkou je nyní neaktivní. Nový odkaz byl právě vygenerován.";
+"GroupInfo.InviteLink.CopyAlert.Success" = "Odkaz zkopírován do schránky.";
+
+"UserInfo.ShareMyContactInfo" = "Sdílet informace o kontaktu";
+
+"GroupInfo.InvitationLinkAccept" = "Chceš se připojit do konverzace \"%@\"?";
+"GroupInfo.InvitationLinkAcceptChannel" = "Chceš se připojit do kanálu \"%@\"?";
+"GroupInfo.InvitationLinkAlreadyAccepted" = "Už jsi členem této skupiny.";
+"GroupInfo.InvitationLinkDoesNotExist" = "Bohužel, tato skupina neexistuje.";
+"GroupInfo.InvitationLinkGroupFull" = "Bohužel, tato skupina je již plná.";
+
+"Core.ServiceUserStatus" = "Notifikační služba";
+
+"Notification.JoinedGroupByLink" = "%@ se připojil do skupiny skrz odkaz s pozvánkou";
+
+"ChatSettings.Other" = "JINÉ";
+"ChatSettings.Stickers" = "Samolepky";
+
+"StickerPacksSettings.Title" = "Samolepky";
+"StickerPacksSettings.ShowStickersButton" = "Zobrazit panel samolepek";
+"StickerPacksSettings.ShowStickersButtonHelp" = "Ikona samolepky se zobrazí v zadávacím poli.";
+
+"StickerPacksSettings.StickerPacksSection" = "BALÍČKY SAMOLEPEK";
+"StickerPacksSettings.ManagingHelp" = "Vítáme umělce, kteří vytvoří vlastní balíčky samolepek, pomocí našeho @stickers bota.\n\nKlepni na samolepku pro zobrazení celého balíčku.";
+
+"StickerPack.RemovePrompt" = "Odebrat \"%@\"?";
+"StickerPack.BuiltinPackName" = "Velcí myslitelé";
+"StickerPack.StickerCount_1" = "1 samolepka";
+"StickerPack.StickerCount_2" = "2 samolepky";
+"StickerPack.StickerCount_3_10" = "%@ samolepek";
+"StickerPack.StickerCount_any" = "%@ samolepek";
+"StickerPack.StickerCount_many" = "%@ samolepek";
+"StickerPack.StickerCount_0" = "%@ samolepek";
+
+"StickerPack.AddStickerCount_1" = "Přidat 1 samolepku";
+"StickerPack.AddStickerCount_2" = "Přidat 2 samolepky";
+"StickerPack.AddStickerCount_3_10" = "Přidat %@ samolepek";
+"StickerPack.AddStickerCount_any" = "Přidat %@ samolepek";
+"StickerPack.AddStickerCount_many" = "Přidat %@ samolepek";
+"StickerPack.AddStickerCount_0" = "Přidat %@ samolepek";
+
+"StickerPack.ShareStickers" = "Sdílet samolepky";
+
+"Conversation.ContextMenuStickerPackAdd" = "Přidat samolepky";
+"Conversation.ContextMenuStickerPackInfo" = "Info";
+
+"MediaPicker.Processing" = "Zpracovávám %@";
+"MediaPicker.Nof" = "%@ z";
+
+"UserInfo.ShareBot" = "Sdílet";
+"UserInfo.InviteBotToGroup" = "Přidat do skupiny";
+"Profile.BotInfo" = "O botu";
+"Profile.ShareBotPersonFormat" = "Sdílet bota s uživatelem %@?";
+"Profile.ShareBotGroupFormat" = "Sdílet bota s uživatelem %@?";
+
+"Target.SelectGroup" = "Zvol skupinu";
+"Target.InviteToGroupConfirmation" = "Přidat bota do \"%@\"?";
+"Target.InviteToGroupErrorAlreadyInvited" = "Bot je již členem skupiny.";
+"Bot.GenericBotStatus" = "bot";
+"Bot.DescriptionTitle" = "Co může tento bot dělat?";
+"Bot.GroupStatusReadsHistory" = "má přístup ke zprávám";
+"Bot.GroupStatusDoesNotReadHistory" = "nemá přístup ke zprávám";
+"Bot.Start" = "Spustit";
+"UserInfo.BotSettings" = "Nastavení";
+"UserInfo.BotHelp" = "Nápověda";
+
+"Contacts.SearchLabel" = "Hledat kontakty nebo uživatelská jména";
+"ChatSearch.SearchPlaceholder" = "Hledat";
+
+"WatchRemote.NotificationText" = "Otevři toto upozornění na telefonu pro zobrazení zprávy z Apple Watch";
+"WatchRemote.AlertTitle" = "Zpráva z Apple Watch";
+"WatchRemote.AlertText" = "Otevřít zprávu zde?";
+"WatchRemote.AlertOpen" = "Otevřít";
+
+"Conversation.SearchPlaceholder" = "Hledat v konverzaci";
+"Conversation.SearchNoResults" = "Žádné výsledky";
+
+"GroupInfo.AddUserLeftError" = "Bohužel, pokud osoba opustí skupinu, pouze vzájemný kontakt ji může přidat zpět (musí mít navzájem svoje číslo).";
+
+"DialogList.SearchSectionRecent" = "Nedávné";
+
+"DialogList.DeleteBotConfirmation" = "Smazat";
+"DialogList.DeleteBotConversationConfirmation" = "Smazat a zastavit";
+"Bot.Stop" = "Zastavit Bota";
+"Bot.Unblock" = "Restartovat Bot";
+
+"Login.PhoneNumberHelp" = "Nápověda";
+"Login.EmailPhoneSubject" = "Neplatné číslo %@";
+"Login.EmailPhoneBody" = "Snažím se použít mobilní číslo: %@\nAle telegram říká, že není platné. Prosím pomoc.";
+
+"SharedMedia.TitleLink" = "Sdílené odkazy";
+"SharedMedia.EmptyLinksText" = "Všechny odkazy sdílené v konverzaci se zobrazí zde.";
+
+"SharedMedia.Link_1" = "1 odkaz";
+"SharedMedia.Link_2" = "2 odkazy";
+"SharedMedia.Link_3_10" = "%@ odkazů";
+"SharedMedia.Link_any" = "%@ odkazů";
+"SharedMedia.Link_many" = "%@ odkazů";
+"SharedMedia.Link_0" = "%@ odkazů";
+
+"Compose.NewChannelButton" = "Nový kanál";
+"Channels.Title" = "Kanály";
+
+"Compose.NewChannel" = "Nový kanál";
+"GroupInfo.ChannelListNamePlaceholder" = "Jméno kanálu";
+
+"Channel.MessagePhotoUpdated" = "Obrázek kanálu změněn";
+"Channel.MessagePhotoRemoved" = "Obrázek kanálu odstraněn";
+"Channel.MessageTitleUpdated" = "Kanál přejmenován na \"%@\"";
+"Channel.TitleInfo" = "Informace o kanálu";
+
+"Channel.UpdatePhotoItem" = "Nastavit obrázek kanálu";
+
+"Channel.AboutItem" = "O kanálu";
+"Channel.LinkItem" = "sdílet odkaz";
+"Channel.Edit.AboutItem" = "Popisek";
+"Channel.Edit.LinkItem" = "Odkaz";
+
+"Channel.Username.Title" = "Odkaz";
+"Channel.Username.Help" = "Můžeš si zvolit jméno kanálu v **Telegramu**. Pokud tak učiníš, ostatní budou moci najít kanál pomocí tohoto jména.\n\nMůžeš použít **a-z**, **0-9** a podtržítka. Minimální délka je **5** znaků.";
+"Channel.Username.LinkHint" = "Tento odkaz otevře kanál Telegramu:[\nhttps://t.me/%@]";
+"Channel.Username.InvalidTooShort" = "Jména kanálů musí mít nejméně 5 znaků.";
+"Channel.Username.InvalidStartsWithNumber" = "Jména kanálů nemůže začínat číslem.";
+"Channel.Username.InvalidCharacters" = "Bohužel, toto jméno je neplatné.";
+"Channel.Username.InvalidTaken" = "Bohužel, toto jméno je již zabrané.";
+"Channel.Username.CheckingUsername" = "Kontrola jména...";
+"Channel.Username.UsernameIsAvailable" = "%@ je dostupné.";
+
+"Channel.Share" = "Sdílet";
+"Channel.LeaveChannel" = "Opustit kanál";
+
+"Channel.About.Title" = "Popisek";
+
+"Channel.About.Placeholder" = "Popisek";
+"Channel.About.Help" = "Pro svůj kanál můžeš přidat nepovinný popisek.";
+"Group.About.Help" = "Pro svoji skupinu můžeš přidat nepovinný popisek.";
+"Channel.About.Error" = "Nastala chyba.";
+"Channel.ShareNoLink" = "Zvol prosím odkaz pro svůj kanál, aby tě ostatní mohli najít ve vyhledávání.";
+
+"Channel.Status" = "kanál";
+"Group.Status" = "skupina";
+
+"Compose.NewChannel.Members" = "ČLENOVÉ";
+"Compose.NewChannel.AddMember" = "Přidat Člena...";
+"Compose.NewChannel.AddMemberHelp" = "Můžeš pozvat někoho z přátel buď hned, nebo později.";
+"Channel.NotificationSelfAdded" = "%@ tě přidal(a) do kanálu.";
+
+"ChannelInfo.ConfirmLeave" = "Opustit kanál";
+"Channel.JoinChannel" = "Připojit";
+"Forward.ChannelReadOnly" = "Bohužel, v tomto kanálu nemůžeš postovat.";
+
+"Conversation.InfoChannel" = "Kanál";
+
+"Channel.ErrorAccessDenied" = "Bohužel, tento kanál je soukromý.";
+"Conversation.InputTextBroadcastPlaceholder" = "Broadcast";
+
+"Channel.NotificationCommentsEnabled" = "Komentáře jsou povoleny";
+"Channel.NotificationCommentsDisabled" = "Komentáře jsou zakázány";
+"Channel.Edit.EnableComments" = "Komentáře";
+
+"Channel.TitleShowDiscussion" = "zobrazit komentáře";
+"Channel.ShareChannel" = "Sdílet";
+
+"Channel.NotificationComments_1" = "1 komentář";
+"Channel.NotificationComments_2" = "2 komentáře";
+"Channel.NotificationComments_3_10" = "%@ komentářů";
+"Channel.NotificationComments_any" = "%@ komentářů";
+"Channel.NotificationComments_many" = "%@ komentářů";
+"Channel.NotificationComments_0" = "%@ komentářů";
+"Channel.NotificationLoading" = "Nahrávám...";
+
+"Conversation.InputTextDisabledPlaceholder" = "Komentáře jsou zakázány";
+"Compose.ChannelTokenListPlaceholder" = "Hledat kontakty nebo uživatelská jména";
+"Compose.GroupTokenListPlaceholder" = "Hledat kontakty nebo uživatelská jména";
+
+"Compose.ChannelMembers" = "Members";
+
+"Channel.Setup.TypeHeader" = "TYP KANÁLU";
+"Channel.Setup.TypePrivate" = "Soukromý";
+"Channel.Setup.TypePublic" = "Veřejný";
+"Channel.Setup.TypePublicHelp" = "Veřejné kanály jsou vidět ve vyhledávání, připojit se k nim může kdokoli.";
+"Channel.Setup.TypePrivateHelp" = "Přístup do soukromých kanálů je možný jen přes odkaz s pozvánkou.";
+
+"Channel.Setup.Title" = "Kanál";
+
+"Channel.Username.CreatePublicLinkHelp" = "Lidé mohou sdílet tento odkaz s ostatními, a nalézt tvůj kanál přes hledání v Telegramu.";
+"Channel.Username.CreatePrivateLinkHelp" = "Pomocí tohoto odkazu se k tvému kanálu mohou připojit ostatní. Odkaz můžeš kdykoli odvolat.";
+
+"Channel.Username.CreateCommentsEnabled" = "Komentáře";
+"Channel.Username.CreateCommentsHelp" = "Pokud povolíš komentáře, členové budou moci diskutovat tvé příspěvky v kanálu.";
+
+"Channel.Setup.PublicNoLink" = "Zvol prosím odkaz k tvému veřejnému kanálu, aby jej lidé mohli najít a sdílet s ostatními.\n\nPokud nemář zájem, doporučujeme vytvořit místo toho kanál privátní.";
+
+"Channel.Edit.PrivatePublicLinkAlert" = "Měj na paměti, že zvolením veřejného odkazu ke kanálu jej bude moci kdokoli najít a připojit se.\n\nNevytvářej tento odkaz, pokud chceš zachovat kanál privátní.";
+
+"Channel.Info.Description" = "popis";
+
+"Channel.Info.Management" = "Administrátoři";
+"Channel.Info.Banned" = "Banovaní";
+"Channel.Info.Members" = "Členové";
+
+"Channel.Members.AddMembers" = "Přidat členy";
+"Channel.Members.AddMembersHelp" = "Pouze administrátoři vidí tento seznam.";
+"Channel.Members.Title" = "Členové";
+"Channel.BlackList.Title" = "Banovaní";
+"Channel.Management.Title" = "Administrátoři";
+"Channel.Management.LabelCreator" = "Vytvořil(a)";
+"Channel.Management.LabelModerator" = "Admin";
+"Channel.Management.LabelEditor" = "Admin";
+
+"Channel.Management.AddModerator" = "Přidat admina";
+"Channel.Management.AddModeratorHelp" = "Můžeš přidávat administrátory, kteří ti pomohou spravovat kanál.";
+
+"Channel.Members.Kick" = "Odstranit";
+"Channel.Management.Remove" = "Odstranit";
+
+"Conversation.InputTextCommentPlaceholder" = "Komentář";
+
+"Channel.Members.InviteLink" = "Pozvat skrz odkaz";
+
+"Channel.Management.ErrorNotMember" = "%@ se ještě do kanálu nepřipojil(a). Chceš vytvořit pozvání?";
+
+"Channel.Moderator.AccessLevelHeader" = "PRÁVA";
+"Channel.Moderator.AccessLevelEditor" = "Editor";
+"Channel.Moderator.AccessLevelModerator" = "Admin";
+
+"Channel.Moderator.AccessLevelModeratorHelp" = "Moderátoři mohou odstraňovat komentáře uživatelů, a spravovat blacklist kanálu.\n\nModerátoři nemohou měnit název kanálu, odkaz, obrázek nebo popisek.";
+"Channel.Moderator.AccessLevelEditorHelp" = "Editoři můžou přispívat do kanálu, spravovat blacklist a odebírat příspěvky.\n\nEditoři nemohou měnit název kanálu, odkaz, obrázek nebo popisek.";
+"Channel.Moderator.AccessLevelRevoke" = "Odebrat Admina";
+
+"Channel.Moderator.Title" = "Admin";
+
+"Notification.ChannelInviter" = "%@ tě pozval(a) do tohoto kanálu";
+"Notification.ChannelInviterSelf" = "Připojil(a) jsi se do kanálu";
+
+"Notification.GroupInviter" = "%@ tě pozval(a) do této skupiny";
+"Notification.GroupInviterSelf" = "Připojil(a) jsi se do této skupiny";
+
+"ChannelInfo.DeleteChannel" = "Smazat kanál";
+"ChannelInfo.DeleteChannelConfirmation" = "Vydrž! Smazáním tohoto kanálu odebereš všechny členy a všechny zprávy budou ztraceny. Opravdu chceš smazat kanál?";
+
+"Channel.Username.InvalidTooManyUsernames" = "Bohužel, máš vytvořeno příliš mnoho veřejných kanálů. Můžeš vytvořit buď kanál soukromý, nebo nejdříve smazat jeden ze svých už existujících veřejných kanálů.";
+
+"ChannelInfo.ChannelForbidden" = "Bohužel, kanál \"%@\" již není přístupný.";
+
+"PhotoEditor.FadeTool" = "Zatmívání";
+"PhotoEditor.TintTool" = "Odstín";
+"PhotoEditor.TintIntensity" = "Intenzita odstínu";
+"PhotoEditor.ShadowsTint" = "Stíny";
+"PhotoEditor.HighlightsTint" = "Highlights";
+"PhotoEditor.CurvesTool" = "Křivky";
+"PhotoEditor.CurvesAll" = "Vše";
+"PhotoEditor.CurvesRed" = "Červená";
+"PhotoEditor.CurvesGreen" = "Zelená";
+"PhotoEditor.CurvesBlue" = "Modrá";
+
+"Channel.ErrorAddBlocked" = "Bohužel, tohoto člena do kanálů přidat nemůžeš.";
+"Channel.ErrorAddTooMuch" = "Bohužel, můžeš přidat pouze prvních 200 členů do kanálu. Přes odkaz s pozvánkou se může připojit další neomezené množství uživatelů.";
+
+"ChannelIntro.Title" = "Co je to kanál?";
+"ChannelIntro.Text" = "Kanály jsou možností, jak\nrozeslat svoji zprávy\nvelkému množství posluchačů.";
+"ChannelIntro.CreateChannel" = "Vytvořit kanál";
+
+"ShareMenu.Send" = "Poslat";
+
+"Conversation.ReportSpam" = "Nahlásit Spam";
+"Conversation.ReportSpamConfirmation" = "Jsi si jistý(á), že chceš nahlásit spam tohoto uživatele?";
+"SharedMedia.EmptyMusicText" = "Všechna sdílená hudba z této konverzace bude k vidění zde.";
+
+"ChatSettings.AutoPlayAnimations" = "Auto-přehrání GIFů";
+
+"GroupInfo.ChatAdmins" = "Přidat Administrátory";
+
+"ChatAdmins.Title" = "Chat Administrátorů";
+"ChatAdmins.AllMembersAreAdmins" = "Všichni členové jsou adminy";
+"ChatAdmins.AllMembersAreAdminsOnHelp" = "Všichni členové mohou přidávat nové členy, měnit jméno a obrázek skupiny.";
+"ChatAdmins.AllMembersAreAdminsOffHelp" = "Všichni administrátoři mohou přidávat a odebírat členy, měnit jméno a obrázek skupiny.";
+"ChatAdmins.AdminLabel" = "admin";
+
+"Group.MessagePhotoUpdated" = "Obrázek skupiny změněn";
+"Group.MessagePhotoRemoved" = "Obrázek skupiny odstraněn";
+"Group.MessageTitleUpdated" = "Skupina přejmenována na \"%@\"";
+
+"Group.UpgradeNoticeHeader" = "LIMIT POČTU ČLENŮ";
+
+"Group.UpgradeNoticeText1" = "Budeš moci přidat více uživatelů, pokud skupinu povýšíš na superskupinu:";
+"Group.UpgradeNoticeText2" = "•  Superskupiny mohou mít až {supergroup_member_limit} členů\n•  Noví členové uvidí celou historii zpráv\n•  Smazané zprávy budou smazané u všech členů\n•  Upozornění jsou ve výchozím stavu ztišené";
+"GroupInfo.UpgradeButton" = "Povýšit na superskupinu";
+"Group.UpgradeConfirmation" = "Varování: Tato akce je nevratná. Není možné změnit superskupinu zpátky na skupinu.";
+
+"Notification.GroupMigratedToChannel" = "Skupina byla povýšena na superskupinu";
+"Notification.GroupDeactivated" = "Skupina deaktivována";
+"Notification.GroupDeactivated" = "Skupina deaktivována";
+"Notification.ChannelMigratedFrom" = "Tato skupina byla povýšena na superskupinu";
+
+"Conversation.StatusGroupDeactivated" = "skupina deaktivována";
+"GroupInfo.DeactivatedStatus" = "Skupina deaktivována";
+
+"Notification.RenamedGroup" = "Skupina přejmenována";
+
+"Group.ErrorAddTooMuch" = "Bohužel, tato skupina je plná.";
+"Group.ErrorAddTooMuchBots" = "Bohužel, skupina dosáhla maximálního počtu botů.";
+"Group.ErrorAddTooMuchAdmins" = "Bohužel, dosáhl(a) jsi maximálního počtu administrátoru ve skupině.";
+"Group.ErrorAddBlocked" = "Bohužel, nemůžeš přidat tohoto uživatele do skupin.";
+"Group.ErrorNotMutualContact" = "Bohužel, momentálně můžeš do skupiny přidávat pouze vzájemné kontakty..";
+
+"Conversation.SendMessageErrorFlood" = "Bohužel, you can only send messages to mutual contacts at the moment.";
+"Generic.ErrorMoreInfo" = "Více informací";
+
+"Notification.InvitedMany" = "%@ pozval(a) %@";
+
+"ChannelMembers.Blacklist.EmptyText" = "Zabanovaní uživatelé jsou odebráni ze skupiny. Můžou se vrátit zpět pouze na pozvání administrátora. Odkazy s pozváním na ně jinak nefungují.";
+
+"ChannelInfo.DeleteGroup" = "Smazat skupinu";
+"ChannelInfo.DeleteGroupConfirmation" = "Vydrž! Smazáním této skupiny odebereš všechny členy a všechny zprávy budou ztraceny. Opravdu chceš smazat skupinu?";
+
+"ReportPeer.Report" = "Nahlásit";
+
+"ReportPeer.ReasonSpam" = "Spam";
+"ReportPeer.ReasonViolence" = "Násilí";
+"ReportPeer.ReasonPornography" = "Pornografie";
+"ReportPeer.ReasonOther" = "Ostatní";
+
+"ReportPeer.AlertSuccess" = "Děkujeme!\nTvoje stížnost bude brzy prozkoumána naším týmem.";
+
+"Login.TermsOfServiceLabel" = "Přihlášením\nakceptuješ [Terms of Service].";
+"Login.TermsOfServiceHeader" = "Podmínky Služby";
+
+"ReportPeer.ReasonOther.Placeholder" = "Popis";
+"ReportPeer.ReasonOther.Title" = "Nahlásit";
+"ReportPeer.ReasonOther.Send" = "Poslat";
+
+"Group.Management.AddModeratorHelp" = "Můžeš přidat administrátory, kteří ti pomohou spravovat skupinu.";
+
+"Watch.AppName" = "Telegram";
+"Watch.Compose.AddContact" = "Zvol kontakt";
+"Watch.Compose.CreateMessage" = "Vytvořit zprávu";
+"Watch.Compose.CurrentLocation" = "Současná poloha";
+"Watch.Compose.Send" = "Poslat";
+"Watch.Contacts.NoResults" = "Nenalezeny žádné\nodpovídající kontakty";
+"Watch.ChatList.NoConversationsTitle" = "Žádné konverzace";
+"Watch.ChatList.NoConversationsText" = "Začni konverzovat tak, že\nstiskneš pevně, a poté poklepeš\nNová zpráva";
+"Watch.ChatList.Compose" = "Nová Zpráva";
+
+"Watch.Conversation.Reply" = "Odpovědět";
+"Watch.Conversation.Unblock" = "Odblokovat";
+"Watch.Conversation.UserInfo" = "Info";
+"Watch.Conversation.GroupInfo" = "Informace o skupině";
+"Watch.Bot.Restart" = "Restart";
+
+"Watch.UserInfo.Title" = "Info";
+"Watch.UserInfo.Service" = "notifikační služba";
+
+"Watch.UserInfo.Block" = "Blokovat";
+"Watch.UserInfo.Unblock" = "Odblokovat";
+"Watch.UserInfo.Mute_1" = "Ztišit na 1 hodinu";
+"Watch.UserInfo.Mute_2" = "Ztišit na 2 hodiny";
+"Watch.UserInfo.Mute_3_10" = "Ztišit na %@ hodin";
+"Watch.UserInfo.Mute_any" = "Ztišit na %@ hodin";
+"Watch.UserInfo.Mute_many" = "Ztišit na %@ hodin";
+"Watch.UserInfo.Mute_0" = "Ztišit na %@ hodin";
+"Watch.UserInfo.MuteTitle" = "Ztišit";
+"Watch.UserInfo.Unmute" = "Zrušit ztišení";
+
+"Watch.GroupInfo.Title" = "Informace o skupině";
+"Watch.ChannelInfo.Title" = "Informace o kanálu";
+
+"Watch.Message.ForwardedFrom" = "Přeposláno od";
+
+"Watch.Notification.Joined" = "se přidal(a) na Telegram";
+
+"Watch.MessageView.Title" = "Zpráva";
+"Watch.MessageView.Forward" = "Přeposlat";
+"Watch.MessageView.Reply" = "Odpovědět";
+"Watch.MessageView.ViewOnPhone" = "Zobrazit na telefonu";
+
+"Watch.PhotoView.Title" = "Obrázek";
+
+"Watch.Stickers.Recents" = "Nedávné";
+"Watch.Stickers.RecentPlaceholder" = "Zde budou tvé nejvíce používané samolepky";
+"Watch.Stickers.StickerPacks" = "Balíčky samolepek";
+
+"Watch.Location.Current" = "Současná poloha";
+"Watch.Location.Access" = "Povolit Telegramu přístup k poloze tvého telefonu";
+
+"Watch.AuthRequired" = "Nejprve se přihlaš k Telegramu na telefonu";
+"Watch.UnlockRequired" = "Odemkni Telegram na svém telefonu";
+
+"Watch.NoConnection" = "Žádné připojení";
+"Watch.ConnectionDescription" = "Tvoje hodinky potřebují být propojeny s aplikací";
+
+"Watch.State.Connecting" = "Připojuji...";
+"Watch.State.Updating" = "Aktualizuji...";
+"Watch.State.WaitingForNetwork" = "Síť nedostupná";
+
+"Watch.Time.ShortTodayAt" = "Dnes %@";
+"Watch.Time.ShortYesterdayAt" = "Včera %@";
+"Watch.Time.ShortWeekdayAt" = "%1$@ %2$@";
+"Watch.Time.ShortFullAt" = "%1$@ %2$@";
+
+"Watch.LastSeen.JustNow" = "právě teď";
+"Watch.LastSeen.MinutesAgo_1" = "před minutou";
+"Watch.LastSeen.MinutesAgo_2" = "před dvěmi minutami";
+"Watch.LastSeen.MinutesAgo_3_10" = "před %@ minutami";
+"Watch.LastSeen.MinutesAgo_any" = "před %@ minutami";
+"Watch.LastSeen.MinutesAgo_many" = "před %@ minutami";
+"Watch.LastSeen.MinutesAgo_0" = "před %@ minutami";
+"Watch.LastSeen.HoursAgo_1" = "před hodinou";
+"Watch.LastSeen.HoursAgo_2" = "před dvěma hodinami";
+"Watch.LastSeen.HoursAgo_3_10" = "před %@ hodinami";
+"Watch.LastSeen.HoursAgo_any" = "před %@ hodinami";
+"Watch.LastSeen.HoursAgo_many" = "před %@ hodinami";
+"Watch.LastSeen.HoursAgo_0" = "před %@ hodinami";
+"Watch.LastSeen.TodayAt" = "dnes v %@";
+"Watch.LastSeen.YesterdayAt" = "včera v %@";
+"Watch.LastSeen.AtWeekday" = "%@";
+"Watch.LastSeen.AtDate" = "%@";
+"Watch.LastSeen.Lately" = "nedávno";
+"Watch.LastSeen.WithinAWeek" = "minulý týden";
+"Watch.LastSeen.WithinAMonth" = "minulý měsíc";
+"Watch.LastSeen.ALongTimeAgo" = "před dlouhou dobou";
+
+"Watch.Suggestion.OK" = "OK";
+"Watch.Suggestion.ThankYou" = "Děkuji.";
+"Watch.Suggestion.Thanks" = "Díky!";
+"Watch.Suggestion.WhatsUp" = "Copak?";
+"Watch.Suggestion.Yes" = "Ano";
+"Watch.Suggestion.No" = "Ne";
+"Watch.Suggestion.Absolutely" = "Samozřejmě";
+"Watch.Suggestion.Nope" = "Nene";
+"Watch.Suggestion.TalkLater" = "Dáme řeč později?";
+"Watch.Suggestion.CantTalk" = "Teď nemůžu mluvit...";
+"Watch.Suggestion.HoldOn" = "Vydržte chvíli...";
+"Watch.Suggestion.CallSoon" = "Brzo Vám zavolám.";
+"Watch.Suggestion.TextInABit" = "Za chvíli napíšu.";
+"Watch.Suggestion.BRB" = "BRB";
+"Watch.Suggestion.OnMyWay" = "Jsem na cestě.";
+"Cache.Photos" = "Fotky";
+"Cache.Videos" = "Videa";
+"Cache.Music" = "Hudba";
+"Cache.Files" = "Soubory";
+"Cache.Clear" = "Vyčistit (%@)";
+"Cache.ClearNone" = "Vyčistit";
+"Cache.ClearProgress" = "Prosím čekej...";
+"Cache.ClearEmpty" = "Prázdné";
+"Cache.ByPeerHeader" = "CHATY";
+"Cache.Indexing" = "Telegram počítá současnou velikost cache.\nMůže to pár minut trvat.";
+
+"ExplicitContent.AlertTitle" = "Bohužel";
+"ExplicitContent.AlertChannel" = "Nemůžeš do tohoto kanálu, porušuje pravidla App Store.";
+"ExplicitContent.AlertUser" = "Nemůžeš použít tohoto bota, porušuje pravidla App Store.";
+
+"StickerSettings.ContextHide" = "Archivovat";
+"StickerSettings.ContextShow" = "Zobrazit";
+
+"Conversation.LinkDialogSave" = "Uložit";
+"Conversation.GifTooltip" = "Klepni sem pro přístup k uloženým GIFům";
+
+"AttachmentMenu.PhotoOrVideo" = "Fotka nebo Video";
+"AttachmentMenu.ImageSearch" = "Hledání Obrázku";
+"AttachmentMenu.File" = "Soubor";
+
+"AttachmentMenu.SendPhoto_1" = "Poslat 1 obrázek";
+"AttachmentMenu.SendPhoto_2" = "Poslat 2 obrázky";
+"AttachmentMenu.SendPhoto_3_10" = "Poslat %@ obrázků";
+"AttachmentMenu.SendPhoto_any" = "Poslat %@ obrázků";
+"AttachmentMenu.SendPhoto_many" = "Poslat %@ obrázků";
+"AttachmentMenu.SendPhoto_0" = "Poslat %@ obrázků";
+
+"AttachmentMenu.SendVideo_1" = "Poslat 1 Video";
+"AttachmentMenu.SendVideo_2" = "Poslat 2 videa";
+"AttachmentMenu.SendVideo_3_10" = "Poslat %@ videí";
+"AttachmentMenu.SendVideo_any" = "Poslat %@ videí";
+"AttachmentMenu.SendVideo_many" = "Poslat %@ videí";
+"AttachmentMenu.SendVideo_0" = "Poslat %@ videí";
+
+"AttachmentMenu.SendGif_1" = "Poslat 1 GIF";
+"AttachmentMenu.SendGif_2" = "Poslat 2 GIFy";
+"AttachmentMenu.SendGif_3_10" = "Poslat %@ GIFů";
+"AttachmentMenu.SendGif_any" = "Poslat %@ GIFů";
+"AttachmentMenu.SendGif_many" = "Poslat %@ GIFů";
+"AttachmentMenu.SendGif_0" = "Poslat %@ GIFů";
+
+"AttachmentMenu.SendItem_1" = "Poslat 1 položku";
+"AttachmentMenu.SendItem_2" = "Poslat 2 položky";
+"AttachmentMenu.SendItem_3_10" = "Poslat %@ položek";
+"AttachmentMenu.SendItem_any" = "Poslat %@ položek";
+"AttachmentMenu.SendItem_many" = "Poslat %@ položek";
+"AttachmentMenu.SendItem_0" = "Poslat %@ položek";
+
+"AttachmentMenu.SendAsFile" = "Poslat jako soubor";
+"AttachmentMenu.SendAsFiles" = "Poslat jako soubory";
+
+"Conversation.Processing" = "Zpracovávám...";
+
+"Conversation.MessageViaUser" = "skrz %@";
+
+"CreateGroup.SoftUserLimitAlert" = "Budeš moci přidat více uživatelů, pokud skupinu povýšíš na superskupinu.";
+"ChannelMembers.AllMembersMayInvite" = "Zvát mohou všichni členové";
+"ChannelMembers.AllMembersMayInviteOnHelp" = "Kdokoli může zvát nové členy.";
+"ChannelMembers.AllMembersMayInviteOffHelp" = "Pouze administrátoři mohou zvát nové členy.";
+
+"Privacy.GroupsAndChannels" = "Skupiny";
+"Privacy.GroupsAndChannels.WhoCanAddMe" = "KDO MĚ MŮŽE ZVÁT DO SKUPIN";
+"Privacy.GroupsAndChannels.CustomHelp" = "Můžeš nastavit, kdo tě bude moci přidat do skupin a kanálů.";
+"Privacy.GroupsAndChannels.AlwaysAllow" = "Vždy povolit";
+"Privacy.GroupsAndChannels.NeverAllow" = "Nikdy nepovolit";
+"Privacy.GroupsAndChannels.CustomShareHelp" = "Tito uživatelé tě budou nebo nebudou moci pozvat do skupin/kanálů, nezávisle na nastavení výše.";
+
+"Privacy.GroupsAndChannels.AlwaysAllow.Title" = "Vždy povolit";
+"Privacy.GroupsAndChannels.AlwaysAllow.Placeholder" = "Vždy povolit...";
+"Privacy.GroupsAndChannels.NeverAllow.Title" = "Nikdy nepovolit";
+"Privacy.GroupsAndChannels.NeverAllow.Placeholder" = "Nikdy nepovolit...";
+
+"Privacy.GroupsAndChannels.InviteToGroupError" = "Bohužel, nemůžeš přidávat %@ do skupin z důvodu jeho nastavení soukromí uživatele %@.";
+"Privacy.GroupsAndChannels.InviteToChannelError" = "Bohužel, nemůžeš přidávat %@ do kanálů z důvodu jeho nastavení soukromí uživatele %@.";
+"Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "Bohužel, nemlžeš vytvořit skupinu s těmito uživateli, z důvodu nastavení jejich soukromí.";
+
+"ChannelMembers.WhoCanAddMembers" = "Kdo může přidávat členy";
+"ChannelMembers.WhoCanAddMembers.AllMembers" = "Všichni členové";
+"ChannelMembers.WhoCanAddMembers.Admins" = "Pouze administrátoři";
+"ChannelMembers.WhoCanAddMembersAllHelp" = "Kdokoli může přidávat nové členy.";
+"ChannelMembers.WhoCanAddMembersAdminsHelp" = "Pouze administrátoři mohou přidávat nové členy.";
+
+"ChannelMembers.GroupAdminsTitle" = "ADMINI SKUPINY";
+"ChannelMembers.ChannelAdminsTitle" = "ADMINI KANÁLU";
+"MusicPlayer.VoiceNote" = "Hlasová zpráva";
+
+"PrivacyLastSeenSettings.WhoCanSeeMyTimestamp" = "KDO VIDÍ MOJE ČASOVÉ ZNAČKY";
+
+"PrivacyLastSeenSettings.GroupsAndChannelsHelp" = "Změň, kdo tě může přidávat do skupin a kanálů.";
+"MusicPlayer.VoiceNote" = "Hlasová zpráva";
+
+"Watch.Microphone.Access" = "Povol Telegramu přístup k mikrofonu tvého telefonu";
+
+"Settings.AppleWatch" = "Apple Watch";
+"AppleWatch.Title" = "Apple Watch";
+"AppleWatch.ReplyPresets" = "ŠABLONY ODPOVĚDÍ";
+"AppleWatch.ReplyPresetsHelp" = "Může vybrat některou z výchozích odpovědí, když píšeš zprávu či odpověď. Můžeš je také změnit podle sebe.";
+
+"KeyCommand.FocusOnInputField" = "Napsat zprávu";
+"KeyCommand.Find" = "Hledat";
+"KeyCommand.ScrollUp" = "Skrolovat Nahoru";
+"KeyCommand.ScrollDown" = "Skrolovat Dolů";
+"KeyCommand.NewMessage" = "Nová zpráva";
+"KeyCommand.JumpToPreviousChat" = "K předchozímu chatu";
+"KeyCommand.JumpToNextChat" = "Na další chat";
+"KeyCommand.JumpToPreviousUnreadChat" = "Na poslední nepřečtený chat";
+"KeyCommand.JumpToNextUnreadChat" = "Na další nepřečtený chat";
+"KeyCommand.SendMessage" = "Poslat zprávu";
+"KeyCommand.ChatInfo" = "Informace o chatu";
+
+"Conversation.SecretLinkPreviewAlert" = "Přeješ si povolit rozšířené náhledy odkazů v šifrovaných chatech? Měj na paměti, že tyto náhledy jsou generované na serverech Telegramu.";
+"Conversation.SecretChatContextBotAlert" = "Měj na paměti, že inline boti jsou poskytováni třetími stranami. Pro to, aby bot fungoval, použij znaky, které napiš za uživatelské jméno bota. Tyto dojdou přímo vývojářům bota.";
+
+"Map.OpenInWaze" = "Otevřít ve Waze";
+
+"ShareMenu.CopyShareLink" = "Kopírovat odkaz";
+
+"Channel.SignMessages" = "Podepsat zprávy";
+"Channel.SignMessages.Help" = "Přidá jména adminů ke zprávám, které poslali.";
+
+"Channel.EditMessageErrorGeneric" = "Bohužel, tuto zprávu nemůžeš editovat.";
+
+"ChannelInfo.InvitationLinkDoesNotExist" = "Bohužel, tento kanál neexistuje.";
+
+"Conversation.InputTextSilentBroadcastPlaceholder" = "Tichý Broadcast";
+"Conversation.SilentBroadcastTooltipOn" = "Členové budou upozorněni na tvoje příspěvky";
+"Conversation.SilentBroadcastTooltipOff" = "Členové nebudou upozorněni na tvoje příspěvky";
+
+"Settings.About" = "O mně";
+"GroupInfo.LabelAdmin" = "admin";
+
+"Conversation.Pin" = "Přišpendlit";
+"Conversation.Unpin" = "Zrušit přišpendlení";
+"Conversation.Report" = "Nahlásit Spam";
+"Conversation.PinnedMessage" = "Přišpendlená zpráva";
+
+"Conversation.Moderate.Delete" = "Smazat zprávu";
+"Conversation.Moderate.Ban" = "Banovat uživatele";
+"Conversation.Moderate.Report" = "Nahlásit Spam";
+"Conversation.Moderate.DeleteAllMessages" = "Smazat vše od %@";
+
+"Group.Username.Help" = "Můžeš si zvolit jméno skupiny v **Telegramu**. Pokud tak učiníš, ostatní budou moci najít skupinu pomocí tohoto jména.\n\nMůžeš použít **a-z**, **0-9** a podtržítka. Minimální délka je **5** znaků.";
+
+"Group.Username.InvalidTooShort" = "Jméno skupiny musí mít nejméně 5 znaků.";
+"Group.Username.InvalidStartsWithNumber" = "Jméno skupiny nesmí začínat číslem.";
+
+"Group.Username.LinkHint" = "Tento odkaz otevře skupinu v Telegramu:[\nhttps://t.me/%@]";
+
+"Notification.PinnedTextMessage" = "%@ přišpendlil(a) \"%@\"";
+"Notification.PinnedPhotoMessage" = "%@ přišpendlil(a) obrázek";
+"Notification.PinnedVideoMessage" = "%@ přišpendlil(a) video";
+"Notification.PinnedRoundMessage" = "%@ přišpendlil(a) video zprávu";
+"Notification.PinnedAudioMessage" = "%@ přišpendlil(a) hlasovou zprávu";
+"Notification.PinnedDocumentMessage" = "%@ přišpendlil(a) soubor";
+"Notification.PinnedAnimationMessage" = "%@ přišpendlil(a) GIF";
+"Notification.PinnedStickerMessage" = "%@ přišpendlil(a) samolepku";
+"Notification.PinnedLocationMessage" = "%@ přišpendlil(a) mapu";
+"Notification.PinnedContactMessage" = "%@ přišpendlil(a) kontakt";
+"Notification.PinnedDeletedMessage" = "%@ přišpendlil(a) smazanou zprávu";
+
+"Message.PinnedTextMessage" = "přišpendlený \"%@\"";
+"Message.PinnedPhotoMessage" = "přišpendlený obrázek";
+"Message.PinnedVideoMessage" = "přišpendlené video";
+"Message.PinnedAudioMessage" = "přišpendlená voice zpráva";
+"Message.PinnedDocumentMessage" = "přišpendlený soubor";
+"Message.PinnedAnimationMessage" = "přišpendlený GIF";
+"Message.PinnedStickerMessage" = "přišpendlená samolepka";
+"Message.PinnedLocationMessage" = "přišpendlená poloha";
+"Message.PinnedContactMessage" = "přišpendlený kontakt";
+"Message.PinnedDeletedMessage" = "přišpendlená smazaná zpráva";
+
+"Notification.PinnedMessage" = "přišpendlená zpráva";
+
+"GroupInfo.ConvertToSupergroup" = "Povýšit na superskupinu";
+
+"ConvertToSupergroup.Title" = "Superskupina";
+"ConvertToSupergroup.HelpTitle" = "**V superskupině:**";
+"ConvertToSupergroup.HelpText" = "• Noví členové uvidí celou historii zpráv\n• Smazané zprávy budou smazané u všech členů\n• Admini mohou přišpendlit zprávy\n• Tvůrce může vytvořit veřejný odkaz na skupinu";
+
+"ConvertToSupergroup.Note" = "**Poznámka**: toto je nevratná akce.";
+
+"GroupInfo.GroupType" = "Typ skupiny";
+
+"Group.Setup.TypeHeader" = "TYP SKUPINY";
+"Group.Setup.TypePublicHelp" = "Veřejné skupiny jsou k nalezení přes vyhledávání, historie konverzace je viditelná pro každého, a každý se může připojit.";
+"Group.Setup.TypePrivateHelp" = "Přístup do soukromých skupin je možný jen přes pozvání, nebo přes odkaz s pozvánkou.";
+
+"Group.Username.CreatePublicLinkHelp" = "Tento odkaz mohou lidé sdílet s ostatními, najít kanál mohou dále pomocí funkce hledání v Telegramu.";
+"Group.Username.CreatePrivateLinkHelp" = "Pomocí tohoto odkazu se do tvé skupiny mohou připojit ostatní. Odkaz můžeš kdykoli odvolat.";
+
+"Conversation.PinMessageAlertGroup" = "Přišpendlit tuto zprávu a upozornit na ni všechny členy skupiny?";
+"Conversation.PinMessageAlertChannel" = "Přišpendlit tuto zprávu a upozornit na ni všechny členy kanálu?";
+"Conversation.PinMessageAlert.OnlyPin" = "Pouze přišpendlit";
+
+"Conversation.UnpinMessageAlert" = "Chceš zrušit přišpendlení této zprávy?";
+
+"Settings.About.Title" = "O mně";
+"Settings.About.Help" = "Jakékoli podrobnosti jako věk, povolání, či město.\nPříklad: 23 letý návrhář z Prahy.";
+
+"Profile.About" = "O mně";
+
+"Group.Management.ErrorNotMember" = "%@ se ještě nepřipojil do skupiny. Chceš ho pozvat?";
+
+"Conversation.ReportSpamAndLeave" = "Nahlásit Spam a odejít";
+
+"Conversation.StatusKickedFromChannel" = "byl jsi odstraněn z kanálu";
+
+"Generic.OpenHiddenLinkAlert" = "Otevřít %@?";
+
+"Resolve.ErrorNotFound" = "Bohužel, tento uživatel neexistuje.";
+
+"StickerPack.AddStickers" = "Přidat Samolepky";
+"StickerPack.Share" = "Sdílet";
+"StickerPack.Send" = "Poslat samolepku";
+
+"StickerPack.RemoveStickers" = "Odebrat samolepky";
+"StickerPack.RemoveStickerCount_1" = "Odebrat 1 samolepku";
+"StickerPack.RemoveStickerCount_2" = "Odebrat 2 samolepky";
+"StickerPack.RemoveStickerCount_3_10" = "Odebrat %@ samolepek";
+"StickerPack.RemoveStickerCount_any" = "Odebrat %@ samolepek";
+"StickerPack.RemoveStickerCount_many" = "Odebrat %@ samolepek";
+"StickerPack.RemoveStickerCount_0" = "Odebrat %@ samolepek";
+
+"StickerPack.HideStickers" = "Skrýt samolepky";
+"StickerPack.ShowStickers" = "Zobrazit samolepky";
+
+"ShareMenu.ShareTo" = "Sdílet s";
+"ShareMenu.SelectChats" = "Vyber chaty";
+"ShareMenu.Comment" = "Přidat komentář...";
+
+"MediaPicker.Videos" = "Videa";
+
+"Coub.TapForSound" = "Klepni pro zvuk";
+
+"Preview.SaveGif" = "Uložit GIF";
+"Preview.DeleteGif" = "Smazat GIF";
+"Preview.CopyAddress" = "Kopírovat adresu";
+"Preview.ViewStickerPack" = "Zobrazit balíček samolepek";
+
+"Conversation.ShareBotLocationConfirmationTitle" = "Sdílet svoji polohu?";
+"Conversation.ShareBotLocationConfirmation" = "Tímto odešleš současnou polohu botovi.";
+
+"Conversation.ShareBotContactConfirmationTitle" = "Sdílet svoje telefonní číslo?";
+"Conversation.ShareBotContactConfirmation" = "Bot bude vědět tvé telefonní číslo. Může to být užitečné při integraci dalších služeb.";
+
+"Conversation.ShareInlineBotLocationConfirmation" = "Tento bot by chtěl vědět tvou polohu pokaždé, kdy mu pošleš požadavek. Toto může být užitečné při poskytování výsledků, závislých na poloze.";
+
+"Activity.UploadingAudio" = "posílá audio";
+
+"Preview.Tooltip" = "Zmáčkni a drž pro náhled položky";
+
+"StickerPack.ErrorNotFound" = "Bohužel, tato samolepka neexistuje.";
+
+"Camera.TapAndHoldForVideo" = "Zmáčkni a drž pro video";
+
+"Conversation.TapAndHoldToRecord" = "Zmáčkni a drž pro nahrávání";
+
+"DialogList.RecentTitlePeople" = "Lidé";
+"DialogList.RecentTitleGroups" = "Skupiny";
+"DialogList.RecentTitleBots" = "Boti";
+
+"Conversation.MessageEditedLabel" = "změněna";
+"Conversation.EditingMessagePanelTitle" = "Změnit Zprávu";
+
+"DialogList.Draft" = "Koncept";
+"Embed.PlayingInPIP" = "Toto video bude hrát v okně";
+
+"MediaPicker.Moments" = "Momentky";
+"MediaPicker.MomentsDateFormat" = "{day}.{month} "; // 1 - day, 2 - month
+"MediaPicker.MomentsDateYearFormat" = "{day}.{month}, {year}"; // 1 - day, 2 - month, 3 - year
+
+"MediaPicker.MomentsDateRangeFormat" = "{date1} – {date2}";
+"MediaPicker.MomentsDateRangeYearFormat" = "{date1} – {date2} {year}";
+"MediaPicker.MomentsDateRangeSameMonthFormat" = "{day1} – {day2} {month} ";
+"MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{day1} – {day2} {month}, {year}";
+
+"StickerPacksSettings.FeaturedPacks" = "Samolepky v kurzu";
+"FeaturedStickerPacks.Title" = "Samolepky v kurzu";
+
+"Invitation.JoinGroup" = "Připojit ke skupině";
+"Invitation.Members_1" = "1 člen:";
+"Invitation.Members_2" = "2 členové:";
+"Invitation.Members_3_10" = "%@ členů:";
+"Invitation.Members_any" = "%@ členů:";
+"Invitation.Members_many" = "%@ členů:";
+"Invitation.Members_0" = "%@ členů:";
+
+"StickerPacksSettings.ArchivedPacks" = "Archivované samolepky";
+"StickerPacksSettings.ArchivedPacks.Info" = "Můžeš mít instalováno až 200 balíčků samolepek.\nNepoužité samolepky jsou archivovány, pokud instaluješ další balíčky.";
+
+"Conversation.CloudStorageInfo.Title" = "Cloudové úložiště";
+"Conversation.ClousStorageInfo.Description1" = "• Přesměruj sem zprávy pro jejich uložení";
+"Conversation.ClousStorageInfo.Description2" = "• Pošli sem média a soubory, pro jejich uložení";
+"Conversation.ClousStorageInfo.Description3" = "• Přistupuj k nim z jakéhokoli zařízení";
+"Conversation.ClousStorageInfo.Description4" = "• Použij vyhledávání, pro rychlý výběr potřebných věcí";
+
+"Conversation.CloudStorage.ChatStatus" = "konverzace sama se sebou";
+
+"ArchivedPacksAlert.Title" = "Některé z tvých starších samolepek byly archivovány. Můžeš je znovu aktivovat v nastavení samolepek.";
+
+"StickerSettings.ContextInfo" = "Pokud archivuješ balíček samolepek, můžeš jej rychle obnovit později ze sekce Archivovaných.";
+
+"Contacts.TopSection" = "KONTAKTY";
+
+"Login.ResetAccountProtected.Title" = "Resetovat Účet";
+"Login.ResetAccountProtected.Text" = "Protože je účet %@ aktivní, a chráněný heslem, smažeme jej za 1 týden, z bezpečnostních důvodů.\n\nKdykoli můžeš tento proces přerušit.";
+"Login.ResetAccountProtected.TimerTitle" = "Svůj účet můžeš resetovat za:";
+"Login.ResetAccountProtected.Reset" = "Reset";
+"Login.ResetAccountProtected.LimitExceeded" = "Tvoje nedávné pokusy o reset byly zrušeny aktivním uživatelem. Zkus to prosím znovu za 7 dní.";
+
+"Login.CodeSentCall" = "Voláme ti na mobil, abychom ti nadiktovali kód.";
+
+"Login.SmsRequestState1" = "Telegram ti pošle SMS za %d:%.2d";
+"Login.SmsRequestState2" = "Vyžaduji SMS od Telegramu...";
+"Login.SmsRequestState3" = "Telegram ti poslal SMS\n[Didn't get the code?]";
+
+"CancelResetAccount.Title" = "Zrušit reset účtu";
+"CancelResetAccount.TextSMS" = "Někdo s přístupem k tvému telefonnímu číslu %@ zažádal(a) o smazání tvého Telegram účtu, a zresetování tvé dvoufázové verifikace.\n\nPokud jsi to nebyl ty, zadej prosím kód, který jsme ti právě poslali přes SMS.";
+
+"CancelResetAccount.Success" = "Proces smazání tvého účtu %@ byl zastaven.";
+"MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{day1} – {day2}.{month}, {year}";
+
+"Paint.Clear" = "Vyčistit Vše";
+"Paint.ClearConfirm" = "Vyčistit malování";
+"Paint.Delete" = "Smazat";
+"Paint.Edit" = "Změnit";
+"Paint.Duplicate" = "Duplikovat";
+"Paint.Stickers" = "Samolepky";
+"Paint.RecentStickers" = "Nedávné";
+"Paint.Masks" = "Masky";
+
+"Paint.Outlined" = "Obtáhlé";
+"Paint.Regular" = "Regular";
+
+"MediaPicker.VideoMuteDescription" = "Zvuk je nyní ztišen, video může být automaticky přehráno ve smyčce jako GIF.";
+
+
+"Group.Username.RemoveExistingUsernamesInfo" = "Bohužel, už máš rezervováno příliš mnoho uživatelských jmen.\nOdvolej prosím nějaké jméno z tvých starších skupin nebo kanálů. Případně můžeš vytvořit soukromou variantu.";
+
+"ServiceMessage.GameScoreExtended_1" = "{name} skóroval(a) %@ v {game}";
+"ServiceMessage.GameScoreExtended_2" = "{name} skóroval(a) %@ v {game}";
+"ServiceMessage.GameScoreExtended_3_10" = "{name} skóroval(a) %@ v {game}";
+"ServiceMessage.GameScoreExtended_any" = "{name} skóroval(a) %@ v {game}";
+"ServiceMessage.GameScoreExtended_many" = "{name} skóroval(a) %@ v {game}";
+"ServiceMessage.GameScoreExtended_0" = "{name} skóroval(a) %@ v {game}";
+
+"ServiceMessage.GameScoreSelfExtended_1" = "skóroval(a) jsi %@ v {game}";
+"ServiceMessage.GameScoreSelfExtended_2" = "skóroval(a) jsi %@ v {game}";
+"ServiceMessage.GameScoreSelfExtended_3_10" = "skóroval(a) jsi %@ v {game}";
+"ServiceMessage.GameScoreSelfExtended_any" = "skóroval(a) jsi %@ v {game}";
+"ServiceMessage.GameScoreSelfExtended_many" = "skóroval(a) jsi %@ v {game}";
+"ServiceMessage.GameScoreSelfExtended_0" = "skóroval(a) jsi %@ v {game}";
+
+"ServiceMessage.GameScoreSimple_1" = "{name} skóroval(a) %@";
+"ServiceMessage.GameScoreSimple_2" = "{name} skóroval(a) %@";
+"ServiceMessage.GameScoreSimple_3_10" = "{name} skóroval(a) %@";
+"ServiceMessage.GameScoreSimple_any" = "{name} skóroval(a) %@";
+"ServiceMessage.GameScoreSimple_many" = "{name} skóroval(a) %@";
+"ServiceMessage.GameScoreSimple_0" = "{name} skóroval(a) %@";
+
+"ServiceMessage.GameScoreSelfSimple_1" = "Skóroval(a) jsi %@";
+"ServiceMessage.GameScoreSelfSimple_2" = "Skóroval(a) jsi %@";
+"ServiceMessage.GameScoreSelfSimple_3_10" = "Skóroval(a) jsi %@";
+"ServiceMessage.GameScoreSelfSimple_any" = "Skóroval(a) jsi %@";
+"ServiceMessage.GameScoreSelfSimple_many" = "Skóroval(a) jsi %@";
+"ServiceMessage.GameScoreSelfSimple_0" = "Skóroval(a) jsi %@";
+
+"Notification.GameScoreExtended_1" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreExtended_2" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreExtended_3_10" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreExtended_any" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreExtended_many" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreExtended_0" = "skóroval(a) %@ v {game}";
+
+"Notification.GameScoreSelfExtended_1" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreSelfExtended_2" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreSelfExtended_3_10" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreSelfExtended_any" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreSelfExtended_many" = "skóroval(a) %@ v {game}";
+"Notification.GameScoreSelfExtended_0" = "skóroval(a) %@ v {game}";
+
+"Notification.GameScoreSimple_1" = "skóroval(a) %@";
+"Notification.GameScoreSimple_2" = "skóroval(a) %@";
+"Notification.GameScoreSimple_3_10" = "skóroval(a) %@";
+"Notification.GameScoreSimple_any" = "skóroval(a) %@";
+"Notification.GameScoreSimple_many" = "skóroval(a) %@";
+"Notification.GameScoreSimple_0" = "skóroval(a) %@";
+
+"Notification.GameScoreSelfSimple_1" = "skóroval(a) %@";
+"Notification.GameScoreSelfSimple_2" = "skóroval(a) %@";
+"Notification.GameScoreSelfSimple_3_10" = "skóroval(a) %@";
+"Notification.GameScoreSelfSimple_any" = "skóroval(a) %@";
+"Notification.GameScoreSelfSimple_many" = "skóroval(a) %@";
+"Notification.GameScoreSelfSimple_0" = "skóroval(a) %@";
+
+"Stickers.Install" = "PŘIDAT";
+
+"MaskStickerSettings.Title" = "Masky";
+"MaskStickerSettings.Info" = "K fotkám co posíláš můžeš přidat masky. Můžeš tak udělat přes Editor fotek, před samotným odesláním fotky.";
+
+"StickerPack.MaskCount_1" = "1 maska";
+"StickerPack.MaskCount_2" = "2 masky";
+"StickerPack.MaskCount_3_10" = "%@ masek";
+"StickerPack.MaskCount_any" = "%@ masek";
+"StickerPack.MaskCount_many" = "%@ masek";
+"StickerPack.MaskCount_0" = "%@ masek";
+
+"StickerPack.Add" = "Přidat";
+"StickerPack.AddMaskCount_1" = "Přidat 1 maska";
+"StickerPack.AddMaskCount_2" = "Přidat 2 masky";
+"StickerPack.AddMaskCount_3_10" = "Přidat %@ masek";
+"StickerPack.AddMaskCount_any" = "Přidat %@ masek";
+"StickerPack.AddMaskCount_many" = "Přidat %@ masek";
+"StickerPack.AddMaskCount_0" = "Přidat %@ masek";
+
+"StickerPack.Odebrat" = "Odebrat";
+"StickerPack.OdebratMaskCount_1" = "Odebrat 1 masku";
+"StickerPack.OdebratMaskCount_2" = "Odebrat 2 masky";
+"StickerPack.OdebratMaskCount_3_10" = "Odebrat %@ masek";
+"StickerPack.OdebratMaskCount_any" = "Odebrat %@ masek";
+"StickerPack.OdebratMaskCount_many" = "Odebrat %@ masek";
+"StickerPack.OdebratMaskCount_0" = "Odebrat %@ masek";
+
+"Conversation.BotInteractiveUrlAlert" = "Umožnit %@ předat tvoje jméno a ID na Telegramu (NE telefonní číslo) stránkám, které otvírá tento bot??";
+"StickerPacksSettings.ArchivedMasks" = "Archivované Masky";
+"StickerSettings.MaskContextInfo" = "Některé z tvých starších masek můžou být archivovány. Můžeš je znovu aktivovat v nastavení masek.";
+"StickerPacksSettings.ArchivedMasks.Info" = "Můžeš mít instalováno až 200 balíčků masek. Nepoužité masky jsou archivovány, pokud instaluješ další balíčky.";
+
+"CloudStorage.Title" = "Úložiště Cloud";
+
+"Widget.AuthRequired" = "Přihlásit do Telegramu";
+"Widget.NoUsers" = "Pro zobrazení přátel zde, začni konverzovat";
+
+"Message.GamePreviewLabel" = "HRA";
+
+"ShareMenu.CopyShareLinkGame" = "Kopírovat odkaz na hru";
+
+"Message.PinnedGame" = "přišpendlená hra";
+
+"Target.ShareGameConfirmationPrivate" = "Sdílet hru s %@?";
+"Target.ShareGameConfirmationGroup" = "Sdílet hru s \"%@\"?";
+
+"Activity.PlayingGame" = "hraje hru";
+
+"DialogList.SinglePlayingGameSuffix" = "%@ hraje hru";
+
+"UserInfo.GroupsInCommon" = "Společné skupiny";
+"Conversation.InstantPagePreview" = "INSTANTNÍ POHLED";
+
+"StickerPack.ViewPack" = "Zobrazit balíček samolepek";
+"InstantPage.AuthorAndDateTitle" = "Od %1$@ • %2$@";
+"InstantPage.FeedbackButton" = "Poslat zpětnou vazbu na tento pohled";
+"Conversation.JumpToDate" = "Jít na datum";
+"Conversation.AddToReadingList" = "Přidat to seznamu ke čtení";
+
+"AccessDenied.CallMicrophone" = "Telegram potřebuje přístup k tvému mikrofonu, aby jsi mohl(a) volat zdarma.\n\nJdi prosím do Nastavení > Soukromí > Mikrofon a povol Telegram.";
+
+"Call.EncryptionKey.Title" = "Šifrovací klíč";
+"Call.EncryptionKey.Description" = "Tento obrázek a text jsou doručeny z šifrovacího klíče pro tento hovor s %1$@.\n\n Pokud vypadají shodně i na zařízení uživatele %2$@, end-to-end šifrování je zaručeno.";
+
+"Application.Name" = "Telegram";
+"DialogList.Pin" = "Přišpendlit";
+"DialogList.Unpin" = "Zrušit přišpendlení";
+"DialogList.PinLimitError" = "Bohužel, nemůžeš nahoru přišpendlit více než %@ konverzací.";
+
+"Conversation.DeleteMessagesForMe" = "Smazat u mě";
+"Conversation.DeleteMessagesFor" = "Smazat u mě i u uživatele %@";
+"Conversation.DeleteMessagesForEveryone" = "Smazat u všech";
+
+"NetworkUsageSettings.Title" = "Vyžití sítě";
+"NetworkUsageSettings.Cellular" = "Mobilní";
+"NetworkUsageSettings.Wifi" = "Wi-Fi";
+
+"NetworkUsageSettings.GeneralDataSection" = "ZPRÁVY";
+"NetworkUsageSettings.MediaImageDataSection" = "OBRÁZKY";
+"NetworkUsageSettings.MediaVideoDataSection" = "VIDEA";
+"NetworkUsageSettings.MediaAudioDataSection" = "AUDIO";
+"NetworkUsageSettings.MediaDocumentDataSection" = "DOKUMENTY";
+"NetworkUsageSettings.TotalSection" = "CELKEM BAJTŮ";
+"NetworkUsageSettings.BytesSent" = "Odesláno bajtů";
+"NetworkUsageSettings.BytesReceived" = "Přijato bajtů";
+
+"NetworkUsageSettings.ResetStats" = "Resetovat statistiky";
+"NetworkUsageSettings.ResetStatsConfirmation" = "Chceš resetovat statistiky využití sítě?";
+"NetworkUsageSettings.CellularUsageSince" = "Mobilní sítě od %@";
+"NetworkUsageSettings.WifiUsageSince" = "Wi-Fi sítě od %@";
+
+"Settings.CallSettings" = "Hovory";
+
+"Calls.TabTitle" = "Hovory";
+"Calls.All" = "Vše";
+"Calls.Missed" = "Zmeškané";
+"Calls.Clear" = "Vyčistit";
+
+"CallSettings.Title" = "Hovory";
+"CallSettings.RecentCalls" = "Nedávné hovory";
+"CallSettings.TabIcon" = "Zobrazit tab hovorů";
+"CallSettings.TabIconDescription" = "Ikonka hovoru bude zobrazena na liště tabů.";
+"CallSettings.UseLessData" = "Použít méně dat";
+"CallSettings.Never" = "Nikdy";
+"CallSettings.OnMobile" = "Na mobilní síti";
+"CallSettings.Always" = "Vždy";
+"CallSettings.UseLessDataLongDescription" = "Používání méně dat může zlepšit hovor na špatných/pomalých sítích, ale trochu sníží kvalitu audia.";
+
+"Calls.CallTabTitle" = "Tab Hovorů";
+"Calls.CallTabDescription" = "Můžeš přidat tab Hovorů do lišty.";
+"Calls.NotNow" = "Nyní ne";
+"Calls.AddTab" = "Přidat Tab";
+"Calls.Search" = "Hledat v hovorech";
+"Calls.NewCall" = "Nový Hovor";
+
+"Calls.RatingTitle" = "Prosím, ohodnoť kvalitu\ntvého hovoru přes Telegram";
+"Calls.SubmitRating" = "Odeslat";
+
+"Call.Seconds_1" = "%@ sekunda";
+"Call.Seconds_2" = "%@ sekundy";
+"Call.Seconds_3_10" = "%@ sekund";
+"Call.Seconds_any" = "%@ sekund";
+"Call.Seconds_many" = "%@ sekund";
+"Call.Seconds_0" = "%@ sekund";
+"Call.Minutes_1" = "%@ minunta";
+"Call.Minutes_2" = "%@ minuty";
+"Call.Minutes_3_10" = "%@ minut";
+"Call.Minutes_any" = "%@ minut";
+"Call.Minutes_many" = "%@ minut";
+"Call.Minutes_0" = "%@ minut";
+
+"Call.ShortSeconds_1" = "%@ s";
+"Call.ShortSeconds_2" = "%@ s";
+"Call.ShortSeconds_3_10" = "%@ s";
+"Call.ShortSeconds_any" = "%@ s";
+"Call.ShortSeconds_many" = "%@ s";
+"Call.ShortSeconds_0" = "%@ s";
+"Call.ShortMinutes_1" = "%@ min";
+"Call.ShortMinutes_2" = "%@ min";
+"Call.ShortMinutes_3_10" = "%@ min";
+"Call.ShortMinutes_any" = "%@ min";
+"Call.ShortMinutes_many" = "%@ min";
+"Call.ShortMinutes_0" = "%@ min";
+
+"Notification.CallTimeFormat" = "%1$@ (%2$@)"; // 1 - type, 2 - duration
+"Notification.CallOutgoing" = "Odchozí hovory";
+"Notification.CallIncoming" = "Příchozí hovory";
+"Notification.CallMissed" = "Zmeškané hovory";
+"Notification.CallCanceled" = "Zrušené hovory";
+"Notification.CallOutgoingShort" = "Odchozí";
+"Notification.CallIncomingShort" = "Příchozí";
+"Notification.CallMissedShort" = "Zmeškané";
+"Notification.CallCanceledShort" = "Zrušené";
+"Notification.CallFormat" = "%1$@, %2$@"; // 1 - time, 2 - duration
+
+
+
+"Call.ConnectionErrorTitle" = "Nelze volat";
+"Call.ConnectionErrorMessage" = "Zkontroluj prosím své internetové připojení a zkus to znovu.";
+
+"Call.CallBack" = "Volat nazpět";
+"Call.CallAgain" = "Volat znovu";
+
+"Login.PhoneFloodError" = "Bohužel, svůj účet jsi smazal(a) a znovu-obnovil(a) příliš mnohokrát za krátkou dobu. Vydrž prosím pár dní, než se zkusíš opět přihlásit.";
+
+"Checkout.Title" = "Výběr";
+"Checkout.TotalAmount" = "Celkem";
+"Checkout.TotalPaidAmount" = "Celkem Zaplaceno";
+"Checkout.PaymentMethod" = "Metoda platby";
+"Checkout.ShippingMethod" = "Volba dopravy";
+"Checkout.ShippingAddress" = "Informace o dopravě";
+"Checkout.Name" = "Jméno";
+"Checkout.Email" = "E-Mail";
+"Checkout.Phone" = "Telefon";
+"Checkout.PayPrice" = "Zaplatit %@";
+"Checkout.PayNone" = "Zaplatit";
+
+"Checkout.PaymentMethod.Title" = "Metoda platby";
+"Checkout.PaymentMethod.New" = "Nová Karta...";
+
+"Checkout.NewCard.Title" = "Nová Karta";
+"Checkout.NewCard.PaymentCard" = "PLATEBNÍ KARTA";
+"Checkout.NewCard.SaveInfo" = "Save Payment Information";
+"Checkout.NewCard.SaveInfoEnableHelp" = "Můžeš uložit informace o platbě pro příští použití.\nZapni prosím [turn on Two-Step Verification] pro umožnení této volby.";
+"Checkout.NewCard.SaveInfoHelp" = "Můžeš uložit informace o platbě pro příští použití.";
+"Checkout.NewCard.CardholderNameTitle" = "DRŽITEL KARTY";
+"Checkout.NewCard.CardholderNamePlaceholder" = "Jméno držitele karty";
+"Checkout.NewCard.PostcodeTitle" = "ADRESA";
+"Checkout.NewCard.PostcodePlaceholder" = "PSČ";
+
+"Checkout.ShippingOption.Title" = "Volba dopravy";
+"Checkout.ShippingOption.Header" = "ZVOL SI ZPŮSOB DOPRAVY";
+
+"Checkout.ErrorProviderAccountInvalid" = "Tento bot v současnosti neakceptuje platby. Zkus to prosím později.";
+"Checkout.ErrorProviderAccountTimeout" = "Tento bot v současnosti nemlže zpracovat platby. Zkus to prosím později.";
+"Checkout.ErrorInvoiceAlreadyPaid" = "Za tuto položku už jsi zaplatil.";
+
+"Checkout.ErrorGeneric" = "Nastala chyba při zpracování tvojí platby. Z karty nebylo nic strhnuto.";
+"Checkout.ErrorPaymentFailed" = "Platba selhala. Z karty nebylo nic strhnuto.";
+"Checkout.ErrorPrecheckoutFailed" = "Bot nemohl zpracovat tvoji platbu. Z karty nebylo nic strhnuto.";
+
+"CheckoutInfo.Title" = "Informace o dopravě";
+"CheckoutInfo.ShippingInfoTitle" = "DODACÍ ADRESA";
+"CheckoutInfo.ShippingInfoAddress1" = "Adresa 1";
+"CheckoutInfo.ShippingInfoAddress1Placeholder" = "Adresa";
+"CheckoutInfo.ShippingInfoAddress2" = "Adresa 2";
+"CheckoutInfo.ShippingInfoAddress2Placeholder" = "Adresa";
+"CheckoutInfo.ShippingInfoState" = "Stát";
+"CheckoutInfo.ShippingInfoStatePlaceholder" = "Stát";
+"CheckoutInfo.ShippingInfoCity" = "Město";
+"CheckoutInfo.ShippingInfoCityPlaceholder" = "Město";
+"CheckoutInfo.ShippingInfoCountry" = "Stát";
+"CheckoutInfo.ShippingInfoCountryPlaceholder" = "Stát";
+"CheckoutInfo.ShippingInfoPostcode" = "PSČ";
+"CheckoutInfo.ShippingInfoPostcodePlaceholder" = "PSČ";
+"CheckoutInfo.ReceiverInfoTitle" = "PŘÍJEMCE";
+"CheckoutInfo.ReceiverInfoName" = "Jméno";
+"CheckoutInfo.ReceiverInfoNamePlaceholder" = "Jméno Příjmení";
+"CheckoutInfo.ReceiverInfoEmail" = "Email";
+"CheckoutInfo.ReceiverInfoEmailPlaceholder" = "Email";
+"CheckoutInfo.ReceiverInfoPhone" = "Telefon";
+"CheckoutInfo.SaveInfo" = "Uložit informace";
+"CheckoutInfo.SaveInfoHelp" = "Můžeš uložit informace o dopravě pro příští použití.";
+"CheckoutInfo.Pay" = "Zaplatit";
+
+"Checkout.Receipt.Title" = "Účet";
+
+"Message.ReplyActionButtonShowReceipt" = "Zobrazit účet";
+"Message.InvoiceShipmentLabel" = "DOPRAVA";
+"Message.InvoiceLabel" = "FAKTURA";
+
+"CheckoutInfo.ErrorShippingNotAvailable" = "Doprava do zvolené země není dostupná.";
+"CheckoutInfo.ErrorPostcodeInvalid" = "Prosím zadej platné PSČ.";
+"CheckoutInfo.ErrorStateInvalid" = "Prosím zadej platný stát.";
+"CheckoutInfo.ErrorCityInvalid" = "Prosím zadej platné město.";
+"CheckoutInfo.ErrorNameInvalid" = "Prosím zadej platné jméno.";
+"CheckoutInfo.ErrorEmailInvalid" = "Prosím zadej platný e-mail.";
+"CheckoutInfo.ErrorPhoneInvalid" = "Prosím zadej platné telefonní číslo.";
+
+"Checkout.WebConfirmation.Title" = "Dokončit platbu";
+"Checkout.PasswordEntry.Title" = "Potvrzení platby";
+"Checkout.PasswordEntry.Pay" = "Zaplatit";
+"Checkout.PasswordEntry.Text" = "Tvoje karta %@ je v souboru. Pro placení touto kartou prosím zadej heslo k dvou-fázové verifikaci.";
+
+"Checkout.SavePasswordTimeout" = "Chtěl(a) by jsi uložit heslo pro %@?";
+"Checkout.SavePasswordTimeoutAndTouchId" = "Chtěl(a) by jsi uložit heslo pro %@ a místo toho použít Touch ID?";
+"Checkout.PayWithTouchId" = "Zaplatit pomocí Touch ID";
+"Checkout.EnterPassword" = "Zadej heslo";
+
+"Your_card_has_expired" = "Tvá karta je expirovaná.";
+
+/* Error when the card was declined by the credit card networks */
+"Your_card_was_declined" = "Tvá karta byla odmítnuta.";
+
+/* Error when the card's expiration month is not valid */
+"Your_cards_expiration_month_is_invalid" ="Zadal(a) jsi neplatný měsíc expirace.";
+
+/* Error when the card's expiration year is not valid */
+"Your_cards_expiration_year_is_invalid" ="Zadal(a) jsi neplatný rok expirace.";
+
+/* Error when the card number is not valid */
+"Your_cards_number_is_invalid" = "Zadal(a) jsi neplatné číslo karty.";
+
+/* Error when the card's CVC is not valid */
+"Your_cards_security_code_is_invalid" = "Zadal(a) jsi neplatný CVC kód.";
+
+"MESSAGE_INVOICE" = "%1$@ ti posílá fakturu za %2$@";
+"CHAT_MESSAGE_INVOICE" = "%1$@ posílá fakturu za %3$@ do skupiny %2$@";
+"PINNED_INVOICE" = "%1$@ přišpendlil(a) fakturu";
+
+"Message.PinnedInvoice" = "přišpendlilená faktura";
+
+"User.DeletedAccount" = "Smazaný Účet";
+
+"Settings.SaveEditedPhotos" = "Uložit editované fotky";
+
+"Message.PaymentSent" = "Platba: %@";
+"Notification.PaymentSent" = "Právě jsi úspěšně převedl(a) {amount} na účet uživatele {name} za {title}";
+
+"Common.NotNow" = "Nyní ne";
+
+"Calls.RatingFeedback" = "Napsat komentář...";
+
+"Call.StatusIncoming" = "Telegram Audio...";
+"Call.StatusRequesting" = "Kontaktuji...";
+"Call.StatusWaiting" = "Čekám...";
+"Call.StatusRinging" = "Vyzváním...";
+"Call.StatusConnecting" = "Připojuji...";
+"Call.StatusOngoing" = "Telegram Audio %@";
+"Call.StatusEnded" = "Hovor ukončen";
+"Call.StatusFailed" = "Hovor selhal";
+"Call.StatusBusy" = "Obsazeno";
+"Call.Accept" = "Přijmout";
+"Call.Decline" = "Odmítnout";
+
+"Call.StatusBar" = "Dotkni se pro návrat do hovoru %@";
+
+"UserInfo.Call" = "Hovor";
+
+"Call.ParticipantVersionOutdatedError" = "Uživatel  %@ používá aplikaci, která hovory nepodporuje. Aby se hovor mohl uskutečnit, je třeba, aby ji aktualizoval.";
+
+"Privacy.Calls" = "Hovory";
+
+"Privacy.Calls.WhoCanCallMe" = "KDO MI MŮŽE VOLAT";
+"Privacy.Calls.CustomHelp" = "Můžeš nastavit, kdo ti může volat.";
+"Privacy.Calls.AlwaysAllow" = "Vždy povolit";
+"Privacy.Calls.NeverAllow" = "Nikdy nepovolit";
+"Privacy.Calls.CustomShareHelp" = "Tito uživatelé ti budou / nebudou moci zavolat, nehledě na nastavení výše.";
+
+"Privacy.Calls.AlwaysAllow.Title" = "Vždy povolit";
+"Privacy.Calls.AlwaysAllow.Placeholder" = "Vždy povolit...";
+"Privacy.Calls.NeverAllow.Title" = "Nikdy nepovolit";
+"Privacy.Calls.NeverAllow.Placeholder" = "Nikdy nepovolit...";
+
+"PhotoEditor.QualityTool" = "Kvalita";
+"PhotoEditor.QualityVeryLow" = "Velmi nízká";
+"PhotoEditor.QualityLow" = "Nízká";
+"PhotoEditor.QualityMedium" = "Střední";
+"PhotoEditor.QualityHigh" = "Vysoká";
+"PhotoEditor.QualityVeryHigh" = "Velmi vysoká";
+
+"Settings.SaveEditedPhotos" = "Uložit editované fotky";
+
+"Calls.NoCallsPlaceholder" = "Tvoje nedávné hovory budou zobrazeny zde";
+"Calls.NoMissedCallsPlacehoder" = "Nemáš žádné zmeškané hovory";
+
+"Call.CallInProgressTitle" = "Probíhá hovor";
+"Call.CallInProgressMessage" = "Ukončit hovor s %1$@ a začít nový s %2$@?";
+
+"Call.Message" = "Zpráva";
+
+"UserInfo.TapToCall" = "Klepni pro zahájení end-to-end šifrovaného hovoru";
+"Call.GroupFormat" = "%1$@ (%2$@)";
+
+"NetworkUsageSettings.CallDataSection" = "HOVORY";
+
+"Call.PrivacyErrorMessage" = "Bohužel, uživatel %@ nepřijímá hovory.";
+
+"Notification.CallBack" = "Zavolat zpět";
+
+"CallSettings.PrivacyDescription" = "Nastav si, kdo ti může volat v [Privacy Settings].";
+
+"Call.AudioRouteSpeaker" = "Reproduktor";
+"Call.AudioRouteHeadphones" = "Sluchátka";
+"Call.AudioRouteHide" = "Skrýt";
+
+"EncryptionKey.TapToEmojify" = "Klepni pro emotikony";
+
+"Call.PhoneCallInProgressMessage" = "Nemůžeš zavolat někomu jinému, právě s někým hovoříš.";
+"Call.RecordingDisabledMessage" = "Před nahráváním hlasové zprávy prosím ukonči probíhající hovor.";
+
+"Call.EmojiDescription" = "Pokud jsou tyto emotikony stejné, jako na zařízení uživatele %@, potom je hovor 100% bezpečný.";
+
+"Message.VideoMessage" = "Video Zpráva";
+
+"Conversation.HoldForAudio" = "Podrž pro nahrátí audia. Klepni pro přepnutí na video.";
+"Conversation.HoldForVideo" = "Podrž pro nahrátí videa. Klepni pro přepnutí na audio.";
+
+"UserInfo.TelegramCall" = "Volat Telegramem";
+"UserInfo.PhoneCall" = "Volat Telefonem";
+
+"SharedMedia.CategoryMedia" = "Média";
+"SharedMedia.CategoryDocs" = "Dokumenty";
+"SharedMedia.CategoryLinks" = "Odkazy";
+"SharedMedia.CategoryOther" = "Audio";
+
+"AccessDenied.VideoMessageCamera" = "Telegram potřebuje přístup k tvé kameře, aby mohl posílat video zprávy.\n\nJdi prosím do Nastavení > Soukromí > Kamera a povol Telegram.";
+"AccessDenied.VideoMessageMicrophone" = "Telegram potřebuje přístup k tvému mikrofonu, aby jsi mohl nahrávat videa.\n\nJdi prosím do Nastavení > Soukromí > Mikrofon a povol Telegram.";
+
+"ChatSettings.AutomaticVideoMessageDownload" = "AUTOMATICKÉ STAHOVÁNÍ VIDEO ZPRÁV";
+
+"ForwardedVideoMessages_1" = "Přeposlaná video zpráva";
+"ForwardedVideoMessages_2" = "2 přeposlané video zprávy";
+"ForwardedVideoMessages_3_10" = "%@ přeposlaných video zpráv";
+"ForwardedVideoMessages_any" = "%@ přeposlaných video zpráv";
+"ForwardedVideoMessages_many" = "%@ přeposlaných video zpráv";
+"ForwardedVideoMessages_0" = "%@ přeposlaných video zpráv";
+
+"Conversation.DiscardVoiceMessageTitle" = "Zahodit hlasovou zprávu";
+"Conversation.DiscardVoiceMessageDescription" = "Opravdu chceš přerušit nahrávání a zahodit\nsvoji hlasovou zprávu?";
+"Conversation.DiscardVoiceMessageAction" = "Zahodit";
+
+"Message.ForwardedMessageShort" = "Odesláno z\n%@";
+
+"Checkout.LiabilityAlertTitle" = "Varování";
+"Checkout.LiabilityAlert" = "Ani Telegram, ani %1$@ nebude mít přístup k informacím o tvé kreditní kartě. Tyto informace budou pouze předány do platebního systému, %2$@.\n\nPlatby jdou přímo vývojářům %1$@. Telegram nemůže poskytnout žádné garance, uvědom si proto, že pokračuješ dál na svoje vlastní uvážení. V případě problémů, kontaktuj prosím vývojáře %1$@ nebo svou banku.";
+
+"Settings.AppLanguage" = "Jazyk";
+
+"InstantPage.AutoNightTheme" = "Automatické noční téma";
+
+"Privacy.PaymentsTitle" = "PLATBY";
+"Privacy.PaymentsClearInfo" = "Vyčistit informace o platbých a dopravě";
+"Privacy.PaymentsClearInfoHelp" = "Můžeš vymazat své informace o dopravě a nařídit všem platebním službám, aby vymazaly uložené informace o tvých platebních kartách. Měj na paměti, že telegram informace o tvých kartách nikdy nikam neukládá.";
+"Privacy.PaymentsClear.PaymentInfo" = "Informace o platbě";
+"Privacy.PaymentsClear.ShippingInfo" = "Informace o dopravě";
+
+"Channel.Management.LabelRights_1" = "1 povolení";
+"Channel.Management.LabelRights_2" = "2 povolení";
+"Channel.Management.LabelRights_3_10" = "%@ povolení";
+"Channel.Management.LabelRights_any" = "%@ povolení";
+"Channel.Management.LabelRights_many" = "%@ povolení";
+"Channel.Management.LabelRights_0" = "%@ povolení";
+
+"Channel.EditAdmin.PermissionsHeader" = "CO MŮŽE DĚLAT ADMIN?";
+"Channel.EditAdmin.PermissionChangeInfo" = "Měnit informaci o kanálu";
+"Group.EditAdmin.PermissionChangeInfo" = "Měnit informaci o skupině";
+"Channel.EditAdmin.PermissionPostMessages" = "Posílat zprávy";
+"Channel.EditAdmin.PermissionEditMessages" = "Měnit zprávy";
+"Channel.EditAdmin.PermissionDeleteMessages" = "Mazat zprávy";
+"Channel.EditAdmin.PermissionBanUsers" = "Banovat uživatele";
+"Channel.EditAdmin.PermissionInviteUsers" = "Přidávat uživatele";
+"Channel.EditAdmin.PermissionChangeInviteLink" = "Pozvat uživatele skrz odkaz";
+"Channel.EditAdmin.PermissionPinMessages" = "Přišpendlit zprávy";
+"Channel.EditAdmin.PermissionAddAdmins" = "Přidávat nové adminy";
+
+"Channel.EditAdmin.PermissinAddAdminOn" = "Tento admin bude moci přidávat nové adminy se stejnými (nebo nižšími) právy.";
+"Channel.EditAdmin.PermissinAddAdminOff" = "Tento admin nebude moci přidávat nové adminy.";
+
+"Login.ContinueWithLocalization" = "Pokračovat česky";
+"Localization.LanguageName" = "Čeština";
+"Localization.ChooseLanguage" = "Zvol si svůj jazyk";
+"Localization.EnglishLanguageName" = "English";
+"Localization.LanguageOther" = "Jiný";
+"Localization.LanguageCustom" = "Vlastní";
+
+"Channel.BanUser.Title" = "Banovat Uživatele";
+"Channel.BanUser.PermissionsHeader" = "Omezení uživatele";
+"Channel.BanUser.PermissionReadMessages" = "Může číst zprávy";
+"Channel.BanUser.PermissionSendMessages" = "Může posílat zprávy";
+"Channel.BanUser.PermissionSendMedia" = "Může posílat média";
+"Channel.BanUser.PermissionSendStickersAndGifs" = "Může posílat samolepky a GIFy";
+"Channel.BanUser.PermissionEmbedLinks" = "Může přidávat odkazy";
+"Channel.BanUser.Unban" = "Odbanovat";
+
+"Channel.BanUser.BlockFor" = "Zablokovat na";
+
+"Channel.BanList.BlockedTitle" = "BLOKOVANÍ";
+"Channel.BanList.RestrictedTitle" = "OMEZENÍ";
+
+"Group.Info.AdminLog" = "Nedávné události";
+"Channel.AdminLog.InfoPanelTitle" = "Co je to?";
+"Channel.AdminLog.InfoPanelAlertTitle" = "Co je to log událostí?";
+"Channel.AdminLog.InfoPanelAlertText" = "Toto je seznam všech událostí, které provedli členové skupiny a administrátoři skupiny v posledních 48 hodinách.";
+"Channel.AdminLog.Status" = "log událostí";
+
+"Channel.AdminLog.BanReadMessages" = "Číst zprávy";
+"Channel.AdminLog.BanSendMessages" = "Posílat zprávy";
+"Channel.AdminLog.BanSendMedia" = "Posílat média";
+"Channel.AdminLog.BanSendStickers" = "Posílat samolepky";
+"Channel.AdminLog.BanEmbedLinks" = "Posílat odkazy";
+"Channel.AdminLog.BanSendGifs" = "Posílat GIFy";
+"Channel.AdminLog.MessageRestricted" = "%@ změnil(a) práva u %@ (%@)";
+"Channel.AdminLog.MessageAdmin" = "%@ změnil(a) práva u %@ (%@)";
+
+"Channel.AdminLog.CanChangeInfo" = "Změna informací";
+"Channel.AdminLog.CanSendMessages" = "Posílat zprávy";
+"Channel.AdminLog.CanDeleteMessages" = "Mazat zprávy";
+"Channel.AdminLog.CanBanUsers" = "Banovat uživatele";
+"Channel.AdminLog.CanInviteUsers" = "Přidávat uživatele";
+"Channel.AdminLog.CanChangeInviteLink" = "Zvát uživatele skrz odkaz";
+"Channel.AdminLog.CanPinMessages" = "Přišpendlit zprávy";
+"Channel.AdminLog.CanStartCalls" = "Vytvářet nové hovory";
+"Channel.AdminLog.CanAddAdmins" = "Přidávat nové adminy";
+"Channel.AdminLog.CanEditMessages" = "Měnit zprávy";
+
+"Channel.AdminLog.MessageToggleInvitesOn" = "%@ povolil(a) pozvánky do skupiny";
+"Channel.AdminLog.MessageToggleInvitesOff" = "%@ zakázal(a) pozvánky do skupiny";
+
+"Channel.AdminLog.MessageUnpinned" = "%@ zrušil(a) přišpendlení zprávy";
+
+"Channel.AdminLog.MessageToggleSignaturesOn" = "%@ povolil(a) podpisy";
+"Channel.AdminLog.MessageToggleSignaturesOff" = "%@ zakázal(a) podpisy";
+
+"Channel.AdminLog.MessageChangedGroupUsername" = "%@ změnil(a) odkaz na skupinu:";
+"Channel.AdminLog.MessageChangedChannelUsername" = "%@ změnil(a) odkaz na kanál:";
+"Channel.AdminLog.MessageRemovedGroupUsername" = "%@ odstranil(a) odkaz na skupinu";
+"Channel.AdminLog.MessageRemovedChannelUsername" = "%@ odstranil(a) odkaz na kanál";
+
+"Channel.AdminLog.MessageChangedGroupAbout" = "%@ změnil(a) popis skupiny";
+"Channel.AdminLog.MessageChangedChannelAbout" = "%@ změnil(a) popis kanálu";
+
+"Channel.AdminLog.MessageEdited" = "%@ změnil(a) zprávu:";
+"Channel.AdminLog.CaptionEdited" = "%@ změnil(a) popisek:";
+"Channel.AdminLog.MessageDeleted" = "%@ smazal(a) zprávu:";
+"Channel.AdminLog.MessagePinned" = "%@ přišpendlil(a) zprávu:";
+
+"Channel.AdminLog.MessageInvitedName" = "pozval(a) %1$@";
+"Channel.AdminLog.MessageInvitedNameUsername" = "pozval(a) %1$@ (%2$@)";
+"Channel.AdminLog.MessageKickedName" = "zabanoval(a) %1$@";
+"Channel.AdminLog.MessageKickedNameUsername" = "zabanoval(a) %1$@ (%2$@)";
+"Channel.AdminLog.MessageRestrictedName" = "změnil(a) práva pro %1$@";
+"Channel.AdminLog.MessageRestrictedNameUsername" = "změnil(a) práva pro %1$@ (%2$@)";
+"Channel.AdminLog.MessagePromotedName" = "změnil(a) práva pro %1$@";
+"Channel.AdminLog.MessagePromotedNameUsername" = "změnil(a) práva pro %1$@ (%2$@)";
+"Channel.AdminLog.MessageRestrictedUntil" = "do %@";
+"Channel.AdminLog.MessageRestrictedForever" = "napořád";
+"Channel.AdminLog.MessageRestrictedNewSetting" = "nyní: %@";
+
+"Channel.AdminLog.MessagePreviousMessage" = "Původní zpráva";
+"Channel.AdminLog.MessagePreviousCaption" = "Původní popisek";
+"Channel.AdminLog.MessagePreviousLink" = "Předchozí odkaz";
+"Channel.AdminLog.MessagePreviousDescription" = "Předchozí popis";
+
+"Contacts.MemberSearchSectionTitleChannel" = "Členové kanálu";
+"Contacts.MemberSearchSectionTitleGroup" = "Členové skupiny";
+
+"Channel.AdminLog.TitleAllEvents" = "Všechny události";
+"Channel.AdminLog.TitleSelectedEvents" = "Zvolené události";
+"Channel.AdminLogFilter.Title" = "Filtr";
+"Channel.AdminLogFilter.EventsTitle" = "UDÁLOSTI";
+"Channel.AdminLogFilter.EventsAll" = "Všechny události";
+"Channel.AdminLogFilter.EventsRestrictions" = "Nová omezení";
+"Channel.AdminLogFilter.EventsAdmins" = "Noví administrátoři";
+"Channel.AdminLogFilter.EventsNewMembers" = "Noví členové";
+"Channel.AdminLogFilter.EventsInfo" = "Informace o skupině";
+"Channel.AdminLogFilter.ChannelEventsInfo" = "Informace o kanálu";
+"Channel.AdminLogFilter.EventsDeletedMessages" = "Smazané zprávy";
+"Channel.AdminLogFilter.EventsEditedMessages" = "Změněné zprávy";
+"Channel.AdminLogFilter.EventsPinned" = "Přišpendlené zprávy";
+"Channel.AdminLogFilter.EventsLeaving" = "Odebraní členové";
+"Channel.AdminLogFilter.AdminsTitle" = "ADMINI";
+"Channel.AdminLogFilter.AdminsAll" = "Všichni Admini";
+
+"Group.ErrorSendRestrictedStickers" = "Bohužel, administrátoři této skupiny nemají povoleno posílat samolepky.";
+"Group.ErrorSendRestrictedMedia" = "Bohužel, administrátoři této skupiny nemají povoleno posílat média.";
+
+"ChannelMembers.BanList.EmptyText" = "Neomezil(a) jsi zatím žádné uživatele.";
+
+"SharedMedia.ViewInChat" = "Zobrazit v konverzaci";
+
+"Channel.Info.BlackList" = "Blacklist";
+
+"Channel.Management.PromotedBy" = "Povýšen(a) uživatelem %@";
+"DialogList.LanguageTooltip" = "Jazyk můžeš kdykoli změnit v Nastavení";
+
+"Contacts.PhoneNumber" = "Telefonní číslo";
+"Contacts.AddPhoneNumber" = "Přidat %@";
+"Contacts.ShareTelegram" = "Sdílet Telegram";
+
+"Conversation.ViewChannel" = "ZOBRAZIT KANÁL";
+"Conversation.ViewGroup" = "ZOBRAZIT SKUPINU";
+
+"GroupInfo.ActionPromote" = "Povýšit";
+"GroupInfo.ActionBan" = "Banovat";
+"GroupInfo.ActionRestrict" = "Omezit";
+
+"Conversation.RestrictedTextTimed" = "Administrátoři této skupiny sem nemají povoleno psát do %@.";
+"Conversation.RestrictedText" = "Administrátoři této skupiny sem nemají povoleno psát.";
+
+"Conversation.RestrictedInlineTimed" = "Administrátoři této skupiny sem nemají povoleno posílát přímý obsah do %@.";
+"Conversation.RestrictedInline" = "Administrátoři této skupiny sem nemají povoleno posílát přímý obsah.";
+
+"Conversation.RestrictedMediaTimed" = "Administrátoři této skupiny sem nemají povoleno posílat média do %@.";
+"Conversation.RestrictedMedia" = "Administrátoři této skupiny sem nemají povoleno posílat média.";
+
+"Conversation.RestrictedStickersTimed" = "Administrátoři této skupiny sem nemají povoleno posílat samolepky do %@.";
+"Conversation.RestrictedStickers" = "Administrátoři této skupiny sem nemají povoleno posílat samolepky.";
+
+"ChatSettings.ConnectionType.Title" = "TYP PŘIPOJENÍ";
+"ChatSettings.ConnectionType.UseProxy" = "Požít Proxy";
+"ChatSettings.ConnectionType.UseSocks5" = "SOCKS5";
+
+"SocksProxySetup.Title" = "Proxy";
+
+"SocksProxySetup.TypeNone" = "Vypnuto";
+"SocksProxySetup.TypeSocks" = "SOCKS5";
+
+"SocksProxySetup.Connection" = "PŘIPOJENÍ";
+"SocksProxySetup.Hostname" = "Server";
+"SocksProxySetup.Port" = "Port";
+
+"SocksProxySetup.Credentials" = "PŘIHLÁŠENÍ (VOLITELNÉ)";
+"SocksProxySetup.Username" = "Uživatelské jméno";
+"SocksProxySetup.Password" = "Heslo";
+
+"Channel.AdminLog.EmptyTitle" = "Zatím zde nejsou žádné události";
+"Channel.AdminLog.EmptyText" = "Nejsou zde žádné události provedené členy skupiny nebo adminy v posledních 48 hodinách.";
+"Channel.AdminLog.EmptyFilterTitle" = "Nenalezeny žádné události.";
+"Channel.AdminLog.EmptyFilterQueryText" = "Nenalezeny žádné události, obsahující '%@'.";
+"Channel.AdminLog.EmptyFilterText" = "Nenalezeny žádné události, vyhovující tvému filtru.";
+
+"Channel.AdminLog.EmptyMessageText" = "Prázdné";
+
+"Camera.Title" = "Pořídit fotku nebo video";
+
+"Channel.Members.AddAdminErrorNotAMember" = "Bohužel, nemůžeš přidat tohoto uživatele jako admina, protože není členem této skupiny a ty nemáš oprávnění ho pozvat.";
+
+"Channel.Members.AddAdminErrorBlacklisted" = "Bohužel, nemůžeš přidat tohoto uživatele jako admina, protože je na blacklistu, a ty jej nemůžeš odbanovat.";
+
+"Channel.Members.AddBannedErrorAdmin" = "Bohužel, nemůžeš zabanovat tohoto uživatele, protože je adminem v této skupině, a ty nemáš oprávnění mu práva sebrat.";
+
+"Group.Members.AddMemberErrorNotAllowed" = "Bohužel, nemáš potřebná oprávnění pro přidávání uživatelů do této skupiny.";
+"Group.Members.AddMemberBotErrorNotAllowed" = "Bohužel, nemáš potřebná oprávnění pro přidávání botů do této skupiny.";
+
+"Privacy.Calls.P2P" = "Peer-to-Peer";
+"Privacy.Calls.P2PHelp" = "Vypnutím peer-to-peer budeš spoléhat na spojení hovorů přes servery Telegramu. Tímto se vyhneš zobrazení své IP adresy, ale může to mírně snížit kvalitu hovorů.";
+
+"Privacy.Calls.Integration" = "iOS Integrace hovorů";
+"Privacy.Calls.IntegrationHelp" = "iOS Integrace hovorů zobrazí hovory z Telegramu na zamknuté obrazovce a v historii hovorů v systému. Pokud je zapnutá synchronizace iCloudu, tvoje historie hovorů je dostupná Applu.";
+
+"Call.ReportPlaceholder" = "Co se pokazilo?";
+"Call.ReportIncludeLog" = "Poslat technické informace";
+"Call.ReportIncludeLogDescription" = "Toto neodhalí tvoje konverzace, pouze nám to pomůže vyřešit problém dříve.";
+"Call.ReportSkip" = "Přeskočit";
+"Call.ReportSend" = "Poslat";
+
+"Channel.EditAdmin.CannotEdit" = "Nemůžeš měnit oprávnění tohoto admina.";
+"Call.RateCall" = "Ohodnotit hovor";
+
+"Settings.ApplyProxyAlert" = "Jsi si jistý, že chceš povolit tuto proxy?\nServer: %1$@\nPort: %2$@\n\nToto nastavení můžeš později změnit v Nastavení (Data a Úložiště).";
+"Settings.ApplyProxyAlertCredentials" = "Jsi si jistý, že chceš povolit tuto proxy?\nServer: %1$@\nPort: %2$@\nJméno: %3$@\nHeslo: %4$@\n\nToto nastavení můžeš později změnit v Nastavení (Data a Úložiště).";
+"Settings.ApplyProxyAlertEnable" = "Povolit";
+
+"Channel.Management.RestrictedBy" = "Omezeno uživatelem %@";
+
+"Stickers.FrequentlyUsed" = "Používané nedávno";
+
+"Contacts.ImportersCount_1" = "1 kontakt na Telegramu";
+"Contacts.ImportersCount_2" = "2 kontakty na Telegramu";
+"Contacts.ImportersCount_3_10" = "%@ kontaktů na Telegramu";
+"Contacts.ImportersCount_any" = "%@ kontaktů na Telegramu";
+"Contacts.ImportersCount_many" = "%@ kontaktů na Telegramu";
+"Contacts.ImportersCount_0" = "%@ kontaktů na Telegramu";
+
+"Conversation.ContextMenuBan" = "Zabanovat";
+
+"SocksProxySetup.UseForCalls" = "Použít pro hovory";
+"SocksProxySetup.UseForCallsHelp" = "Proxy servery mohou zhoršit kvalitu tvých hovorů.";
+
+"InviteText.URL" = "https://telegram.org/dl";
+"InviteText.SingleContact" = "Ahoj, používám Telegram na chat. Přidáš se? Ke stáhnutí tady: %@";
+"InviteText.ContactsCount_1" = "Ahoj, používám Telegram na chat. Přidáš se? Ke stáhnutí tady: %@";
+"InviteText.ContactsCount_2" = "Ahoj, používám Telegram na chat – stejně tak jako 2 z našich přátel. Přidáš se? Ke stáhnutí tady: %@";
+"InviteText.ContactsCount_3_10" = "Ahoj, používám Telegram na chat – stejně tak jako %@ z našich přátel. Přidáš se? Ke stáhnutí tady: %@";
+"InviteText.ContactsCount_any" = "Ahoj, používám Telegram na chat – stejně tak jako %@ z našich přátel. Přidáš se? Ke stáhnutí tady: %@";
+"InviteText.ContactsCount_many" = "Ahoj, používám Telegram na chat – stejně tak jako %@ z našich přátel. Přidáš se? Ke stáhnutí tady: %@";
+"InviteText.ContactsCount_0" = "Ahoj, používám Telegram na chat. Přidáš se? Ke stáhnutí tady: %@";
+
+"Invite.LargeRecipientsCountWarning" = "Měj prosím na paměti, že to může chvíli trvat, než tvé zařízení rozešle všechny pozvánky";
+
+"Contacts.InviteSearchLabel" = "Hledat kontakty";
+
+"Message.ImageExpired" = "Fotka byla zničena";
+"Message.VideoExpired" = "Video bylo zničeno";
+
+"SecretImage.Title" = "Samo-zničující fotka";
+"SecretVideo.Title" = "Samo-zničující video";
+"SecretTimer.ImageDescription" = "Pokud nastavíš časovač, fotka se sama zničí poté, co bude prohlédnuta.";
+"SecretTimer.VideoDescription" = "If you set a timer, video se samo zničí poté, co bude prohlédnuto.";
+
+"PhotoEditor.TiltShift" = "Náklon";
+
+"Notification.SecretChatMessageScreenshotSelf" = "Pořídil jsi screenshot!";
+
+"Settings.AboutEmpty" = "Přidat";
+
+"SecretImage.NotViewedYet" = "%@ ještě neotevřel(a) tuto fotku";
+"SecretVideo.NotViewedYet" = "%@ ještě nepřehrál(a) toto video";
+
+"UserInfo.About.Placeholder" = "O uživateli";
+
+"Call.StatusNoAnswer" = "Žádná odpověď";
