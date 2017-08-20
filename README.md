@@ -11,7 +11,7 @@ Pøeklad je zpìtnì kompatibilní, ke stažení je verze pro poslední vydanou verzi a
 [Changelog](https://github.com/JimmyS83/telegram-cz-translation/commits/master)
 
 ### Aplikace èeštiny do Telegramu
-##### Android zaøízení
+#### Android zaøízení
 * Stáhnìte si aktuální verzi èeštiny [ZDE](https://raw.githubusercontent.com/JimmyS83/telegram-cz-translation/master/android_cz.xml).
 * Soubor **strings.xml** si pošlete sami sobì (nebo pøátelùm) pøes Telegram.
 * Klepnìte na bublinu se zprávou (android_cz.xml), soubor se naète do zaøízení (1). Dále klepnìte na tøi teèky v záhlaví zprávy (2). 
@@ -22,7 +22,7 @@ Pøeklad je zpìtnì kompatibilní, ke stažení je verze pro poslední vydanou verzi a
 ###### Hotovo
 ![4](https://karty.php5.cz/telegram/img/Screenshot_2017-05-11-10-01-19.jpg)
 
-##### iOS zaøízení
+#### iOS zaøízení
 * Stáhnìte si aktuální verzi èeštiny [ZDE](https://raw.githubusercontent.com/JimmyS83/telegram-cz-translation/master/ios_cz.strings).
 * Soubor **ios_cz.strings** si pošlete sami sobì (nebo pøátelùm) pøes Telegram.
 * Klepnìte na bublinu se zprávou (android_cz.xml), soubor se naète do zaøízení (1). Dále klepnìte na tøi teèky v záhlaví zprávy (2). 
@@ -33,7 +33,7 @@ Pøeklad je zpìtnì kompatibilní, ke stažení je verze pro poslední vydanou verzi a
 ###### Hotovo
 ![4](https://karty.php5.cz/telegram/img/Screenshot_2017-05-11-10-01-19.jpg)
 
-##### Telegram Desktop
+#### Telegram Desktop
 * Stáhnìte si aktuální verzi èeštiny [ZDE](https://raw.githubusercontent.com/JimmyS83/telegram-cz-translation/master/desktop_cz.strings).
 * Otevøete nastavení, a najdìte "Change language". Neklepejte na ni pøímo. Držte stisknuté CTRL+ALT+SHIFT, a až pøitom kliknìte na "Change language". Vyberte uložený soubor **desktop_cz.strings** a potvrïte. 
 * Telegram požádá o restart.
