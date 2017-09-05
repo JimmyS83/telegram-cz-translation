@@ -251,10 +251,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_no_chats" = "Zde budou tvé konverzace";
 "lng_contacts_loading" = "Nahrávám...";
 "lng_contacts_not_found" = "Nenalezeny žádné kontakty";
-"lng_dlg_search_chat" = "Hledat v této konverzaci";
-"lng_dlg_search_channel" = "Hledat v tomto kanále";
 "lng_dlg_search_for_messages" = "Hledat zprávy";
 "lng_update_telegram" = "Aktualizovat Telegram";
+"lng_dlg_search_in" = "Hledat zprávy v";
+"lng_dlg_search_channel" = "Od: {user}";
 
 "lng_settings_save" = "Uložit";
 "lng_settings_upload" = "Nastavit profilový obrázek";
@@ -559,6 +559,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_change_phone_code_title" = "Zadej kód";
 "lng_change_phone_code_description" = "Poslali jsme ti SMS s konfirmačním kódem k tvému novému číslu.";
 "lng_change_phone_success" = "Tvé telefonní číslo bylo změněno.";
+
+"lng_mute_duration_hours#one" = "Na {count} hodinu";
+"lng_mute_duration_hours#other" = "Na {count} hodin";
+"lng_mute_box_tip" = "Zvolte dobu, na kterou chcete vypnout upozornění z tohoto chatu";
 
 "lng_preview_loading" = "Získávám info o odkazu...";
 
@@ -898,6 +902,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_emoji_hide_panel" = "Klikni sem pro skrytí postranního panelu s Emoji";
 
 "lng_recent_stickers" = "Často používané";
+"lng_faved_stickers" = "Oblíbené samolepky";
+"lng_faved_stickers_add" = "Přidat do Oblíbených";
+"lng_faved_stickers_remove" = "Odstranit z oblíbených";
+"lng_group_stickers" = "Samolepky skupiny";
+"lng_group_stickers_description" = "Můžete vybrat sadu samolepek, které budou k dispozici všem členům skupiny, když chatují v této skupině.";
+"lng_group_stickers_add" = "Zvol skupinu samolepek";
+
 "lng_switch_stickers" = "Samolepky";
 "lng_switch_emoji" = "Emoji";
 "lng_switch_gifs" = "GIFy";
@@ -927,6 +938,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_count#one" = "{count} samolepka";
 "lng_stickers_count#other" = "{count} samolepek";
 "lng_stickers_masks_pack" = "Toto je balíček transparentních samolepek. Můžeš je použít v editoru fotek na našich telefonních aplikacích.";
+"lng_stickers_group_set" = "Samolepky skupiny";
+"lng_stickers_remove_group_set" = "Odstranit samolepky skupiny?";
+"lng_stickers_group_from_your" = "Vyber ze svých samolepek";
 
 "lng_in_dlg_photo" = "Obrázek";
 "lng_in_dlg_video" = "Video";
@@ -1005,13 +1019,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_typing" = "píše";
 "lng_user_typing" = "{user} píše";
 "lng_users_typing" = "{user} a {second_user} píší";
-"lng_many_typing#one" = "{count} píše";
-"lng_many_typing#other" = "{count} píší";
+"lng_many_typing#one" = "{count} osoba píše";
+"lng_many_typing#other" = "{count} lidí píše";
 "lng_playing_game" = "hraje hru";
 "lng_user_playing_game" = "{user} hraje hru";
 "lng_users_playing_game" = "{user} a {second_user} hrají hru";
-"lng_many_playing_game#one" = "{count} hraje hru";
-"lng_many_playing_game#other" = "{count} hrají hru";
+"lng_many_playing_game#one" = "{count} osoba hraje hru";
+"lng_many_playing_game#other" = "{count} lidí hraje hru";
 "lng_send_action_record_video" = "nahrávám video";
 "lng_user_action_record_video" = "{user} nahrává video";
 "lng_send_action_upload_video" = "posílám video";
@@ -1420,6 +1434,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_banned" = "zabanoval(a) {user}";
 "lng_admin_log_restricted" = "změnil(a) omezení pro {user} {until}";
 "lng_admin_log_promoted" = "změnil(a) oprávnění pro {user}";
+"lng_admin_log_changed_stickers_group" = "{from} změnil(a) skupinové {sticker_set}";
+"lng_admin_log_changed_stickers_set" = "skupina samolepek";
+"lng_admin_log_removed_stickers_group" = "{from} odstranil(a) skupinové samolepky";
 "lng_admin_log_user_with_username" = "{name} ({mention})";
 "lng_admin_log_restricted_forever" = "napořád";
 "lng_admin_log_restricted_until" = "do {date}";
@@ -1445,6 +1462,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_group_info" = "Informace o skupině";
 "lng_profile_channel_info" = "Informace o kanálu";
 "lng_channel_add_admins" = "Nový administrátor";
+"lng_dlg_search_chat" = "Hledat v této konverzaci";
+"lng_dlg_search_channel" = "Hledat v tomto kanále";
 
 // Wnd specific
 
