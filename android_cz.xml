@@ -565,8 +565,8 @@
     <string name="ChatYourSelfDescription4">Použij ji pro rychlé vyhledání potřebných věcí</string>
     <string name="ChatYourSelfTitle">Tvoje cloudové úložiště</string>
     <string name="JumpToDate">Jít na datum</string>
-    <string name="DeleteForUser">Smazat vše od %1$s</string>
-    <string name="DeleteForAll">Smazat vše od všech členů</string>
+    <string name="DeleteForUser">Smazat i u uživatele %1$s</string>
+    <string name="DeleteForAll">Smazat vše u všech členů</string>
     <string name="TextCopied">Text zkopírován do schránky</string>
     <string name="HoldToAudio">Podrž pro nahrání audia. Klepni pro přepnutí na video.</string>
     <string name="HoldToVideo">Podrž pro nahrání videa. Klepni pro přepnutí na audio.</string>
