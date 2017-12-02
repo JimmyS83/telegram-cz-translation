@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="ContinueOnThisLanguage">Pokračovat v češtině</string>
   <string name="Page1Title">Telegram</string>
@@ -412,7 +412,7 @@ Smazat a zastavit</string>
   <string name="VoipRinging">Vyzvánění</string>
   <string name="CallAgain">Volat znovu</string>
   <string name="MessageLifetimeVideo">Nastavíte-li časovač, video se po jeho přehrání sama zničí.</string>
-  <string name="DeleteForUser">Vymazat pro %1$s</string>
+  <string name="DeleteForUser">Vymazat také u uživatele %1$s</string>
   <string name="VoipExchangingKeys">Výměna šifrovacích klíčů</string>
   <string name="Edit">Upravit</string>
   <string name="TimeToEditExpired">Je nám líto, čas na úpravu vypršel.</string>
