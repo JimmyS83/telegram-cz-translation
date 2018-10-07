@@ -23,7 +23,7 @@ Pøeklad je zpìtnì kompatibilní, ke stažení je verze pro poslední vydanou verzi a
 ![4](https://karty.php5.cz/telegram/img/Screenshot_2017-05-11-10-01-19.jpg)
 
 #### iOS zaøízení
-**Aktualizace: Po nedávném nahrazení originálního telegramu verzí, založenou na Swift (na Androidu známá jako Android X), není možné nahrát lokalizaèní soubor! Bohužel, tato verze tuto funkci neobsahuje :(**
+**Aktualizace: Po nedávném nahrazení originálního telegramu verzí, založenou na Swift (na Androidu známá jako Telegram X), není možné nahrát lokalizaèní soubor! Bohužel, tato verze tuto funkci neobsahuje :(**
 
 * Stáhnìte si aktuální verzi èeštiny [ZDE](https://raw.githubusercontent.com/JimmyS83/telegram-cz-translation/master/ios_cz.strings).
 * Soubor **ios_cz.strings** si pošlete sami sobì (nebo pøátelùm) pøes Telegram.
