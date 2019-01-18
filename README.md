@@ -1,16 +1,33 @@
-###  Telegram - Czech language
-
-Despite my big efforts, I am still not able to contribute to Telegram officially. Fortunatelly, there is still option to use Czech language in Telegram. You can find guide on http://telegram.zde.cz
-
 ### Telegram - Èeský jazyk
 
-I pøesto, že se mi bohužel stále nedaøí dostat officiální cestou na transifex (snahy byly a jsou nemalé), je možnost použít v Telegramu èeštinu bez problémù. Návod na http://telegram.zde.cz
+### UPDATE:
+
+Protože se mi povedlo koneènì prosadit èeštinu i do <a href="https://translations.telegram.org/cs/" target="_blank">officiální platformy pro jazykové pøeklady</a> v Telegramu , pøeklad nadále spravuji tam. Je dostupný pro novìjší verze Telegramu, jmenovitì pro Android X pøímo officiálnì, pro ostatní platformy je možné pøeklad aktivovat jednoduše, pomocí aktivaèního odkazu <a href="https://t.me/setlanguage/cs-beta" target="_blank">https://t.me/setlanguage/cs-beta</a>. Stránky neruším, protože je možné, že nìkdo potøebuje (musí) zùstat u starší verze Telegramu napø. z dùvodu OS telefonu, pøípadnì používá FOSS variantu.
+. 
+
+. 
+
+. 
+
+.
+
+. 
+  
 
 
+
+
+
+
+
+
+
+
+### Aplikace èeštiny do Telegramu 
+Pro starší verze, < 4.9 apod.
 Pøeklad je zpìtnì kompatibilní, ke stažení je verze pro poslední vydanou verzi aplikací. 
 [Changelog](https://github.com/JimmyS83/telegram-cz-translation/commits/master)
 
-### Aplikace èeštiny do Telegramu
 #### Android zaøízení
 * Stáhnìte si aktuální verzi èeštiny [ZDE](https://raw.githubusercontent.com/JimmyS83/telegram-cz-translation/master/android_cz.xml).
 * Soubor **strings.xml** si pošlete sami sobì (nebo pøátelùm) pøes Telegram.
